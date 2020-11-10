@@ -2,9 +2,11 @@
     width: 80%;
     margin:auto;
     background-color: white!important;
+}
+nav,.dropdown-item{
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bold!important;
     letter-spacing: 1px;
 }
 .get-started-button{
