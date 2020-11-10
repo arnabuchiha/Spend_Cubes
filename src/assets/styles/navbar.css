@@ -1,0 +1,27 @@
+.navbar-custom{
+    width: 80%;
+    margin:auto;
+    background-color: white!important;
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.get-started-button{
+    background-color: #EF692b;
+    color:white;
+    border-radius: 8px;
+    border-bottom: 4px #BA6036 solid;
+    text-align: center;
+    outline:none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.get-started-button:hover{
+    background-color: #EF7C46;
+    text-decoration: none;
+    color:white;
+}
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
+.navbar .nav-item .dropdown-menu{ margin-top:0; }
