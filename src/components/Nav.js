@@ -21,7 +21,7 @@ class Nav extends React.Component {
                     <a className="nav-link dropdown-toggle" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">About</a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a className="nav-link dropdown-item" href="/about">Team</a>
-                        <a className="nav-link dropdown-item" href="#">Blog</a>
+                        <a className="nav-link dropdown-item" href="/blog">Blog</a>
                         <a className="nav-link dropdown-item" href="#">FAQ</a>
                     </div>
                 </li>
