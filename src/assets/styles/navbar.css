@@ -1,8 +1,11 @@
 .navbar-custom{
-    width: 80%;
-    margin:auto;
+    width: 100%;
+    /* margin:auto; */
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: white!important;
 }
+
 nav,.dropdown-item{
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size: 14px;

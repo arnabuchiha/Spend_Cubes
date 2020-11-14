@@ -1,13 +1,13 @@
 import React from 'react';
 import {BrowserRouter as Router,Link} from 'react-router-dom';
 import "../assets/styles/navbar.css"
+import logo from "../assets/icons/web-logo.png"
 class Nav extends React.Component {
   render() {    
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+        <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light navbar-custom">
             <a className="navbar-brand" href="#">
-            <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" className="d-inline-block align-top" alt=""/>
-            Bootstrap
+            <img src={logo} width="auto" height="30" className="d-inline-block align-top" alt=""/>
             </a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
