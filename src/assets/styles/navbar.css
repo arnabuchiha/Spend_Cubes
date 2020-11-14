@@ -10,6 +10,7 @@ nav,.dropdown-item{
     letter-spacing: 1px;
 }
 .get-started-button{
+	float: right;
     background-color: #EF692b;
     color:white;
     border-radius: 8px;
