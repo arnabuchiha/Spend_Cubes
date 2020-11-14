@@ -9,16 +9,19 @@ import Telephone from "../assets/images/telephone.svg";
 import Mobile from "../assets/images/mobile.svg";
 import Wireless from "../assets/images/router.svg";
 import Document from "../assets/images/document.svg";
-
+import "../assets/styles/home.css"
 class Home extends React.Component{
     render(){
         return(
             <div>
-                <div className="container">
-                    <img src={HomeBackground}  style={{width: "100%"}}/>
-                    <h2>Connect with Spend Cubes</h2>
-                    <p><i>Our analysts will provide a complimentary assessment of savings and refung estimation of your telecommunication services</i></p>
-                    <button type="button" className="btn btn-light">Estimate Savings</button>
+                <div className="container-fluid">
+                    <div className="connect-H">
+                        <div className="centered">
+                        <h2>Connect with Spend Cubes</h2>
+                        <p><i>Our analysts will provide a complimentary assessment of savings and refung estimation of your telecommunication services</i></p>
+                        <button type="button" className="btn btn-light">Estimate Savings</button>
+                        </div>
+                    </div>
                 </div>
                 <div className="jumbotron" style={{backgroundColor:"#2b3152"}}>
                     <h3 style={{color:"#EF692b"}}><strong>R</strong>educe & <strong>R</strong>ecover <br/>Lost <strong>R</strong>evenue </h3>
