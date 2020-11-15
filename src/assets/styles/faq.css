@@ -1,13 +1,13 @@
-.collapse-faq.collapsed .fa-chevron-up{
-    display: inline-block;
-}
-.collapse-faq.collapsed .fa-chevron-down{
+.collapse-faq[aria-expanded=true] .fa-chevron-down{
     display: none;
 }
-.collapse-faq .fa-chevron-down{
+.collapse-faq[aria-expanded=false] .fa-chevron-down{
     display: inline-block;
 }
-.collapse-faq .fa-chevron-up{
+.collapse-faq[aria-expanded=true] .fa-chevron-up{
+    display: inline-block;
+}
+.collapse-faq[aria-expanded=false] .fa-chevron-up{
     display: none;
 }
 .fa-chevron-up,.fa-chevron-down{
@@ -16,7 +16,7 @@
 .collapse-faq {
     color:black;
 }
-.collapse-faq h4{
+.collapse-faq h5{
     float: left;
 }
 .collapse-faq:hover{

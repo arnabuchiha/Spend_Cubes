@@ -65,20 +65,21 @@ class faq extends React.Component{
             <div>
             <div className="container-fluid">
             <div class="faq-bg"><h1 class="centered" style={{color: "white", fontSize: "2.2rem", fontWeight: "bold"}}>Frequently Asked Questions (FAQs)</h1></div>
+            </div>
             <div className="container" style={{marginTop:"20px"}}>
             <div className="row">
                 {
                     this.state.faqs.map((ele,i)=>{
                         return (
-                            <div className="col-12">
+                            <div className="col-12" style={{marginTop:"1.5rem"}}>
                                 <div className="card">
                                     <div className="card-header" role="tab">
-                                        <a class="collapse-faq" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls={`collapse`+i}>
-                                                <h4>
+                                        <a class="collapse-faq" data-toggle="collapse" href={`#collapse`+i} role="button" aria-expanded="false" aria-controls={`collapse`+i}>
+                                                <h5>
                                                 <i class="fas fa-chevron-down"></i>
                                                 <i class="fas fa-chevron-up"></i>
                                                 {ele.question}
-                                                </h4>
+                                                </h5>
                                         </a>
                                     </div>
                                     <div class="collapse" id={`collapse`+i}>
@@ -92,7 +93,7 @@ class faq extends React.Component{
                         )
                     })
                 }
-                <div className="col">
+                {/* <div className="col">
                 <div className="card">
                     <div className="card-header" role="tab">
                         <a class="collapse-faq" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -110,8 +111,7 @@ class faq extends React.Component{
                     </div>
 
                 </div>
-                </div>
-            </div>
+                </div> */}
             </div>
             </div>
             </div>
