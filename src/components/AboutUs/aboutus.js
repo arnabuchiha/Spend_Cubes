@@ -1,7 +1,7 @@
 import React from "react"
 import "../../assets/styles/aboutus.css"
 import Aboutusbg from "../../assets/icons/aboutus_bg.jpg"
-import Card from "../Card";
+import Card from "../Cards/Card";
 
 class AboutUs extends React.Component{
     constructor(){

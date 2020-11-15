@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/styles/card.css"
+import "../../assets/styles/card.css"
 const Card=({image,name,position,about,linkedin})=>{
     return(
         <div class="col-xs-12 col-sm-6 col-md-4">
