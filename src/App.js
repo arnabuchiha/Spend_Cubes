@@ -6,6 +6,8 @@ import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
 import AboutUs from './components/AboutUs/aboutus';
 import Home from './components/Home';
 import blog from "./components/AboutUs/blog"
+import TelecomAuditOptimization from "./components/Services/TelecomAuditOptimization";
+
 class App extends Component {
   render(){
     return(
@@ -17,6 +19,7 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={AboutUs}/>
             <Route path="/blog" component={blog}/>
+            <Route path="/telecomAuditOptimization" component={TelecomAuditOptimization}/>
           </Switch>
         </Router>
       </div>

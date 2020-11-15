@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import HomeBackground from "../assets/images/homeBackground.jpg";
 import Book from "../assets/images/books.svg";
 import Recommendation from "../assets/images/recommendation.svg";
@@ -38,7 +38,7 @@ class Home extends React.Component{
                             <div className="col-sm-3">
                                 <img src={Telephone} style={{height:"100px", width:"100px"}}/><br/><br/>
                                 <div className="et_pb_blurb_container">
-                                    <h4 clasaName="et_pb_module_header" style={{color:"white"}}>
+                                    <h4 className="et_pb_module_header" style={{color:"white"}}>
                                         <span>TELECOM AUDIT &<br/>OPTIMIZATION</span>
                                     </h4>
                                 </div>
@@ -47,7 +47,7 @@ class Home extends React.Component{
                             <div className="col-sm-3">
                                 <img src={Wireless} style={{height:"100px", width:"100px"}}/><br/><br/>
                                 <div className="et_pb_blurb_container">
-                                    <h4 clasaName="et_pb_module_header" style={{color:"white"}}>
+                                    <h4 className="et_pb_module_header" style={{color:"white"}}>
                                         <span>MOBILE / WIRELESS <br/>AUDITS</span>
                                     </h4>
                                 </div>
@@ -56,7 +56,7 @@ class Home extends React.Component{
                             <div className="col-sm-3">
                                 <img src={Mobile} style={{height:"100px", width:"100px"}}/><br/><br/>
                                 <div className="et_pb_blurb_container">
-                                    <h4 clasaName="et_pb_module_header" style={{color:"white"}}>
+                                    <h4 className="et_pb_module_header" style={{color:"white"}}>
                                         <span>TELECOM REFUND <br/>AUDITS</span>
                                     </h4>
                                 </div>
@@ -65,7 +65,7 @@ class Home extends React.Component{
                             <div className="col-sm-3">
                                 <img src={Document} style={{height:"100px", width:"100px"}}/><br/><br/>
                                 <div className="et_pb_blurb_container">
-                                    <h4 clasaName="et_pb_module_header" style={{color:"white"}}>
+                                    <h4 className="et_pb_module_header" style={{color:"white"}}>
                                         <span>TELECOM TAX <br/>AUDITS</span>
                                     </h4>
                                 </div>
