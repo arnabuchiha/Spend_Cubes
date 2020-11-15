@@ -1,10 +1,10 @@
 import React from "react"
 import HomeBackground from "../assets/images/homeBackground.jpg";
-import Book from "../assets/images/book1.png";
-import Recommendation from "../assets/images/recommendation.png";
-import Recovery from "../assets/images/recovery.png";
-import Savings from "../assets/images/savings.png";
-import RiskFree from "../assets/images/riskFree.png"
+import Book from "../assets/images/books.svg";
+import Recommendation from "../assets/images/recommendation.svg";
+import Recovery from "../assets/images/recovery.svg";
+import Savings from "../assets/images/savings.svg";
+import RiskFree from "../assets/images/riskFree.svg"
 import Telephone from "../assets/images/telephone.svg";
 import Mobile from "../assets/images/mobile.svg";
 import Wireless from "../assets/images/router.svg";
@@ -28,7 +28,7 @@ class Home extends React.Component{
                     <p style={{color:"white"}}>Spend Cubes is fresh, agile and focused, with customer-centric approach. 
                         <br/> Professionals at Spend Cubes bring together decades of experience and expertise
                         <br/>in telecom lifecycle management, refunds and recovery.</p>
-                    <button type="button" class="btn btn-outline-info float-right">More About us</button>
+                    <button type="button" class="btn btn-outline-info">More About us</button>
                 </div>
                 <div>
                     {/*services*/}
@@ -72,7 +72,7 @@ class Home extends React.Component{
                             </div>  
                         </div>
                     </div>
-                    <p className="container" style={{width:"70%", backgroundColor:"AliceBlue", borderRadius:"5px"}}>
+                    <p className="container" style={{width:"70%", backgroundColor:"AliceBlue", borderRadius:"5px", padding:"10px"}}>
                     We specialize in conducting telecommunication refunds & recovery audits. 
                     <br/>Our telecom audit & optimization services will bring a significant <br/>
                     amount of savings & refunds.
@@ -80,13 +80,13 @@ class Home extends React.Component{
                 </div>
                 <br/><br/>
                 
-                <div className="et_pb_row et_pb_row_10">
+                {/*Carousel*/}
                     <div className="row">
                         <div className="col-sm-4">
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={Book}/>
+                                        <img src={Book} style={{width:"100px", height:"100px"}}/>
                                     </span>
                                 </div>
                                 <div className="et_pb_blurb_container">
@@ -105,7 +105,7 @@ class Home extends React.Component{
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={Recommendation}/>
+                                        <img src={Recommendation} style={{width:"100px", height:"100px"}}/>
                                     </span>
                                 </div>
                                 <div className="et_pb_blurb_container">
@@ -124,7 +124,7 @@ class Home extends React.Component{
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={Recovery}/>
+                                        <img src={Recovery} style={{width:"100px", height:"100px"}}/>
                                     </span>
                                 </div>
                                 <div className="et_pb_blurb_container">
@@ -146,7 +146,7 @@ class Home extends React.Component{
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={Savings}/>
+                                        <img src={Savings} style={{width:"100px", height:"100px"}}/>
                                     </span>
                                 </div>
                                 <div className="et_pb_blurb_container">
@@ -165,7 +165,7 @@ class Home extends React.Component{
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={RiskFree}/>
+                                        <img src={RiskFree} style={{width:"100px", height:"100px"}}/>
                                     </span>
                                 </div>
                                 <div className="et_pb_blurb_container">
@@ -179,7 +179,6 @@ class Home extends React.Component{
                             </div>
                         </div>
                     </div>
-                </div>
                 <br/><br/>
                 {/*end of col5*/}
 
