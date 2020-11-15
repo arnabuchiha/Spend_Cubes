@@ -7,6 +7,7 @@ import AboutUs from './components/AboutUs/aboutus';
 import Home from './components/Home';
 import blog from "./components/AboutUs/blog"
 import TelecomAuditOptimization from "./components/Services/TelecomAuditOptimization";
+import faq from './components/AboutUs/faq';
 
 class App extends Component {
   render(){
@@ -19,6 +20,7 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={AboutUs}/>
             <Route path="/blog" component={blog}/>
+            <Route path="/faq" component={faq}/>
             <Route path="/telecomAuditOptimization" component={TelecomAuditOptimization}/>
           </Switch>
         </Router>
