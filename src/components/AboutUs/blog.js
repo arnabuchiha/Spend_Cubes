@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/styles/blog.css"
+import BlogCard from "../Cards/BlogCard";
 class blog extends React.Component{
     constructor(){
         super();
@@ -106,6 +107,15 @@ class blog extends React.Component{
                     </span>
                     <span className="sr-only">Next</span>
                 </a>
+                </div>
+                <div className="container" style={{marginTop:"20px"}}>
+                    <div class="row">
+                        {
+                            this.state.blogs.map((ele,i)=>{
+                                return <BlogCard key={i} image={ele.cover} title={ele.title} author={ele.author} date={ele.date} topic={ele.topic}/> 
+                            })
+                        }
+                    </div>
                 </div>
             </div>
         )
