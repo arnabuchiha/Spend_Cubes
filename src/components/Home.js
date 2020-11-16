@@ -1,5 +1,4 @@
 import React from "react";
-import HomeBackground from "../assets/images/homeBackground.jpg";
 import Book from "../assets/images/books.svg";
 import Recommendation from "../assets/images/recommendation.svg";
 import Recovery from "../assets/images/recovery.svg";
@@ -30,7 +29,7 @@ class Home extends React.Component{
                         <br/>in telecom lifecycle management, refunds and recovery.</p>
                     <button type="button" class="btn btn-outline-info">More About us</button>
                 </div>
-                <div>
+                <div><br/><br/>
                     {/*services*/}
                     <h2>Services</h2><br/>
                     <div className="container" style={{backgroundColor:"#2b3152", padding:"40px", borderRadius:"5px"}}>
@@ -78,7 +77,7 @@ class Home extends React.Component{
                     amount of savings & refunds.
                     </p>
                 </div>
-                <br/><br/>
+                <br/><br/><br/>
                 
                 {/*Carousel*/}
                     <div className="row">
@@ -86,10 +85,10 @@ class Home extends React.Component{
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={Book} style={{width:"100px", height:"100px"}}/>
+                                        <img src={Book} style={{width:"60px", height:"60px"}}/>
                                     </span>
                                 </div>
-                                <div className="et_pb_blurb_container">
+                                <div className="et_pb_blurb_container svg-container">
                                     <h4 className="et_pb_module_header">
                                         <span>Exhaustive knowledge base's</span>
                                     </h4>
@@ -105,10 +104,10 @@ class Home extends React.Component{
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={Recommendation} style={{width:"100px", height:"100px"}}/>
+                                        <img src={Recommendation} style={{width:"60px", height:"60px"}}/>
                                     </span>
                                 </div>
-                                <div className="et_pb_blurb_container">
+                                <div className="et_pb_blurb_container svg-container">
                                     <h4 className="et_pb_module_header">
                                         <span>Non-biased Recommendations</span>
                                     </h4>
@@ -124,10 +123,10 @@ class Home extends React.Component{
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={Recovery} style={{width:"100px", height:"100px"}}/>
+                                        <img src={Recovery} style={{width:"60px", height:"60px"}}/>
                                     </span>
                                 </div>
-                                <div className="et_pb_blurb_container">
+                                <div className="et_pb_blurb_container svg-container">
                                     <h4 className="et_pb_module_header">
                                         <span>Obtain Maximum Recovery</span>
                                     </h4>
@@ -140,16 +139,15 @@ class Home extends React.Component{
                     </div>
                     {/*end of col3*/}
 
-                    <br/><br/>
                     <div className="row">
                         <div className="col-sm-6">
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={Savings} style={{width:"100px", height:"100px"}}/>
+                                        <img src={Savings} style={{width:"60px", height:"60px"}}/>
                                     </span>
                                 </div>
-                                <div className="et_pb_blurb_container">
+                                <div className="et_pb_blurb_container svg-container">
                                     <h4 className="et_pb_module_header">
                                         <span>Speed to Savings</span>
                                     </h4>
@@ -160,15 +158,14 @@ class Home extends React.Component{
                             </div>
                         </div>
                         {/*end of col4*/}
-                        <br/><br/>
                         <div className="col-sm-6">
                             <div className="et_pb_blurb_content">
                                 <div className="et_pb_main_blurb_image">
                                     <span className="et_pb_image_wrap">
-                                        <img src={RiskFree} style={{width:"100px", height:"100px"}}/>
+                                        <img src={RiskFree} style={{width:"60px", height:"60px"}}/>
                                     </span>
                                 </div>
-                                <div className="et_pb_blurb_container">
+                                <div className="et_pb_blurb_container svg-container">
                                     <h4 className="et_pb_module_header">
                                         <span>Risk Free & Efficiency to Value</span>
                                     </h4>
@@ -233,15 +230,35 @@ class Home extends React.Component{
                 <div className="jumbotron">
                     <div className="row">
                         <div className="col-sm-4">
-                            <h2>Get a Free Consultation</h2><br/><br/>
+                            <h2 style={{borderLeft:"5px", borderColor:"#EF692b"}}>Get a Free Consultation</h2><br/><br/>
                                 <p className="container">As a leading Telecom Expense Management company, Spend Cubes believes in a “Partnership Approach” with its clients who are some of the world’s best brands. Through our global delivery network and a comprehensive outsourcing service offerings, we deliver business value to our clients by combining operational excellence and deep domain – industry and functional – knowledge.
                                     <br/>We bring our deep industry knowledge combined with in-house tools to ensure Quality & timely delivery of our solutions.
                                 </p>
                         </div>
                         <div className="col-sm-8">
-                            <iframe>
-
-                            </iframe>
+                            <form className="container form-box">
+                                <div className="form-group">
+                                    <input type="text" className="form-control" placeholder="Name"/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="Email" className="form-control" placeholder="Email Address"/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="Number" className="form-control" placeholder="Phone Number"/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="text" className="form-control" placeholder="Organization"/>
+                                </div>
+                                <div className="form-group">
+                                    <input type="text" className="form-control" placeholder="Current Project"/>
+                                </div>
+                                <div className="form-group">
+                                    <textarea className="form-control" placeholder="Message"></textarea>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn btn-outline-success">Submit</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
