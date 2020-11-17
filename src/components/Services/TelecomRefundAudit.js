@@ -8,8 +8,8 @@ class TelecomRefundAudit extends React.Component{
             <div>
                 {/*heading with background*/}
                 <div className="container-fluid">
-                    <div className="bg img-fluid">
-                        <h3 className="centered">Telecom Refund<br/>Audit</h3>
+                    <div className="bg3 img-fluid">
+                        <h3 className="centered" style={{fontSize:"50px"}}>Telecom Refund<br/>Audit</h3>
                     </div>
                 </div>
 

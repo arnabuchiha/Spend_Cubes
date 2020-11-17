@@ -12,8 +12,8 @@ class TelecomAuditOptimization extends React.Component{
             <div>
                 {/*heading with background*/}
                 <div className="container-fluid">
-                    <div className="bg img-fluid">
-                        <h3 className="centered">Telecom Audit & <br/> Optimization</h3>
+                    <div className="bg1 img-fluid">
+                        <h3 className="centered" style={{fontSize:"50px"}}>Telecom Audit & <br/> Optimization</h3>
                         <span style={{color:"white"}}><strong>80% of telecommunication bills contains errors!</strong></span>
                     </div>
                 </div>

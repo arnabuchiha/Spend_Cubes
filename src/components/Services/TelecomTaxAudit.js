@@ -8,8 +8,8 @@ class TelecomTaxAudit extends React.Component{
             <div>
                 {/*heading with background*/}
                 <div className="container-fluid">
-                    <div className="bg img-fluid">
-                        <h3 className="centered">Telecom Tax<br/>Audit</h3>
+                    <div className="bg4 img-fluid">
+                        <h3 className="centered" style={{fontSize:"50px"}}>Telecom Tax<br/>Audit</h3>
                         <span style={{color:"#FF4500"}}><strong>Telecommunication is the most heavily taxed service!</strong></span>
                     </div>
                 </div>

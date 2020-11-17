@@ -17,7 +17,7 @@ class Career extends React.Component{
                 <br/>
                 <div>
                     <div>
-                        <h4 className="container">Job Description: Analyst</h4><br/>
+                        <h4 className="container description">Job Description: Analyst</h4><br/>
                         <div className="container description">
                             <p><strong>Experience:</strong> 3years</p>
                             <p><strong>Educational Qualification:</strong> 10+2 / Graduates - Any stream</p>
