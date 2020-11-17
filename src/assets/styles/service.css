@@ -1,5 +1,5 @@
 .carousel-caption {
-  top: 20% !important;
+  top: 40% !important;
 }
 
 .service-table {
@@ -19,5 +19,9 @@
 @media only screen and (max-width: 768px) {
   .serv-table {
     display: none;
+  }
+
+  .mobile-caption {
+    top: 15% !important;
   }
 }

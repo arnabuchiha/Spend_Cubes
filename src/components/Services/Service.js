@@ -37,7 +37,7 @@ class Service extends React.Component{
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                         <img className="d-block w-100" src={Background1} alt="First slide"/>
-                        <div className="carousel-caption">
+                        <div className="carousel-caption mobile-caption">
                             <h3>No Service Provider Changes</h3>
                             <p><i>Usually service provider changes are less 
                             cost effective and lead to increased one-time
@@ -47,7 +47,7 @@ class Service extends React.Component{
                         </div>
                         <div className="carousel-item">
                         <img className="d-block w-100" src={Background2} alt="Second slide"/>
-                        <div className="carousel-caption">
+                        <div className="carousel-caption mobile-caption">
                             <h3>Unbiased</h3>
                             <p><i>Contractually we guarantee get no commissions 
                             from service providers or encourage provider 
@@ -57,7 +57,7 @@ class Service extends React.Component{
                         </div>
                         <div className="carousel-item">
                         <img className="d-block w-100" src={Background1} alt="Third slide"/>
-                        <div className="carousel-caption">
+                        <div className="carousel-caption mobile-caption">
                             <h3>ROI Guaranteed</h3>
                             <p><i>Spend Cubes will only invoice you upon activated
                             savings and delivered refunds. We contractually also
@@ -67,7 +67,7 @@ class Service extends React.Component{
                         </div>
                         <div className="carousel-item">
                         <img className="d-block w-100" src={Background2} alt="Fourth slide"/>
-                        <div className="carousel-caption">
+                        <div className="carousel-caption mobile-caption">
                             <h3>60 Days or Less</h3>
                                 <p><i>Savings start appearing on your invoices in<br/>
                                 60 days or less</i></p>
@@ -75,7 +75,7 @@ class Service extends React.Component{
                         </div>
                         <div className="carousel-item">
                         <img className="d-block w-100" src={Background1} alt="Fifth slide"/>
-                        <div className="carousel-caption">
+                        <div className="carousel-caption mobile-caption">
                             <h3>No Penalty</h3>
                             <p className="container"><i>You always have the option to leave us at any time,<br/>
                              without penalty.</i></p>
