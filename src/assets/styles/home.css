@@ -43,7 +43,7 @@
   padding: 15px;
 }
 .form-box {
-  margin:auto;
+  margin: auto;
   border: white;
   background-color: white;
   border-radius: 5px;
@@ -55,7 +55,7 @@
 
 .form-control {
   width: 100%;
-  
+
   /* float: center; */
   /* background-color: LightGrey; */
 }
@@ -69,7 +69,11 @@
   .form-control {
     width: 100%;
   }
+
+  .home-bg-content {
+    font-size: 2px;
+  }
 }
-.form-box-contactus{
-  box-shadow:  0 5px 18px 3px rgba(0,0,0,.1);
+.form-box-contactus {
+  box-shadow: 0 5px 18px 3px rgba(0, 0, 0, 0.1);
 }

@@ -15,9 +15,9 @@ class Home extends React.Component{
             <div>
                 <div className="container-fluid">
                     <div className="connect-H">
-                        <div className="centered">
+                        <div className="centered home-bg-content">
                         <h2>Connect with Spend Cubes</h2>
-                        <p><i>Our analysts will provide a complimentary assessment of savings and refung estimation of your telecommunication services</i></p>
+                        <p><i>Our analysts will provide a complimentary assessment of savings and refund estimation of your telecommunication services</i></p>
                         <button type="button" className="btn btn-light">Estimate Savings</button>
                         </div>
                     </div>
