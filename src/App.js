@@ -12,6 +12,7 @@ import MobileWirelessAudit from "./components/Services/MobileWirelessAudit";
 import TelecomRefundAudit from "./components/Services/TelecomRefundAudit";
 import TelecomTaxAudit from "./components/Services/TelecomTaxAudit";
 import faq from './components/AboutUs/faq';
+import Career from "./components/Career";
 
 class App extends Component {
   render(){
@@ -30,6 +31,7 @@ class App extends Component {
             <Route path="/mobileWirelessAudit" component={MobileWirelessAudit}/>
             <Route path="/telecomRefundAudit" component={TelecomRefundAudit}/>
             <Route path="/telecomTaxAudit" component={TelecomTaxAudit}/>
+            <Route path="/career" component={Career}/>
           </Switch>
         </Router>
       </div>
