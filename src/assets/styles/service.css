@@ -1,0 +1,23 @@
+.carousel-caption {
+  top: 20% !important;
+}
+
+.service-table {
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px grey;
+}
+
+.contain {
+  background-color: aliceblue;
+  padding: 30px;
+}
+
+.col-sm-3 {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .serv-table {
+    display: none;
+  }
+}
