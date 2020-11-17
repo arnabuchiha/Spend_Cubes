@@ -22,7 +22,7 @@ class Nav extends React.Component {
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a className="nav-link dropdown-item" href="/about">Team</a>
                         <a className="nav-link dropdown-item" href="/blog">Blog</a>
-                        <a className="nav-link dropdown-item" href="#">FAQ</a>
+                        <a className="nav-link dropdown-item" href="/faq">FAQ</a>
                     </div>
                 </li>
                 <li className="nav-item dropdown">
@@ -34,9 +34,6 @@ class Nav extends React.Component {
                         <a className="nav-link dropdown-item" href="/telecomRefundAudit">Telecom Refund Audit</a>
                         <a className="nav-link dropdown-item" href="/telecomTaxAudit">Telecom Tax Audit</a>
                     </div>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Case Studies</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Contact</a>

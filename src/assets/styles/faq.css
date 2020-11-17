@@ -1,0 +1,25 @@
+.collapse-faq[aria-expanded=true] .fa-chevron-down{
+    display: none;
+}
+.collapse-faq[aria-expanded=false] .fa-chevron-down{
+    display: inline-block;
+}
+.collapse-faq[aria-expanded=true] .fa-chevron-up{
+    display: inline-block;
+}
+.collapse-faq[aria-expanded=false] .fa-chevron-up{
+    display: none;
+}
+.fa-chevron-up,.fa-chevron-down{
+    margin-right: 1rem;
+}
+.collapse-faq {
+    color:black;
+}
+.collapse-faq h5{
+    float: left;
+}
+.collapse-faq:hover{
+    color:gray;
+    text-decoration: none;
+}

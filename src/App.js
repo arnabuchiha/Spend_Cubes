@@ -11,6 +11,7 @@ import TelecomAuditOptimization from "./components/Services/TelecomAuditOptimiza
 import MobileWirelessAudit from "./components/Services/MobileWirelessAudit";
 import TelecomRefundAudit from "./components/Services/TelecomRefundAudit";
 import TelecomTaxAudit from "./components/Services/TelecomTaxAudit";
+import faq from './components/AboutUs/faq';
 
 class App extends Component {
   render(){
@@ -24,6 +25,7 @@ class App extends Component {
             <Route path="/about" component={AboutUs}/>
             <Route path="/blog" component={blog}/>
             <Route path="/service" component={Service}/>
+            <Route path="/faq" component={faq}/>
             <Route path="/telecomAuditOptimization" component={TelecomAuditOptimization}/>
             <Route path="/mobileWirelessAudit" component={MobileWirelessAudit}/>
             <Route path="/telecomRefundAudit" component={TelecomRefundAudit}/>
