@@ -23,7 +23,10 @@ custom-text{
 .faq-bg{
     background-image:linear-gradient(180deg,rgba(0,58,91,0.65) 0%,rgba(41,196,169,0.7) 100%),url(../images/faq_bg.jpg)!important;
 }
-.aboutus-H,.our-team,.faq-bg{
+.contactus-bg{
+    background-image:linear-gradient(180deg,rgba(0,58,91,0.65) 0%,rgba(41,196,169,0.7) 100%),url(../images/contactus-bg.jpg)!important;
+}
+.aboutus-H,.our-team,.faq-bg,.contactus-bg{
     color:white;
     /* width: 100%; */
     height: 50vh;

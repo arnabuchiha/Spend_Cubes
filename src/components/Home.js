@@ -32,7 +32,7 @@ class Home extends React.Component{
                 <div><br/><br/>
                     {/*services*/}
                     <h2>Services</h2><br/>
-                    <div className="container" style={{backgroundColor:"#2b3152", padding:"40px", borderRadius:"5px"}}>
+                    <div className="container" style={{backgroundColor:"#2b3152", padding:"40px", borderRadius:"5px"}} >
                         <div className="row">
                             <div className="col-sm-3">
                                 <img src={Telephone} style={{height:"100px", width:"100px"}}/><br/><br/>
@@ -229,13 +229,13 @@ class Home extends React.Component{
                 {/*get a free consultation*/}
                 <div className="jumbotron">
                     <div className="row">
-                        <div className="col-sm-4">
+                        <div className="col">
                             <h2 style={{borderLeft:"5px", borderColor:"#EF692b"}}>Get a Free Consultation</h2><br/><br/>
                                 <p className="container">As a leading Telecom Expense Management company, Spend Cubes believes in a “Partnership Approach” with its clients who are some of the world’s best brands. Through our global delivery network and a comprehensive outsourcing service offerings, we deliver business value to our clients by combining operational excellence and deep domain – industry and functional – knowledge.
                                     <br/>We bring our deep industry knowledge combined with in-house tools to ensure Quality & timely delivery of our solutions.
                                 </p>
                         </div>
-                        <div className="col-sm-8">
+                        <div className="col">
                             <form className="container form-box">
                                 <div className="form-group">
                                     <input type="text" className="form-control" placeholder="Name"/>
@@ -244,7 +244,7 @@ class Home extends React.Component{
                                     <input type="Email" className="form-control" placeholder="Email Address"/>
                                 </div>
                                 <div className="form-group">
-                                    <input type="Number" className="form-control" placeholder="Phone Number"/>
+                                    <input type="tel" className="form-control" placeholder="Phone Number"/>
                                 </div>
                                 <div className="form-group">
                                     <input type="text" className="form-control" placeholder="Organization"/>
