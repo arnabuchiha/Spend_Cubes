@@ -23,3 +23,6 @@
     color:gray;
     text-decoration: none;
 }
+.collapse,.collapsing .card-body{
+    text-align: left;
+}

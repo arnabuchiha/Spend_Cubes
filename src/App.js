@@ -13,6 +13,7 @@ import TelecomRefundAudit from "./components/Services/TelecomRefundAudit";
 import TelecomTaxAudit from "./components/Services/TelecomTaxAudit";
 import faq from './components/AboutUs/faq';
 import Career from "./components/Career";
+import Contact from './components/contactus';
 
 class App extends Component {
   render(){
@@ -32,6 +33,7 @@ class App extends Component {
             <Route path="/telecomRefundAudit" component={TelecomRefundAudit}/>
             <Route path="/telecomTaxAudit" component={TelecomTaxAudit}/>
             <Route path="/career" component={Career}/>
+            <Route path="/contact" component={Contact}/>
           </Switch>
         </Router>
       </div>

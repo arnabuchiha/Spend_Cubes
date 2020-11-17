@@ -43,17 +43,21 @@
   padding: 15px;
 }
 .form-box {
+  margin:auto;
   border: white;
   background-color: white;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px 2px grey;
-  padding-bottom: 50px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* box-shadow: 2px 2px 2px 2px grey; */
+  /* padding-bottom: 50px; */
 }
 
 .form-control {
-  width: 60%;
-  float: center;
-  background-color: LightGrey;
+  width: 100%;
+  
+  /* float: center; */
+  /* background-color: LightGrey; */
 }
 
 .form-group {
@@ -65,4 +69,7 @@
   .form-control {
     width: 100%;
   }
+}
+.form-box-contactus{
+  box-shadow:  0 5px 18px 3px rgba(0,0,0,.1);
 }
