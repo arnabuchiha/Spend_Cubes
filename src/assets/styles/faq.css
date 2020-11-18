@@ -23,6 +23,6 @@
     color:gray;
     text-decoration: none;
 }
-.collapse,.collapsing .card-body{
+.collapse.faq,.collapsing.faq .card-body{
     text-align: left;
 }

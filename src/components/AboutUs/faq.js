@@ -82,7 +82,7 @@ class faq extends React.Component{
                                                 </h5>
                                         </a>
                                     </div>
-                                    <div class="collapse" id={`collapse`+i}>
+                                    <div class="collapse faq" id={`collapse`+i}>
                                     <div class="card card-body">
                                         {ele.answer}
                                     </div>
