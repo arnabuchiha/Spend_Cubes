@@ -7,7 +7,7 @@ class Career extends React.Component{
             <div>
                 <div className="container-fluid">
                     <div className="bg-color img-fluid">
-                        <h2 className="centered" style={{fontSize:"50px"}}>We are Hiring</h2>
+                        <h2 className="centered career-heading">We are Hiring</h2>
                     </div>
                 </div>
                 <br/><br/>

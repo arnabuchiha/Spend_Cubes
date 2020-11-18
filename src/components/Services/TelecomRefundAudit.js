@@ -9,7 +9,7 @@ class TelecomRefundAudit extends React.Component{
                 {/*heading with background*/}
                 <div className="container-fluid">
                     <div className="bg3 img-fluid">
-                        <h3 className="centered" style={{fontSize:"50px"}}>Telecom Refund<br/>Audit</h3>
+                        <h3 className="centered serv3-heading">Telecom Refund<br/>Audit</h3>
                     </div>
                 </div>
 

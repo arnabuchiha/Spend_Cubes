@@ -9,7 +9,7 @@ class MobileWirelessAudit extends React.Component{
                 {/*heading with background*/}
                 <div className="container-fluid">
                     <div className="bg2 img-fluid">
-                        <h3 className="centered" style={{fontSize:"50px"}}>Mobile & Wireless<br/>Audit</h3>
+                        <h3 className="centered serv2-heading" >Mobile & Wireless<br/>Audit</h3>
                         <span style={{color:"#FF4500"}}><strong>Wireless category is the fastest growing spend category in IT services portfolio</strong></span>
                     </div>
                 </div>

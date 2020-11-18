@@ -7,7 +7,7 @@
     url("https://poetsandquants.com/wp-content/uploads/sites/5/2019/10/careers2.jpg");
   color: white;
   /* width: 100%; */
-  height: 35vh;
+  height: 40vh;
   background-size: cover;
   background-position: 50% 20%;
   background-repeat: no-repeat;
@@ -16,4 +16,14 @@
 .description {
   text-align: left;
   margin-right: 50px;
+}
+
+.career-heading {
+  font-size: 4em;
+}
+
+@media only screen and (max-width: 768px) {
+  .career-heading {
+    font-size: 2.5em;
+  }
 }
