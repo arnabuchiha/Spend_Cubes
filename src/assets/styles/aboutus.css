@@ -45,7 +45,7 @@ custom-text{
     margin-top: 20px;
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 300;
-    line-height:1.8em;
+    /* line-height:1.8em; */
     width: 80%;
     text-align: center;
     margin-left: auto;
