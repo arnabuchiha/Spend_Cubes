@@ -17,13 +17,15 @@ class TelecomTaxAudit extends React.Component{
                 {/*paragraph*/}
                 <div className="jumbotron">
                     <p className="container-fluid">
-                    Dynamic nature of wireless services and personnel and role changes make <br/>
-                    it a complex service to manage every month.<br/>
-                    Spend Cubes wireless audit services provide analytically-driven wireless<br/>
-                    expense control, complete with a contractually guaranteed ROI.<br/>
-                    Challenges:Frequent rate plan changes are further increasing inefficiencies in telecom billing. 
-                    Customers are being pushed to change to the latest plans without conducting a 6-month usage analysis is causing leakages ranging 10% – 25%. 
-                    We Deliver Savings & Maintain! A trained team of analysts using a combination of machine analytics and manual research complete a periodical rate plan analysis.</p>
+                    Telecommunication taxes account for average of 17.05% on wireless services and over 25% on wire-line services.<br/>
+                    Taxes usually comprise of Federal, State, Local (city, county and municipality) & surcharges like Federal<br/>
+                    Universal Service Fee (FUSF), Property Tax Allotment (PTA), administrative expense fee, Federal regulatory fee etc.<br/><br/>
+                    These taxes differ by state, city or telecom service you are using. Thus, creating thousands of combinations <br/>
+                    of taxes and surcharges.<br/><br/>
+                    To top that, most service providers leave it to their customers to decide on tax jurisdictions, like<br/>
+                    interstate or intrastate billing, the highest taxes in the bracket.<br/><br/>
+                    Our tax specialists are equipped and updated with the latest tax databases to identify tax saving<br/>
+                    and refund opportunities for your company.</p>
                 </div>
                 <br/><br/><br/>
                 <div>
