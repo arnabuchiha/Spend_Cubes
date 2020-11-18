@@ -14,6 +14,7 @@ import TelecomTaxAudit from "./components/Services/TelecomTaxAudit";
 import faq from './components/AboutUs/faq';
 import Career from "./components/Career";
 import Contact from './components/contactus';
+import Footer from './components/Footer';
 
 class App extends Component {
   render(){
@@ -35,6 +36,7 @@ class App extends Component {
             <Route path="/career" component={Career}/>
             <Route path="/contact" component={Contact}/>
           </Switch>
+          <Footer/>
         </Router>
       </div>
     )
