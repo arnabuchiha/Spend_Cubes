@@ -229,13 +229,13 @@ class Home extends React.Component{
                 {/*get a free consultation*/}
                 <div className="jumbotron">
                     <div className="row">
-                        <div className="col">
+                        <div className="col-md-6">
                             <h2 style={{borderLeft:"5px", borderColor:"#EF692b"}}>Get a Free Consultation</h2><br/><br/>
                                 <p className="container">As a leading Telecom Expense Management company, Spend Cubes believes in a “Partnership Approach” with its clients who are some of the world’s best brands. Through our global delivery network and a comprehensive outsourcing service offerings, we deliver business value to our clients by combining operational excellence and deep domain – industry and functional – knowledge.
                                     <br/>We bring our deep industry knowledge combined with in-house tools to ensure Quality & timely delivery of our solutions.
                                 </p>
                         </div>
-                        <div className="col">
+                        <div className="col-md-4">
                             <form className="container form-box">
                                 <div className="form-group">
                                     <input type="text" className="form-control" placeholder="Name"/>
@@ -260,6 +260,7 @@ class Home extends React.Component{
                                 </div>
                             </form>
                         </div>
+                        <div className="col-md-2"></div>
                     </div>
                 </div>
             </div>

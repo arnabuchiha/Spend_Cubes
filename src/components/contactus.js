@@ -36,10 +36,12 @@ class Contact extends React.Component{
                             </div>
                         </form>
                     </div>
-                    <div className="col-md-6 contactus">
-                        <h2>Other ways to connect</h2>
-                        <div><i class="fas fa-phone-alt"></i> <a href="tel: +1-732-384-4428">+1-732-384-4428</a></div>
+                    <div className="col-md-4 contactus pa-auto">
+                        <div className="centered">
+                            <div><i class="fas fa-phone-alt"></i> <a href="tel: +1-732-384-4428">+1-732-384-4428</a></div>
+                        </div>
                     </div>
+                    <div className="col-md-2"></div>
                 </div>
             </div>
             </div>
