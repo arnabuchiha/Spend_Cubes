@@ -38,7 +38,42 @@ class Contact extends React.Component{
                     </div>
                     <div className="col-md-4 contactus pa-auto">
                         <div className="centered">
-                            <div><i class="fas fa-phone-alt"></i> <a href="tel: +1-732-384-4428">+1-732-384-4428</a></div>
+                            <div className="d-flex contactus-par-ele">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div className="d-flex contactus-ele">
+                                    <span>Address (US)</span>
+                                    <a href="http://maps.google.com/?q=707 48th St. San Diego,CA 92102, USA">707 48th St. San Diego, CA 92102, USA</a>
+                                </div>
+                            </div>
+                            <div className="d-flex contactus-par-ele">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div className="d-flex contactus-ele">
+                                    <span>Address (India)</span>
+                                    <a href="http://maps.google.com/?q=11/437, Lalita Park, Laxmi Nagar,Delhi- 110092">11/437, Lalita Park, Laxmi Nagar, Delhi- 110092</a>
+                                </div>
+                            </div>
+                            <div className="d-flex contactus-par-ele">
+                                <i class="fas fa-phone-alt"></i>
+                                <div className="d-flex contactus-ele">
+                                    <span>Lets Talk</span>
+                                    <a href="tel: +1-732-384-4428">+1-732-384-4428</a>
+                                </div>
+                            </div>
+                            <div className="d-flex contactus-par-ele">
+                                <i class="far fa-clock"></i>
+                                <div className="d-flex contactus-ele">
+                                    <span>Hours</span>
+                                    <a href="">Mon–Fri: 9am–5pm EST</a>
+                                </div>
+                            </div>
+                            
+                            <div className="d-flex contactus-par-ele">
+                                <i class="far fa-envelope"></i>
+                                <div className="d-flex contactus-ele">
+                                    <span>Email Us</span>
+                                    <a href="mailto: business@spendcubes.com">business@spendcubes.com</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="col-md-2"></div>
