@@ -14,10 +14,10 @@ nav,.dropdown-item{
 }
 .get-started-button{
 	float: right;
-    background-color: #EF692b;
+    background-color: #008d6c;
     color:white;
     border-radius: 8px;
-    border-bottom: 4px #BA6036 solid;
+    border-bottom: 4px #024636 solid;
     text-align: center;
     outline:none;
     border-top: none;
@@ -25,7 +25,7 @@ nav,.dropdown-item{
     border-right: none;
 }
 .get-started-button:hover{
-    background-color: #EF7C46;
+    background-color:#024636;
     text-decoration: none;
     color:white;
 }

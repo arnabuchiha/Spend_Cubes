@@ -23,11 +23,11 @@ class Home extends React.Component{
                     </div>
                 </div>
                 <div className="jumbotron">
-                    <h3 style={{color:"#EF692b"}}><strong>R</strong>educe & <strong>R</strong>ecover <br/>Lost <strong>R</strong>evenue </h3>
+                    <h1 className="subheading"><strong>R</strong>educe & <strong>R</strong>ecover <br/>Lost <strong>R</strong>evenue </h1>
                     <p>Spend Cubes is fresh, agile and focused, with customer-centric approach. 
                         <br/> Professionals at Spend Cubes bring together decades of experience and expertise
                         <br/>in telecom lifecycle management, refunds and recovery.</p>
-                    <button type="button" class="btn btn-outline-info">More About us</button>
+                    <button type="button" class="btn btn-primary">More About us</button>
                 </div>
                 <div><br/><br/>
                     {/*services*/}
@@ -188,7 +188,7 @@ class Home extends React.Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-8">
-                            <div className="card" style={{width: "20rem", backgroundColor:"#EF692b"}}>
+                            <div className="card" style={{width: "20rem", backgroundColor:"#008d6c"}}>
                                 <div className="card-body">
                                     <h3 className="card-title">150 Mn+</h3>
                                     <h5 className="card-subtitle" style={{color:"white"}}>Total Spend Addressed</h5>
@@ -199,7 +199,7 @@ class Home extends React.Component{
                         <div className="col-sm-4">
                             <div className="card" style={{width: "20rem" , backgroundColor:"#2b3152"}}>
                                 <div className="card-body">
-                                    <h3 className="card-title" style={{color:"#EF692b"}}>1200+</h3>
+                                    <h3 className="card-title" style={{color:"#008d6c"}}>1200+</h3>
                                     <h5 className="card-subtitle" style={{color:"white"}}>Contracts Reviewed</h5>
                                 </div>
                             </div>
@@ -213,14 +213,14 @@ class Home extends React.Component{
                         <div className="col-sm-8">
                             <div className="card" style={{width: "20rem" , backgroundColor:"#2b3152"}}>
                                 <div className="card-body">
-                                    <h3 className="card-title" style={{color:"#EF692b"}}>60000+</h3>
+                                    <h3 className="card-title" style={{color:"#008d6c"}}>60000+</h3>
                                     <h5 className="card-subtitle" style={{color:"white"}}>Telecoms Bills Reviewed</h5>
                                 </div>
                             </div>
                         </div>
                         {/*card4*/}
                         <div className="col-sm-4">
-                            <div className="card" style={{width: "20rem", backgroundColor:"#EF692b"}}>
+                            <div className="card" style={{width: "20rem", backgroundColor:"#008d6c"}}>
                                 <div className="card-body">
                                     <h3 className="card-title">40+</h3>
                                     <h5 className="card-subtitle" style={{color: "white"}}>Customers</h5>
