@@ -8,12 +8,16 @@ import Telephone from "../assets/images/telephone.svg";
 import Mobile from "../assets/images/mobile.svg";
 import Wireless from "../assets/images/router.svg";
 import Document from "../assets/images/document.svg";
+import slide1 from "../assets/images/slide-1.jpg";
+import slide2 from "../assets/images/slide-2.jpg";
+import slide3 from "../assets/images/slide-3.jpg";
 import "../assets/styles/home.css"
+import home_rrr from '../assets/images/home-rrr.jpg';
 class Home extends React.Component{
     render(){
         return(
             <div>
-                <div className="container-fluid">
+                {/* <div className="container-fluid">
                     <div className="connect-H">
                         <div className="centered home-bg-content">
                         <h2>Connect with Spend Cubes</h2>
@@ -21,61 +25,161 @@ class Home extends React.Component{
                         <button type="button" className="btn btn-light">Estimate Savings</button>
                         </div>
                     </div>
-                </div>
-                <div className="jumbotron">
-                    <h1 className="subheading"><strong>R</strong>educe & <strong>R</strong>ecover <br/>Lost <strong>R</strong>evenue </h1>
-                    <p>Spend Cubes is fresh, agile and focused, with customer-centric approach. 
-                        <br/> Professionals at Spend Cubes bring together decades of experience and expertise
-                        <br/>in telecom lifecycle management, refunds and recovery.</p>
-                    <button type="button" class="btn btn-primary">More About us</button>
-                </div>
-                <div><br/><br/>
-                    {/*services*/}
-                    <h2 className="jumbotron" style={{color: "white", backgroundColor:"#2b3152", paddingBottom:"10px", paddingTop:"10px"}}><strong>Services</strong></h2><br/>
-                    <div className="container" style={{backgroundColor:"AliceBlue", padding:"40px", borderRadius:"5px"}} >
-                        <div className="row">
-                            <div className="col-sm-3">
-                                <img src={Telephone} style={{height:"100px", width:"100px"}}/><br/><br/>
-                                <div className="et_pb_blurb_container">
-                                    <h4 className="et_pb_module_header" style={{color:"DarkSlateGray"}}>
-                                        <span>TELECOM AUDIT &<br/>OPTIMIZATION</span>
-                                    </h4>
-                                </div>
-                            </div>
-                            {/*end of col1*/}
-                            <div className="col-sm-3">
-                                <img src={Wireless} style={{height:"100px", width:"100px"}}/><br/><br/>
-                                <div className="et_pb_blurb_container">
-                                    <h4 className="et_pb_module_header" style={{color:"DarkSlateGray"}}>
-                                        <span>MOBILE / WIRELESS <br/>AUDITS</span>
-                                    </h4>
-                                </div>
-                            </div>
-                            {/*end of col2*/}
-                            <div className="col-sm-3">
-                                <img src={Mobile} style={{height:"100px", width:"100px"}}/><br/><br/>
-                                <div className="et_pb_blurb_container">
-                                    <h4 className="et_pb_module_header" style={{color:"DarkSlateGray"}}>
-                                        <span>TELECOM REFUND <br/>AUDITS</span>
-                                    </h4>
-                                </div>
-                            </div>
-                            {/*end of col3*/}
-                            <div className="col-sm-3">
-                                <img src={Document} style={{height:"100px", width:"100px"}}/><br/><br/>
-                                <div className="et_pb_blurb_container">
-                                    <h4 className="et_pb_module_header" style={{color:"DarkSlateGray"}}>
-                                        <span>TELECOM TAX <br/>AUDITS</span>
-                                    </h4>
-                                </div>
-                            </div>  
+                </div> */}
+                <div className="container-fluid home-slider">
+                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                    <ol className="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                        <img className="d-block w-100" src={slide1} alt="First slide"/>
+                        <div className="carousel-caption">
+                            <h2>Connect with <span>Spend Cubes</span></h2>
+                            <p>Our Analysts will provide a complimentary assessment of savings and refund estimation of your telecommunication invoices</p>
+                        </div>
+                        </div>
+                        <div className="carousel-item">
+                        <img className="d-block w-100" src={slide2} alt="First slide"/>
+                        <div className="carousel-caption">
+                            <h2>{}</h2>
+                        </div>
+                        </div>
+                        <div className="carousel-item">
+                        <img className="d-block w-100" src={slide3} alt="First slide"/>
+                        <div className="carousel-caption">
+                            <h2>{}</h2>
+                        </div>
                         </div>
                     </div>
-                    <p className="container" style={{width:"70%", color: "white", backgroundColor:"#2b3152", borderRadius:"5px", padding:"10px"}}>
+                    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span aria-hidden="true">
+                        <i className="fas fa-long-arrow-alt-left" aria-hidden="true"></i>
+                        </span>
+                        <span className="sr-only">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span aria-hidden="true">
+                        <i className="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                        </span>
+                        <span className="sr-only">Next</span>
+                    </a>
+                    </div>
+                </div>
+                <div class="container features-home">
+
+                    <div class="row">
+                    <div class="col-lg-3">
+                        <div class="icon-box">
+                        <i class="fas fa-clipboard"></i>
+                        <h3><a href="">Telecom Audit & optimization</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3><a href="">mobile / Wireless audits</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-percentage"></i>
+                        <h3><a href="">telecom refund audits</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-calculator"></i>
+                        <h3><a href="">telecom tax audit</a></h3>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+                <div class="container">
+
+                    <div class="row">
+                    <div class="col-lg-6">
+                        <img src={home_rrr} class="img-fluid" alt=""/>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content">
+                        <h1 className="subheading"><strong>R</strong>educe & <strong>R</strong>ecover <br/>Lost <strong>R</strong>evenue </h1>
+                        <p>Spend Cubes is fresh, agile and focused, with customer-centric approach. 
+                        <br/>Professionals at Spend Cubes bring together decades of experience and expertise
+                        in telecom lifecycle management, refunds and recovery.</p>
+                        <button type="button" class="btn btn-primary">More About us</button>
+                    </div>
+                </div>
+
+                </div>
+                <div class="container">
+
+                    <div class="row counters">
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up" data-content="150">150Mn+</span>
+                        <p>Total Spend Addressed</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up" data-content="150">1200+</span>
+                        <p>Contracts reviewed</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up" data-content="150">60000+</span>
+                        <p>Telecoms Bill Reviewed</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up" data-content="150">40+</span>
+                        <p>Customers</p>
+                    </div>
+
+                    </div>
+
+                </div>
+                <div className="jumbotron services-home">
+                    <div className="section-title">
+                        <h2 className="subheading">Services</h2>
+                    </div>
+                    <p className="container">
                     We specialize in conducting telecommunication refunds & recovery audits. 
                     <br/>Our telecom audit & optimization services will bring a significant <br/>
                     amount of savings & refunds.
                     </p>
+                    <div class="container features-home">
+
+                    <div class="row">
+                    <div class="col-lg-3">
+                        <div class="icon-box">
+                        <i class="fas fa-book"></i>
+                        <h3><a href="">Exhaustive knowledge base's</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3><a href="">mobile / Wireless audits</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-percentage"></i>
+                        <h3><a href="">telecom refund audits</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-calculator"></i>
+                        <h3><a href="">telecom tax audit</a></h3>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
                 </div>
                 <br/><br/><br/>
                 
