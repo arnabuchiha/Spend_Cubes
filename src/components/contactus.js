@@ -1,18 +1,20 @@
 import React from "react";
-
+import "../assets/styles/contactus.css";
 class Contact extends React.Component{
     render(){
         return(
-            <div>
-            <div className="container-fluid">
-            <div class="contactus-bg"><h1 class="centered" style={{color: "white", fontSize: "4.2em", fontWeight: "bold"}}>Contact Us</h1></div>
-            </div>
+            <div className="contactus-main">
+            
             <div className="jumbotron">
+            <div className="section-title">
+            <h2 className="subheading">Contact Us</h2>
+            {/* <div class="contactus-bg"><h1 class="centered" style={{color: "white", fontSize: "4.2em", fontWeight: "bold"}}>Contact Us</h1></div> */}
+            </div>
                 <div className="row">
                     <div className="col-md-2"></div>
                     <div className="col-md-4">
                         <form className="container form-box form-box-contactus">
-                            <h2>Get in Touch</h2>
+                            <h2 className="subheading">Get in Touch</h2>
                             <div className="form-group">
                                 <input type="text" className="form-control" placeholder="Name"/>
                             </div>
@@ -32,7 +34,7 @@ class Contact extends React.Component{
                                 <textarea className="form-control" placeholder="Message"></textarea>
                             </div>
                             <div>
-                                <button type="submit" class="btn btn-outline-success">Submit</button>
+                                <button type="submit" class="btn btn-primary">Submit</button>
                             </div>
                         </form>
                     </div>
