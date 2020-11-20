@@ -44,13 +44,15 @@ class Home extends React.Component{
                         <div className="carousel-item">
                         <img className="d-block w-100" src={slide2} alt="First slide"/>
                         <div className="carousel-caption">
-                            <h2>{}</h2>
+                            <h2>Helping <span>Business</span></h2>
+                            <p>Getting rid of telecom billing inefficiencies and over-charges without changing telecommunication providers.</p>
                         </div>
                         </div>
                         <div className="carousel-item">
                         <img className="d-block w-100" src={slide3} alt="First slide"/>
                         <div className="carousel-caption">
-                            <h2>{}</h2>
+                            <h2>Solutions for <span>TEM Providers</span> & <span>Telecom Auditing Companies</span></h2>
+                            <p>White-Labeled services designed to suit business needs of our partners and their customers. Our goal is to provide maximum savings, timely delivery and efficient operations.</p>
                         </div>
                         </div>
                     </div>
@@ -153,28 +155,39 @@ class Home extends React.Component{
                     <div class="container features-home">
 
                     <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <div class="icon-box">
                         <i class="fas fa-book"></i>
                         <h3><a href="">Exhaustive knowledge base's</a></h3>
+                        <p>Years of research on recurring costs,plans, services and taxes.Helps maximize savings</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 mt-4 mt-lg-0">
+                    <div class="col-lg-4 mt-4 mt-lg-0">
                         <div class="icon-box">
-                        <i class="fas fa-phone-alt"></i>
-                        <h3><a href="">mobile / Wireless audits</a></h3>
+                        <i class="fas fa-star-half-alt"></i>
+                        <h3><a href="">Non-biased Recommendations</a></h3>
+                        <p>We do not have any alliance or get any commission from service providers ensuring non-biased recommendations</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 mt-4 mt-lg-0">
+                    <div class="col-lg-4 mt-4 mt-lg-0">
                         <div class="icon-box">
-                        <i class="fas fa-percentage"></i>
-                        <h3><a href="">telecom refund audits</a></h3>
+                        <i class="fas fa-funnel-dollar"></i>
+                        <h3><a href="">Obtain Maximum Recovery</a></h3>
+                        <p>Our highly skilled dispute resolution team identifies and processes billing errors and disputes to obtain the maximum recovery</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 mt-4 mt-lg-0">
+                    <div class="col-lg-4 mt-4">
                         <div class="icon-box">
-                        <i class="fas fa-calculator"></i>
-                        <h3><a href="">telecom tax audit</a></h3>
+                        <i class="fas fa-piggy-bank"></i>
+                        <h3><a href="">Speed to Savings</a></h3>
+                        <p>First results of refunds and savings start within the 1’st billing cycle</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="icon-box">
+                        <i class="fas fa-check-circle"></i>
+                        <h3><a href="">Risk Free & Efficiency to Value</a></h3>
+                        <p>Gain Share model we get paid only once we recover the money from the service providers 10-25% average savings for our customers</p>
                         </div>
                     </div>
                     </div>
@@ -184,157 +197,11 @@ class Home extends React.Component{
                 <br/><br/><br/>
                 
                 {/*Carousel*/}
-                <div style={{backgroundColor:"WhiteSmoke"}}>
-                    <div className="row">
-                        <div className="col-sm-4">
-                            <div className="et_pb_blurb_content">
-                                <div className="et_pb_main_blurb_image">
-                                    <span className="et_pb_image_wrap">
-                                        <img src={Book} style={{width:"60px", height:"60px"}}/>
-                                    </span>
-                                </div>
-                                <div className="et_pb_blurb_container svg-container">
-                                    <h4 className="et_pb_module_header">
-                                        <span>Exhaustive knowledge base's</span>
-                                    </h4>
-                                    <div className="et_pb_blurb_description">
-                                    Years of research on recurring costs,<br/> plans, services and taxes.<br/> Helps maximize savings
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*end of col1*/}
-
-                        <div className="col-sm-4">
-                            <div className="et_pb_blurb_content">
-                                <div className="et_pb_main_blurb_image">
-                                    <span className="et_pb_image_wrap">
-                                        <img src={Recommendation} style={{width:"60px", height:"60px"}}/>
-                                    </span>
-                                </div>
-                                <div className="et_pb_blurb_container svg-container">
-                                    <h4 className="et_pb_module_header">
-                                        <span>Non-biased Recommendations</span>
-                                    </h4>
-                                    <div className="et_pb_blurb_description">
-                                    We do not have any alliance or get any<br/> commission from service providers <br/>ensuring non-biased recommendations
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*end of col2*/}
-
-                        <div className="col-sm-4">
-                            <div className="et_pb_blurb_content">
-                                <div className="et_pb_main_blurb_image">
-                                    <span className="et_pb_image_wrap">
-                                        <img src={Recovery} style={{width:"60px", height:"60px"}}/>
-                                    </span>
-                                </div>
-                                <div className="et_pb_blurb_container svg-container">
-                                    <h4 className="et_pb_module_header">
-                                        <span>Obtain Maximum Recovery</span>
-                                    </h4>
-                                    <div className="et_pb_blurb_description">
-                                    Our highly skilled dispute resolution team <br/>identifies and processes billing errors and <br/>disputes to obtain the maximum recovery
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    {/*end of col3*/}
-                    <div style={{backgroundColor:"WhiteSmoke"}}>
-                    <div className="container">
-                    <div className="row">
-                        <div className="col-sm-6">
-                            <div className="et_pb_blurb_content">
-                                <div className="et_pb_main_blurb_image">
-                                    <span className="et_pb_image_wrap">
-                                        <img src={Savings} style={{width:"60px", height:"60px"}}/>
-                                    </span>
-                                </div>
-                                <div className="et_pb_blurb_container svg-container">
-                                    <h4 className="et_pb_module_header">
-                                        <span>Speed to Savings</span>
-                                    </h4>
-                                    <div className="et_pb_blurb_description">
-                                    First results of refunds and savings start<br/> within the 1’st billing cycle
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        {/*end of col4*/}
-                        <div className="col-sm-6">
-                            <div className="et_pb_blurb_content">
-                                <div className="et_pb_main_blurb_image">
-                                    <span className="et_pb_image_wrap">
-                                        <img src={RiskFree} style={{width:"60px", height:"60px"}}/>
-                                    </span>
-                                </div>
-                                <div className="et_pb_blurb_container svg-container">
-                                    <h4 className="et_pb_module_header">
-                                        <span>Risk Free & Efficiency to Value</span>
-                                    </h4>
-                                    <div className="et_pb_blurb_description">
-                                    Gain Share model we get paid only once we<br/> recover the money from the service providers<br/> 10-25% average savings for our customers
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                    </div>
-                <br/><br/>
+                
                 {/*end of col5*/}
 
                 {/*card1*/}
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-8">
-                            <div className="card" style={{width: "20rem", backgroundColor:"#008d6c"}}>
-                                <div className="card-body">
-                                    <h3 className="card-title">150 Mn+</h3>
-                                    <h5 className="card-subtitle" style={{color:"white"}}>Total Spend Addressed</h5>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card2*/}
-                        <div className="col-sm-4">
-                            <div className="card" style={{width: "20rem" , backgroundColor:"#2b3152"}}>
-                                <div className="card-body">
-                                    <h3 className="card-title" style={{color:"#008d6c"}}>1200+</h3>
-                                    <h5 className="card-subtitle" style={{color:"white"}}>Contracts Reviewed</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br/><br/>
-                 {/*card3*/}
-                 <div className="container">
-                    <div className="row">
-                        <div className="col-sm-8">
-                            <div className="card" style={{width: "20rem" , backgroundColor:"#2b3152"}}>
-                                <div className="card-body">
-                                    <h3 className="card-title" style={{color:"#008d6c"}}>60000+</h3>
-                                    <h5 className="card-subtitle" style={{color:"white"}}>Telecoms Bills Reviewed</h5>
-                                </div>
-                            </div>
-                        </div>
-                        {/*card4*/}
-                        <div className="col-sm-4">
-                            <div className="card" style={{width: "20rem", backgroundColor:"#008d6c"}}>
-                                <div className="card-body">
-                                    <h3 className="card-title">40+</h3>
-                                    <h5 className="card-subtitle" style={{color: "white"}}>Customers</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br/><br/><br/><br/><br/>
-
+                
                 {/*get a free consultation*/}
                 <div className="jumbotron">
                     <div className="row">
@@ -367,7 +234,7 @@ class Home extends React.Component{
                                     <textarea className="form-control" placeholder="Message"></textarea>
                                 </div>
                                 <div>
-                                    <button type="submit" class="btn btn-outline-success">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
                                 </div>
                             </form>
                         </div>

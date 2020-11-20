@@ -69,7 +69,7 @@
 .home-form-head {
   text-align: left;
   border-left-style: solid;
-  border-left-color: #ef692b;
+  border-left-color:var(--color-primary);
   border-left-width: 5px;
   padding-left: 10px;
 }
@@ -182,7 +182,7 @@
   text-decoration: unset;
 }
 .features-home .icon-box h3 {
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 15px;
   font-size: 20px;
 }
@@ -198,7 +198,12 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
+.features-home .icon-box p {
+  color: #545454;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
 .counters span{
   font-size: 2.5rem;
     /* display: block; */
