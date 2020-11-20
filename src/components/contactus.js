@@ -38,8 +38,8 @@ class Contact extends React.Component{
                             </div>
                         </form>
                     </div>
-                    <div className="col-md-4 contactus pa-auto">
-                        <div className="centered">
+                    <div className="col-md-4 d-flex contactus pa-auto">
+                        <div className="col-lg-6 m-auto align-self-center">
                             <div className="d-flex contactus-par-ele">
                                 <i class="fas fa-map-marker-alt"></i>
                                 <div className="d-flex contactus-ele">
