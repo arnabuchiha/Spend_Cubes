@@ -12,12 +12,15 @@
 }
 .fa-chevron-up,.fa-chevron-down{
     margin-right: 1rem;
+    font-size: medium;
+    color: var(--color-primary);
 }
 .collapse-faq {
     color:black;
 }
 .collapse-faq h5{
     float: left;
+    font-size: .9rem;
 }
 .collapse-faq:hover{
     color:gray;

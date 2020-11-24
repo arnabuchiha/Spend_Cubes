@@ -64,7 +64,11 @@ class faq extends React.Component{
         return(
             <div>
             <div className="container-fluid">
-            <div class="faq-bg"><h1 class="centered" style={{color: "white", fontSize: "2.2rem", fontWeight: "bold"}}>Frequently Asked Questions (FAQs)</h1></div>
+            <div className="faq-bg faq-search">
+                <div className="centered">
+                <h1  style={{color: "white", fontSize: "2.2rem", fontWeight: "bold"}}>Frequently Asked Questions (FAQs)</h1>
+                </div>
+            </div>
             </div>
             <div className="container" style={{marginTop:"20px"}}>
             <div className="row">
@@ -83,7 +87,7 @@ class faq extends React.Component{
                                         </a>
                                     </div>
                                     <div class="collapse faq" id={`collapse`+i}>
-                                    <div class="card card-body">
+                                    <div class="card-body">
                                         {ele.answer}
                                     </div>
                                     </div>
