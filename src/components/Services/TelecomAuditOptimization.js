@@ -1,10 +1,6 @@
 import React from "react";
 import "../../assets/styles/tao.css";
-import Cars from "../../assets/images/cars.svg"
-import Contract from "../../assets/images/contract.svg"
-import Building from "../../assets/images/building.svg"
-import Optimization from "../../assets/images/optimization.svg"
-import Recovery from "../../assets/images/recovery.svg"
+
 class TelecomAuditOptimization extends React.Component{
     render(){
         return(
@@ -26,16 +22,14 @@ class TelecomAuditOptimization extends React.Component{
                         <img src="https://static9.depositphotos.com/1518767/1119/i/950/depositphotos_11195040-stock-photo-businessman-talking-on-the-phone.jpg" class="img-fluid" alt=""/>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content">
-                        <p>Spend cubes’ Telecom audit and optimization process are tailor made and perfected over the years.
-Our methods are proven to identify over 95% of billing errors and leakages.
-
-We are detail oriented and create a robust USOC level inventory of all your locations and services
-and contracts. These services are analyzed with respect to contracts, industry standard
-benchmarked tariffs and rates.
-
-Experience team of order and dispute resolution specialists ensures, recommendations are
-implemented correctly and on time.</p>
-                        <button type="button" class="btn btn-primary">More About us</button>
+                        <p style={{textAlign:"left"}}>Spend cubes’ Telecom audit and optimization process are tailor made and perfected over the years.
+                            Our methods are proven to identify over 95% of billing errors and leakages.
+                            We are detail oriented and create a robust USOC level inventory of all your locations and services
+                            and contracts. These services are analyzed with respect to contracts, industry standard
+                            benchmarked tariffs and rates.
+                            Experience team of order and dispute resolution specialists ensures, recommendations are
+                            implemented correctly and on time.</p>
+                        <button type="button" class="btn btn-primary">Get in Touch</button>
                     </div>
                     </div>
                 </div>

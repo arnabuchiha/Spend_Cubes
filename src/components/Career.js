@@ -11,7 +11,7 @@ class Career extends React.Component{
                         <h2 className="centered career-heading">We are Hiring</h2>
                     </div>
                 </div>
-                <div className="jumbotron" style={{backgroundColor:"#f9f9fa"}}>
+                <div className="contactus-main jumbotron " style={{backgroundColor:"#f9f9fa"}}>
                 <div className="services-home">
                     <div className="section-title">
                             <h2 className="subheading">Current Openings</h2>

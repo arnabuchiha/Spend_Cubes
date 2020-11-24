@@ -203,7 +203,15 @@ p {
   left: calc(50% - 25px);
 }
 
-.underlined-subheading {
+.underlined-subheading h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.underlined-subheading h2::after {
   content: "";
   position: absolute;
   display: block;
