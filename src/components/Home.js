@@ -145,7 +145,7 @@ class Home extends React.Component{
                 </div>
                 <div className="jumbotron services-home">
                     <div className="section-title">
-                        <h2 className="subheading">Services</h2>
+                        <h2 className="subheading">Features</h2>
                     </div>
                     <p className="container">
                     We specialize in conducting telecommunication refunds & recovery audits. 

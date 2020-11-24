@@ -1,4 +1,7 @@
 import React from "react";
+import slide1 from "../../assets/images/slide-1.jpg";
+import slide2 from "../../assets/images/slide-2.jpg";
+import slide3 from "../../assets/images/slide-3.jpg";
 import Background1 from "../../assets/images/auditBackground1.jpg"
 import Background2 from "../../assets/images/auditBackground2.jpg"
 import Bank from "../../assets/images/bank.svg"
@@ -10,25 +13,17 @@ import Healthcare from "../../assets/images/healthcare.svg"
 import Consulting from "../../assets/images/laptop.svg"
 import Oil from "../../assets/images/oil.svg"
 import "../../assets/styles/service.css"
+import home_rrr from '../../assets/images/home-rrr.jpg';
 
 class Service extends React.Component{
     render(){
         return(
             <div>
-                <div className="container-fluid"><br/><br/><br/><br/>
-                    <div>
-                        <h2>Audit Solutions</h2>
-                        <span className="container"><i>
-                            Telecom bills with errors and inefficiencies can cost your company a staggering 12% – 25% per annum. Billing errors consist of errors ranging from contract non-compliances to simple misunderstood or incorrectly applied taxes.
-                            Our telecommunication specializes in obtaining refunds and saving money going forward for our customers located in North America.</i></span>
-                    </div>
-                </div>
-                <br/><br/><br/>
-
-                {/*carousel*/}
-                <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                {/*start of carousel*/}
+                <div className="container-fluid home-slider">
+                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                     <ol className="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
@@ -36,29 +31,29 @@ class Service extends React.Component{
                     </ol>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img className="d-block w-100" src={Background1} alt="First slide"/>
-                        <div className="carousel-caption mobile-caption">
-                            <h3>No Service Provider Changes</h3>
+                        <img className="d-block w-100" src={slide1} alt="First slide"/>
+                        <div className="carousel-caption">
+                            <h2>No Service <span>Provider Changes</span></h2>
                             <p><i>Usually service provider changes are less 
                             cost effective and lead to increased one-time
-                            expenses and service outages due to service <br/>
+                            expenses and service outages due to service
                             migration and equipment costs.</i></p>
                         </div>
                         </div>
                         <div className="carousel-item">
-                        <img className="d-block w-100" src={Background2} alt="Second slide"/>
-                        <div className="carousel-caption mobile-caption">
-                            <h3>Unbiased</h3>
+                        <img className="d-block w-100" src={slide2} alt="First slide"/>
+                        <div className="carousel-caption">
+                            <h2>Un<span>biased</span></h2>
                             <p><i>Contractually we guarantee get no commissions 
                             from service providers or encourage provider 
-                            migration. We work with your<br/> existing providers
+                            migration. We work with your existing providers
                             to get you on best rates available in the industry</i></p>
                         </div>
                         </div>
                         <div className="carousel-item">
-                        <img className="d-block w-100" src={Background1} alt="Third slide"/>
-                        <div className="carousel-caption mobile-caption">
-                            <h3>ROI Guaranteed</h3>
+                        <img className="d-block w-100" src={slide3} alt="First slide"/>
+                        <div className="carousel-caption">
+                            <h2>ROI <span>Guruanteed</span></h2>
                             <p><i>Spend Cubes will only invoice you upon activated
                             savings and delivered refunds. We contractually also
                             guarantee if our savings fall off due to changes in <br/>
@@ -66,36 +61,58 @@ class Service extends React.Component{
                         </div>
                         </div>
                         <div className="carousel-item">
-                        <img className="d-block w-100" src={Background2} alt="Fourth slide"/>
-                        <div className="carousel-caption mobile-caption">
-                            <h3>60 Days or Less</h3>
-                                <p><i>Savings start appearing on your invoices in<br/>
+                        <img className="d-block w-100" src={slide1} alt="First slide"/>
+                        <div className="carousel-caption">
+                            <h2>60 Days <span>or Less</span></h2>
+                            <p><i>Savings start appearing on your invoices in
                                 60 days or less</i></p>
                         </div>
                         </div>
                         <div className="carousel-item">
-                        <img className="d-block w-100" src={Background1} alt="Fifth slide"/>
-                        <div className="carousel-caption mobile-caption">
-                            <h3>No Penalty</h3>
-                            <p className="container"><i>You always have the option to leave us at any time,<br/>
+                        <img className="d-block w-100" src={slide2} alt="First slide"/>
+                        <div className="carousel-caption">
+                            <h2>No <span>Penalty</span></h2>
+                            <p><i>You always have the option to leave us at any time,
                              without penalty.</i></p>
                         </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span aria-hidden="true">
+                        <i className="fas fa-long-arrow-alt-left" aria-hidden="true"></i>
+                        </span>
                         <span className="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span aria-hidden="true">
+                        <i className="fas fa-long-arrow-alt-right" aria-hidden="true"></i>
+                        </span>
                         <span className="sr-only">Next</span>
                     </a>
+                    </div>
+                </div><br/><br/>
+                {/*end of carousel*/}
+
+                <div style={{backgroundColor:"#f9f9fa"}}>
+                <div class="container">
+
+                    <div class="row">
+                    <div class="col-lg-6">
+                        <img src={home_rrr} class="img-fluid" alt=""/>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 content">
+                        <h1 className="subheading"><strong>Audit Solutions</strong></h1>
+                        <p>Telecom bills with errors and inefficiencies can cost your company a staggering 12% – 25% per annum. 
+                            Billing errors consist of errors ranging from contract non-compliances to simple misunderstood or incorrectly applied taxes.
+                        Our telecommunication specializes in obtaining refunds and saving money going forward for our customers located in North America.</p>
+                    </div>
                 </div>
-                
+                </div>
+                </div>
+                <br/><br/><br/>
 
                 {/*table of services*/}
                 <div className="serv-table">
-                <br/><br/><br/><br/>
                 <div className="jumbotron">
                     <h3>We offer several variants of Telecom Auditing Services</h3><br/><br/>
                         <table class="table table-striped container service-table">
@@ -141,89 +158,37 @@ class Service extends React.Component{
                         </table>
                     </div>
                 </div>
-                <br/><br/>
 
                 {/*industries served*/}
-                <div>
-                    <h3 className="container-fluid" style={{color: "white", backgroundColor:"#2b3152", paddingBottom:"10px", paddingTop:"10px"}}>Industries Served</h3>
-                    <div className="container-fluid contain">
-                        {/*row1*/}
-                        <div className="row">
-                            <div className="col-sm-3">
-                                <img src={Bank} style={{height:"40px", width:"40px"}}/><br/>
-                                    <div className="et_pb_blurb_container">
-                                        <h4 className="et_pb_module_header">
-                                            <span>Banking & Financial</span>
-                                        </h4>
-                                    </div>
-                            </div>
-                            {/*end of col1*/}
-                            <div className="col-sm-3">
-                                <img src={Credit} style={{height:"40px", width:"40px"}}/><br/>
-                                    <div className="et_pb_blurb_container">
-                                        <h4 className="et_pb_module_header">
-                                            <span>Credit Unions</span>
-                                        </h4>
-                                    </div>
-                            </div>
-                            {/*end of col2*/}
-                            <div className="col-sm-3">
-                                <img src={Legal} style={{height:"40px", width:"40px"}}/><br/>
-                                    <div className="et_pb_blurb_container">
-                                        <h4 className="et_pb_module_header">
-                                            <span>Legal</span>
-                                        </h4>
-                                    </div>
-                            </div>
-                            {/*end of col3*/}
-                            <div className="col-sm-3">
-                                <img src={Construction} style={{height:"40px", width:"40px"}}/><br/>
-                                    <div className="et_pb_blurb_container">
-                                        <h4 className="et_pb_module_header">
-                                            <span>Construction</span>
-                                        </h4>
-                                    </div>
-                            </div>
+                <div className="jumbotron services-home">
+                    <div className="section-title">
+                        <h2 className="subheading">Industries Served</h2>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-3">
+                        <div class="icon-box">
+                        <i class="fas fa-clipboard"></i>
+                        <h3><a href="">Banking & Financial</a></h3>
                         </div>
-                        {/*end of row1*/}
-
-                        <div className="row">
-                            <div className="col-sm-3">
-                                <img src={Education} style={{height:"40px", width:"40px"}}/><br/>
-                                    <div className="et_pb_blurb_container">
-                                        <h4 className="et_pb_module_header">
-                                            <span>Education</span>
-                                        </h4>
-                                    </div>
-                            </div>
-                            {/*end of col1*/}
-                            <div className="col-sm-3">
-                                <img src={Healthcare} style={{height:"40px", width:"40px"}}/><br/>
-                                    <div className="et_pb_blurb_container">
-                                        <h4 className="et_pb_module_header">
-                                            <span>Healthcare</span>
-                                        </h4>
-                                    </div>
-                            </div>
-                            {/*end of col2*/}
-                            <div className="col-sm-3">
-                                <img src={Consulting} style={{height:"40px", width:"40px"}}/><br/>
-                                    <div className="et_pb_blurb_container">
-                                        <h4 className="et_pb_module_header">
-                                            <span>Consulting & IT</span>
-                                        </h4>
-                                    </div>
-                            </div>
-                            {/*end of col3*/}
-                            <div className="col-sm-3">
-                                <img src={Oil} style={{height:"40px", width:"40px"}}/><br/>
-                                    <div className="et_pb_blurb_container">
-                                        <h4 className="et_pb_module_header">
-                                            <span>Oil & Gas</span>
-                                        </h4>
-                                    </div>
-                            </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3><a href="">mobile / Wireless audits</a></h3>
                         </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-percentage"></i>
+                        <h3><a href="">telecom refund audits</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-calculator"></i>
+                        <h3><a href="">telecom tax audit</a></h3>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
