@@ -109,11 +109,11 @@ class Service extends React.Component{
                 </div>
                 </div>
                 </div>
-                <br/><br/><br/>
+                <br/><br/>
 
                 {/*table of services*/}
                 <div className="serv-table">
-                <div className="jumbotron">
+                <div className="jumbotron" style={{backgroundColor:"#f9f9fa"}}>
                     <h3>We offer several variants of Telecom Auditing Services</h3><br/><br/>
                         <table class="table table-striped container service-table">
                             <thead>
@@ -160,34 +160,64 @@ class Service extends React.Component{
                 </div>
 
                 {/*industries served*/}
-                <div className="jumbotron services-home">
+                <div className="jumbotron features-home services-home">
                     <div className="section-title">
                         <h2 className="subheading">Industries Served</h2>
                     </div>
+                    <div className="container">
                     <div class="row">
                     <div class="col-lg-3">
                         <div class="icon-box">
-                        <i class="fas fa-clipboard"></i>
+                        <i class="fas fa-university"></i>   
                         <h3><a href="">Banking & Financial</a></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-4 mt-lg-0">
                         <div class="icon-box">
-                        <i class="fas fa-phone-alt"></i>
-                        <h3><a href="">mobile / Wireless audits</a></h3>
+                        <i class="fas fa-wallet"></i>
+                        <h3><a href="">Credit Unions</a></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-4 mt-lg-0">
                         <div class="icon-box">
-                        <i class="fas fa-percentage"></i>
-                        <h3><a href="">telecom refund audits</a></h3>
+                        <i class="fas fa-balance-scale"></i>
+                        <h3><a href="">Legal</a></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-4 mt-lg-0">
                         <div class="icon-box">
-                        <i class="fas fa-calculator"></i>
-                        <h3><a href="">telecom tax audit</a></h3>
+                        <i class="fas fa-tools"></i>
+                        <h3><a href="">Construction</a></h3>
                         </div>
+                    </div>
+                    </div><br/>
+                    {/*end of row1*/}
+
+                    <div class="row">
+                    <div class="col-lg-3">
+                        <div class="icon-box">
+                        <i class="fas fa-graduation-cap"></i>   
+                        <h3><a href="">Education</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-heartbeat"></i>
+                        <h3><a href="">Healthcare</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3><a href="">Consulting & IT</a></h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mt-4 mt-lg-0">
+                        <div class="icon-box">
+                        <i class="fas fa-gas-pump"></i>
+                        <h3><a href="">Oil & Gas</a></h3>
+                        </div>
+                    </div>
                     </div>
                     </div>
                 </div>
