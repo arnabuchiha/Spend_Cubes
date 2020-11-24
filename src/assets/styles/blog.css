@@ -1,5 +1,9 @@
 .carousel-control-prev{
-    color:white;
+    color:rgb(122, 120, 120);
+    transition: all 0.3s ease-in-out;
+}
+.carousel-control-next:active{
+    color:rgb(122, 120, 120);
     transition: all 0.3s ease-in-out;
 }
 .carousel-control-prev:hover{
@@ -7,6 +11,10 @@
 }
 .carousel-control-next:hover{
     color:var(--color-secondary);
+}
+.carousel-control-next{
+    color:rgb(122, 120, 120);
+    transition: all 0.3s ease-in-out;
 }
 .fas{
     font-weight: 900;

@@ -69,14 +69,23 @@ class Contact extends React.Component{
                                 </div>
                             </div>
                             
-                            <div className="d-flex contactus-par-ele">
+                            <div className="d-flex contactus-par-ele email-ele">
                                 <i class="far fa-envelope"></i>
                                 <div className="d-flex contactus-ele">
                                     <span>Email Us</span>
                                     <a href="mailto: business@spendcubes.com">business@spendcubes.com</a>
                                 </div>
                             </div>
+                            <div className="d-flex contactus-par-ele">
+                                <div class="social-footer-icons">
+                                    <ul class="d-inline">
+                                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://twitter.com/?lang=en"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
+                        
                     </div>
                     <div className="col-md-2"></div>
                 </div>
