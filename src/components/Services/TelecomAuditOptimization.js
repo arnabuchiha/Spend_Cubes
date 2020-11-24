@@ -11,12 +11,13 @@ class TelecomAuditOptimization extends React.Component{
             <div className="tao">
                 {/*heading with background*/}
                 <div className="container-fluid">
-                    {/* <div className="section-title">
-                            <h2 className="subheading" style={{fontWeight:"bold"}}>Telecom Audit & Optimization</h2>
-                        </div> */}
-                    <div className="bg1 img-fluid">
-                        <h3 className="centered serv1-heading">Telecom Audit & <br/> Optimization</h3>
+                    <div className="shadow-title">
+                        <span>Telecom Audit & Optimization</span>
+                        <h2>Telecom Audit & Optimization</h2>
                     </div>
+                    {/* <div className="bg1 img-fluid">
+                        <h3 className="centered serv1-heading">Telecom Audit & <br/> Optimization</h3>
+                    </div> */}
                 </div>
                 <div class="container">
 
@@ -37,17 +38,6 @@ implemented correctly and on time.</p>
                         <button type="button" class="btn btn-primary">More About us</button>
                     </div>
                     </div>
-                </div>
-                {/*paragraph*/}
-                <div className="jumbotron">
-                    <p className="container-fluid">
-                    Spend cubes’ Telecom audit and optimization process are tailor made and perfected over the years. <br/>
-                    Our methods are proven to identify over 95% of billing errors and leakages.<br/><br/>
-                    We are detail oriented and create a robust USOC level inventory of all your locations and services <br/>
-                    and contracts. These services are analyzed with respect to contracts, industry standard <br/>
-                    benchmarked tariffs and rates.<br/><br/>
-                    Experience team of order and dispute resolution specialists ensures, recommendations are <br/>
-                    implemented correctly and on time.</p>
                 </div>
                 <br/><br/><br/>
                 <div>

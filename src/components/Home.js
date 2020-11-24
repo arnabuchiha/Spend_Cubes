@@ -194,7 +194,6 @@ class Home extends React.Component{
 
                 </div>
                 </div>
-                <br/><br/><br/>
                 
                 {/*Carousel*/}
                 
@@ -203,7 +202,7 @@ class Home extends React.Component{
                 {/*card1*/}
                 
                 {/*get a free consultation*/}
-                <div className="jumbotron">
+                <div className="container">
                     <div className="row">
                     <div className="col-md-1"></div>
                         <div className="col-md-4">
@@ -241,6 +240,7 @@ class Home extends React.Component{
                         
                     </div>
                 </div>
+                <br></br>
             </div>
         );
     }
