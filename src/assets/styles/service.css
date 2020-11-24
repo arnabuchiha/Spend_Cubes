@@ -1,5 +1,14 @@
+.section-title-service {
+  text-align: left;
+  margin-left: 50px;
+}
+
 .carousel-caption {
   top: 40% !important;
+}
+
+.serv-table {
+  background-color: #f9f9fa;
 }
 
 .service-table {
