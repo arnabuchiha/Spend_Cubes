@@ -5,16 +5,18 @@ class Career extends React.Component{
     render(){
         return(
             <div>
+                
                 <div className="container-fluid">
                     <div className="bg-color img-fluid">
                         <h2 className="centered career-heading">We are Hiring</h2>
                     </div>
                 </div>
-                <br/><br/>
-                <div>
-                    <h3 className="jumbotron" style={{color: "white", backgroundColor:"#2b3152", paddingBottom:"10px", paddingTop:"10px"}}>Current Openings</h3>
+                <div className="contactus-main jumbotron " style={{backgroundColor:"#f9f9fa"}}>
+                <div className="services-home">
+                    <div className="section-title">
+                            <h2 className="subheading">Current Openings</h2>
+                    </div>
                 </div>
-                <br/>
                 <div>
                     <div>
                         <h4 className="container description">Job Description: Analyst</h4><br/>
@@ -26,12 +28,13 @@ class Career extends React.Component{
                             <p><strong>Role Category:</strong> Analyst</p>
                             <p><strong>Location:</strong> Laxmi Nagar, Delhi</p>
                             <p><strong>Shift Timing:</strong> 2:00 PM To 11:00 PM</p>
-                            <button type="button" className="btn btn-info">Know More</button>
+                            <button type="button" className="btn btn-primary">Know More</button><br/>
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
-        )
+        )   
     }
 }
 
