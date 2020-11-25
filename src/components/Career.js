@@ -12,11 +12,11 @@ class Career extends React.Component{
                     </div>
                 </div>
                 <div className="contactus-main jumbotron " style={{backgroundColor:"#f9f9fa"}}>
-                <div className="services-home">
+                {/* <div className="services-home">
                     <div className="section-title">
                             <h2 className="subheading">Current Openings</h2>
                     </div>
-                </div>
+                </div> */}
                 <div>
                     <div>
                         <h4 className="container description">Job Description: Analyst</h4><br/>
