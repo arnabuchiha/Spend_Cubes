@@ -5,28 +5,7 @@
     background: #eee !important;
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: #108d6f;
-    border-color: #108d6f;
-    box-shadow: none;
-    outline: none;
-}
 
-.btn-primary {
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 30px 10px 30px;
-    border-radius: 4px;
-    transition: 0.5s;
-    color: #fff;
-    background: var(--color-primary);
-    border-color: var(--color-primary);
-    box-shadow: 0 8px 28px rgba(22, 223, 126, 0.45);
-}
 
 
 section {
@@ -35,7 +14,7 @@ section {
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: black;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -126,12 +105,12 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: var(--color-primary);
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: black !important;
 }
 
 .frontside .card .card-img-top {
