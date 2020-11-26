@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/styles/tta.css";
+import organization from "../../assets/images/tta-image.png"
 
 
 class TelecomTaxAudit extends React.Component{
@@ -56,6 +57,29 @@ class TelecomTaxAudit extends React.Component{
                             </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div className="contain container-fluid">
+                    <div className="underlined-subheading">
+                        <h2 className="subheading">Who should use Telecom Tax Audit</h2>
+                    </div><br/><br/>
+                    <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">  
+                            <img src={organization} style={{height:"30vh", backgroundSize:"cover"}}/>
+                        </div>
+                        <div className="col-lg-6 pt-4 pt-lg-0 content">
+                        <ul className=" fa-ul">
+                            <li><i className="fa fa-check-circle"></i>Local, State Government</li>
+                            <li><i className="fa fa-check-circle"></i>Federal Credit Unions</li>
+                            <li><i className="fa fa-check-circle"></i>non-Profit Organizations</li>
+                            <li><i className="fa fa-check-circle"></i>Telecom spend over $500,000 annually</li>
+                            <li><i className="fa fa-check-circle"></i>Call Centers</li>
+                            <li><i className="fa fa-check-circle"></i>Companies in opportunity/enterprize zones</li>
+                        </ul>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>

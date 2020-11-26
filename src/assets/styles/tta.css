@@ -22,6 +22,10 @@
   font-size: 4em;
 }
 
+tta-bg-img {
+  height: 200rem;
+  width: 500rem;
+}
 @media only screen and (max-width: 768px) {
   .serv4-heading {
     font-size: 2em;
