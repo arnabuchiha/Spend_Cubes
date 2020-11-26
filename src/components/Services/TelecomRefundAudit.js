@@ -9,7 +9,6 @@ class TelecomRefundAudit extends React.Component{
                 {/*heading with background*/}
                 <div className="container-fluid">
                     <div className="shadow-title">
-                        <span>Telecom Refund Audit</span>
                         <h2>Telecom Refund Audit</h2>
                     </div>
                 </div>
