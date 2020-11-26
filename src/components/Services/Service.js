@@ -105,6 +105,7 @@ class Service extends React.Component{
                         <p>Telecom bills with errors and inefficiencies can cost your company a staggering 12% – 25% per annum. 
                             Billing errors consist of errors ranging from contract non-compliances to simple misunderstood or incorrectly applied taxes.
                         Our telecommunication specializes in obtaining refunds and saving money going forward for our customers located in North America.</p>
+                        <button type="button" class="btn btn-primary">Get in Touch</button>
                     </div>
                 </div>
                 </div>
