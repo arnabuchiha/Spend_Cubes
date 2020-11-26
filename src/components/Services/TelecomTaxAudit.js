@@ -42,14 +42,14 @@ class TelecomTaxAudit extends React.Component{
                     </div><br/>
                     <div className="container">                    
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 pt-4 pt-lg-0 content">
                             <div className="icon-box">
                                 <h4 style={{textAlign:"left"}}>Federal, State & Local Taxes</h4>
                                 <p  style={{textAlign:"left"}}>Call Centers, Data Centers, Non-Profit organizations, Federal, 
                                 State and Local Government Bodies, Schools, Hospitals, Credit Unions, other exempted organizations</p>
                             </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 pt-4 pt-lg-0 content">
                             <div className="icon-box">
                                 <h4 style={{textAlign:"left"}}>FUSF Tax Research</h4>
                                 <p  style={{textAlign:"left"}}>Telecom Service Resellers, VOIP providers, Companies with majority 
@@ -67,10 +67,10 @@ class TelecomTaxAudit extends React.Component{
                     <div className="container">
                     <div className="row">
                         <div className="col-lg-6">  
-                            <img src={organization} style={{height:"30vh", backgroundSize:"cover"}}/>
+                            <img src={organization} class="img-fluid" alt=""/>
                         </div>
                         <div className="col-lg-6 pt-4 pt-lg-0 content">
-                        <ul className=" fa-ul">
+                        <ul className="fa-ul">
                             <li><i className="fa fa-check-circle"></i>Local, State Government</li>
                             <li><i className="fa fa-check-circle"></i>Federal Credit Unions</li>
                             <li><i className="fa fa-check-circle"></i>non-Profit Organizations</li>

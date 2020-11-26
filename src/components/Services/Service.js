@@ -2,16 +2,6 @@ import React from "react";
 import slide1 from "../../assets/images/slide-1.jpg";
 import slide2 from "../../assets/images/slide-2.jpg";
 import slide3 from "../../assets/images/slide-3.jpg";
-import Background1 from "../../assets/images/auditBackground1.jpg"
-import Background2 from "../../assets/images/auditBackground2.jpg"
-import Bank from "../../assets/images/bank.svg"
-import Credit from "../../assets/images/money.svg"
-import Legal from "../../assets/images/law.svg"
-import Construction from "../../assets/images/construction.svg"
-import Education from "../../assets/images/education.svg"
-import Healthcare from "../../assets/images/healthcare.svg"
-import Consulting from "../../assets/images/laptop.svg"
-import Oil from "../../assets/images/oil.svg"
 import "../../assets/styles/service.css"
 import home_rrr from '../../assets/images/home-rrr.jpg';
 

@@ -87,6 +87,18 @@
   .home-bg-content {
     font-size: 15px;
   }
+
+  .home-slider .carousel-item .carousel-caption {
+    top: 20% !important;
+  }
+
+  .home-slider .carousel-item .carousel-caption h2 {
+    font-size: 24px;
+  }
+
+  .home-slider .carousel-item .carousel-caption p {
+    font-size: 1rem;
+  }
 }
 
 .home-slider .carousel-item::before {
@@ -221,7 +233,7 @@ p {
   bottom: 0;
   left: calc(50% - 25px);
 }
-.btn-primary{
+.btn-primary {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
