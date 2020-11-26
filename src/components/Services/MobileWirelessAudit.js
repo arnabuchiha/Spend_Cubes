@@ -8,7 +8,6 @@ class MobileWirelessAudit extends React.Component{
             <div>
                 <div className="container-fluid">
                     <div className="shadow-title">
-                        <span>Mobile & Wireless Audit</span>
                         <h2>Mobile & Wireless Audit</h2>
                     </div>
                 </div>

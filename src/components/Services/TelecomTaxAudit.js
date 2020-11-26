@@ -9,7 +9,6 @@ class TelecomTaxAudit extends React.Component{
             <div>
                <div className="container-fluid">
                     <div className="shadow-title">
-                        <span>Telecom Tax Audit</span>
                         <h2>Telecom Tax Audit</h2>
                     </div>
                 </div>

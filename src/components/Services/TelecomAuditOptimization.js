@@ -8,7 +8,6 @@ class TelecomAuditOptimization extends React.Component{
                 {/*heading with background*/}
                 <div className="container-fluid">
                     <div className="shadow-title">
-                        <span>Telecom Audit & Optimization</span>
                         <h2>Telecom Audit & Optimization</h2>
                     </div>
                     {/* <div className="bg1 img-fluid">
