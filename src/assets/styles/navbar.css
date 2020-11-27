@@ -29,7 +29,18 @@ nav,.dropdown-item{
     text-decoration: none;
     color:white;
 }
-.navbar .nav-item:hover .dropdown-menu{ display: block; }
+@media screen and (min-width:990px){
+    .navbar .nav-item:hover .dropdown-menu{ display: block;    transition: ease-in-out 0.2s; }
+}
+@media screen and (max-width:990px){
+    .navbar .nav-item .dropdown-menu{
+        border: none;
+    }
+    .navbar .nav-item .dropdown-item{
+        padding-left: 20px;
+        transform: translateY(0);
+    }
+}
 .navbar .nav-item .dropdown-menu{ margin-top:0; }
 
 .social-footer-icons li{
