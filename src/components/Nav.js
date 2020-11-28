@@ -2,6 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router,Link} from 'react-router-dom';
 import "../assets/styles/navbar.css"
 import logo from "../assets/icons/web-logo.png"
+
 class Nav extends React.Component {
   render() {    
     return (
@@ -42,7 +43,7 @@ class Nav extends React.Component {
                     <a className="nav-link" href="/career">Career</a>
                 </li>
                 <li className="nav-item">
-                    <button className="btn my-2 my-sm-0 get-started-button"><a href="/login" style={{textDecoration:"none", color:"white"}}>Get Started</a></button>
+                <a href="/login" style={{textDecoration:"none", color:"white"}}><button className="btn my-2 my-sm-0 get-started-button">Get Started</button></a>
                 </li>
                 </ul>
             </div>
