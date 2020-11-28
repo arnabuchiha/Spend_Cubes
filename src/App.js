@@ -15,6 +15,8 @@ import faq from './components/AboutUs/faq';
 import Career from "./components/Career";
 import Contact from './components/contactus';
 import Footer from './components/Footer';
+import Login from "./components/GetStarted/Login";
+import Signup from "./components/GetStarted/Signup";
 
 class App extends Component {
   render(){
@@ -35,6 +37,8 @@ class App extends Component {
             <Route path="/telecomTaxAudit" component={TelecomTaxAudit}/>
             <Route path="/career" component={Career}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/login" component={Login}/>
+            <Route path="signup" component={Signup}/>
           </Switch>
           <Footer/>
         </Router>

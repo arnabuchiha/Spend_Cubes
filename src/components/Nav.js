@@ -42,7 +42,7 @@ class Nav extends React.Component {
                     <a className="nav-link" href="/career">Career</a>
                 </li>
                 <li className="nav-item">
-                    <button className="btn my-2 my-sm-0 get-started-button">Get Started</button>
+                    <button className="btn my-2 my-sm-0 get-started-button"><a href="/login" style={{textDecoration:"none", color:"white"}}>Get Started</a></button>
                 </li>
                 </ul>
             </div>
