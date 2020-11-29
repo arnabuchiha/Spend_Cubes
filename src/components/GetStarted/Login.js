@@ -16,12 +16,12 @@ class Login extends React.Component{
                             <div className="welcome-msg">WELCOME BACK</div>
                             <h2>Log in to SpendCubes</h2>
                             <div class="input-group form-group">
-                            <input type="email" class="form-control" placeholder="Email" />
+                            <input type="email" class="input-field" placeholder="Email" />
                             <span class="bar"></span>
                             </div>
                             
                             <div class="input-group form-group">
-                            <input type="password" class="form-control" placeholder="password" />
+                            <input type="password" class="input-field" placeholder="password" />
                             <span class="bar"></span>
                             </div>
 
