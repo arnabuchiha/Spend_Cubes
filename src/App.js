@@ -38,7 +38,7 @@ class App extends Component {
             <Route path="/career" component={Career}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/login" component={Login}/>
-            <Route path="signup" component={Signup}/>
+            <Route path="/signup" component={Signup}/>
           </Switch>
           <Footer/>
         </Router>
