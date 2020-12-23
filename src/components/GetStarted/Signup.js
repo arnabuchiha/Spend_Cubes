@@ -3,38 +3,42 @@ import React from "react";
 class Signup extends React.Component{
     render(){
         return(
-            <div>
+            <div className="getting-started">
                 <div className="contain container-fluid">
-                    <div className="underlined-subheading">
-                        <h2 className="subheading">Connect With Us</h2>
-                    </div>
                     <div className="row">
                         <div className="col-md-1"></div>
                         <div className="col-md-5">
                             <form className="container form-box get-started">
-                                <div>
-                                    <h3>Sign Up</h3>
-                                </div>
+                            <div class="Bar" style={{backgroundColor: "#16df7e4d", height: "10px"}}><div class="Progress" style={{backgroundColor: "rgb(42, 223, 175)", width: "0%"}}></div></div>
+                            <div className="welcome-msg">CREATE AN ACCOUNT</div>
+                            <h2>Sign up to lower your bills and never wait on hold again.</h2>
                             <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Name"/>
+                                    <input type="text" className="input-field" placeholder="Name"/>
+                                    <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="Email" className="form-control" placeholder="Email Address"/>
+                                    <input type="Email" className="input-field" placeholder="Email Address"/>
+                                    <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="password" className="form-control" placeholder="Create Password"/>
+                                    <input type="password" className="input-field" placeholder="Create Password"/>
+                                    <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="tel" className="form-control" placeholder="Phone Number"/>
+                                    <input type="tel" className="input-field" placeholder="Phone Number"/>
+                                    <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Organization"/>
+                                    <input type="text" className="input-field" placeholder="Organization"/>
+                                    <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Job Title"/>
+                                    <input type="text" className="input-field" placeholder="Job Title"/>
+                                    <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Company Website"/>
+                                    <input type="text" className="input-field" placeholder="Company Website"/>
+                                    <span class="bar"></span>   
                                 </div>
                                 <div>
                                     <button type="submit" class="btn btn-primary">Submit</button>

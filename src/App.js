@@ -40,7 +40,7 @@ class App extends Component {
             <Route path="/login" component={Login}/>
             <Route path="/signup" component={Signup}/>
           </Switch>
-          <Footer/>
+          {/* <Footer/> */}
         </Router>
       </div>
     )
