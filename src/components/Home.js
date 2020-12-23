@@ -36,14 +36,14 @@ class Home extends React.Component{
                         <img className="d-block w-100" src={slide2} alt="First slide"/>
                         <div className="carousel-caption">
                             <h2>Helping <span>Business</span></h2>
-                            <p>Getting rid of telecom billing inefficiencies and over-charges without changing telecommunication providers.</p>
+                            <p>Getting rid of telecom billing inefficiencies and over-charges without changing telecommunication providers</p>
                         </div>
                         </div>
                         <div className="carousel-item">
                         <img className="d-block w-100" src={slide3} alt="First slide"/>
                         <div className="carousel-caption">
                             <h2>Solutions for <span>TEM Providers</span> & <span>Telecom Auditing Companies</span></h2>
-                            <p>White-Labeled services designed to suit business needs of our partners and their customers. Our goal is to provide maximum savings, timely delivery and efficient operations.</p>
+                            <p>White-Labeled services designed to suit business needs of our partners and their customers. Our goal is to provide maximum savings, timely delivery and efficient operations</p>
                         </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@ class Home extends React.Component{
                     <div class="row counters">
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up" data-content="150">150Mn+</span>
+                        <span data-toggle="counter-up" data-content="150">$150Mn+</span>
                         <p>Total Spend Addressed</p>
                     </div>
 
@@ -149,8 +149,8 @@ class Home extends React.Component{
                     <div class="col-lg-4">
                         <div class="icon-box">
                         <i class="fas fa-book"></i>
-                        <h3><a href="">Exhaustive knowledge base's</a></h3>
-                        <p>Years of research on recurring costs,plans, services and taxes.Helps maximize savings</p>
+                        <h3><a href="">Exhaustive knowledge bases</a></h3>
+                        <p>Years of research on recurring costs,plans, services and taxes helps maximize savings</p>
                         </div>
                     </div>
                     <div class="col-lg-4 mt-4 mt-lg-0">
@@ -176,9 +176,16 @@ class Home extends React.Component{
                     </div>
                     <div class="col-lg-4 mt-4">
                         <div class="icon-box">
+                        <i class="fas fa-user-shield"></i>
+                        <h3><a href="">Risk Free </a></h3>
+                        <p>Gain Share model-we get paid only once we recover the money from the service providers</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4">
+                        <div class="icon-box">
                         <i class="fas fa-check-circle"></i>
-                        <h3><a href="">Risk Free & Efficiency to Value</a></h3>
-                        <p>Gain Share model we get paid only once we recover the money from the service providers 10-25% average savings for our customers</p>
+                        <h3><a href="">Efficiency To Value</a></h3>
+                        <p>10-25% average savings for our customers</p>
                         </div>
                     </div>
                     </div>
@@ -186,11 +193,7 @@ class Home extends React.Component{
                 </div>
                 </div>
                 
-                {/*Carousel*/}
                 
-                {/*end of col5*/}
-
-                {/*card1*/}
                 
                 {/*get a free consultation*/}
                 <div className="container">
