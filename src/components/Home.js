@@ -4,6 +4,8 @@ import slide2 from "../assets/images/slide-2.jpg";
 import slide3 from "../assets/images/slide-3.jpg";
 import "../assets/styles/home.css"
 import home_rrr from '../assets/images/home-rrr.jpg';
+import $ from 'jquery';
+import { NavLink } from "react-router-dom";
 class Home extends React.Component{
     render(){
         return(
@@ -18,7 +20,7 @@ class Home extends React.Component{
                     </div>
                 </div> */}
                 <div className="container-fluid home-slider">
-                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="5000">
                     <ol className="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -67,25 +69,25 @@ class Home extends React.Component{
                     <div class="col-lg-3">
                         <div class="icon-box">
                         <i class="fas fa-clipboard"></i>
-                        <h3><a href="">Telecom Audit & optimization</a></h3>
+                        <h3><NavLink to="/telecomAuditOptimization">Telecom Audit & optimization</NavLink></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-4 mt-lg-0">
                         <div class="icon-box">
                         <i class="fas fa-phone-alt"></i>
-                        <h3><a href="">mobile / Wireless audits</a></h3>
+                        <h3><NavLink to="/mobileWirelessAudit">Mobile / Wireless audits</NavLink></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-4 mt-lg-0">
                         <div class="icon-box">
                         <i class="fas fa-percentage"></i>
-                        <h3><a href="">telecom refund audits</a></h3>
+                        <h3><NavLink to="/telecomRefundAudit">telecom refund audits</NavLink></h3>
                         </div>
                     </div>
                     <div class="col-lg-3 mt-4 mt-lg-0">
                         <div class="icon-box">
                         <i class="fas fa-calculator"></i>
-                        <h3><a href="">telecom tax audit</a></h3>
+                        <h3><NavLink to="/telecomTaxAudit">telecom tax audit</NavLink></h3>
                         </div>
                     </div>
                     </div>
@@ -102,7 +104,7 @@ class Home extends React.Component{
                         <p>Spend Cubes is fresh, agile and focused, with customer-centric approach. 
                         <br/>Professionals at Spend Cubes bring together decades of experience and expertise
                         in telecom lifecycle management, refunds and recovery.</p>
-                        <button type="button" class="btn btn-primary">More About us</button>
+                        <NavLink to="/about" className="btn btn-primary">More About Us</NavLink>
                     </div>
                 </div>
 
@@ -117,12 +119,12 @@ class Home extends React.Component{
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up" data-content="150">1200+</span>
+                        <span data-toggle="counter-up" data-content="150">1,200+</span>
                         <p>Contracts reviewed</p>
                     </div>
 
                     <div class="col-lg-3 col-6 text-center">
-                        <span data-toggle="counter-up" data-content="150">60000+</span>
+                        <span data-toggle="counter-up" data-content="150">60,000+</span>
                         <p>Telecoms Bill Reviewed</p>
                     </div>
 
@@ -171,7 +173,7 @@ class Home extends React.Component{
                         <div class="icon-box">
                         <i class="fas fa-piggy-bank"></i>
                         <h3><a href="">Speed to Savings</a></h3>
-                        <p>First results of refunds and savings start within the 1’st billing cycle</p>
+                        <p>First results of refunds and savings start within the 1st billing cycle</p>
                         </div>
                     </div>
                     <div class="col-lg-4 mt-4">
@@ -202,7 +204,7 @@ class Home extends React.Component{
                         <div className="col-md-4">
                             <h2 className="home-form-head">Get a Free Consultation</h2>
                                 <p className="container home-form-content">As a leading Telecom Expense Management company, Spend Cubes believes in a “Partnership Approach” with its clients who are some of the world’s best brands. Through our global delivery network and a comprehensive outsourcing service offerings, we deliver business value to our clients by combining operational excellence and deep domain – industry and functional – knowledge.
-                                    <br/>We bring our deep industry knowledge combined with in-house tools to ensure Quality & timely delivery of our solutions.
+                                    <br/>We bring our deep industry knowledge combined with in-house tools to ensure Quality & timely delivery of our solutions. Enter your contact information for a free consultation.
                                 </p>
                         </div>
                         <div className="col-md-1"></div>

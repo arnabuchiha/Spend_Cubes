@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router,Link} from 'react-router-dom';
+import {BrowserRouter as Router,Link,NavLink} from 'react-router-dom';
 import "../assets/styles/navbar.css"
 import logo from "../assets/icons/web-logo.png"
 
@@ -16,34 +16,34 @@ class Nav extends React.Component {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                    <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                    <NavLink exact to="/" className="nav-link" activeClassName="active">Home</NavLink>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">About</a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="nav-link dropdown-item" href="/about">Team</a>
-                        <a className="nav-link dropdown-item" href="/blog">Blog</a>
-                        <a className="nav-link dropdown-item" href="/faq">FAQ</a>
+                        <NavLink to="/about" className="nav-link dropdown-item" activeClassName="active" >Team</NavLink>
+                        <NavLink to="/blog" className="nav-link dropdown-item" activeClassName="active">Blog</NavLink>
+                        <NavLink to="/faq" className="nav-link dropdown-item" activeClassName="active">FAQ</NavLink>
                     </div>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services</a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="nav-link dropdown-item" href="/service">Audit Solutions</a>
-                        <a className="nav-link dropdown-item" href="/telecomAuditOptimization">Telecom Audit and Optimization</a>
-                        <a className="nav-link dropdown-item" href="/mobileWirelessAudit">Mobile and Wireless Audit</a>
-                        <a className="nav-link dropdown-item" href="/telecomRefundAudit">Telecom Refund Audit</a>
-                        <a className="nav-link dropdown-item" href="/telecomTaxAudit">Telecom Tax Audit</a>
+                    <NavLink to="/service" className="nav-link dropdown-item" activeClassName="active">Audit Solutions</NavLink>
+                    <NavLink to="/telecomAuditOptimization" className="nav-link dropdown-item" activeClassName="active">Telecom Audit and Optimization</NavLink>
+                    <NavLink to="/mobileWirelessAudit" className="nav-link dropdown-item" activeClassName="active">Mobile and Wireless Audit</NavLink>
+                    <NavLink to="/telecomRefundAudit" className="nav-link dropdown-item" activeClassName="active">Telecom Refund Audit</NavLink>
+                    <NavLink to="/telecomTaxAudit" className="nav-link dropdown-item" activeClassName="active">Telecom Tax Audit</NavLink>
                     </div>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/contact">Contact</a>
+                    <NavLink to="/contact" className="nav-link dropdown-item" activeClassName="active">Contact</NavLink>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="/career">Career</a>
+                    <NavLink to="/career" className="nav-link dropdown-item" activeClassName="active">Career</NavLink>
                 </li>
                 <li className="nav-item">
-                <a href="/login" style={{textDecoration:"none", color:"white"}}><button className="btn my-2 my-sm-0 get-started-button">Get Started</button></a>
+                    <NavLink to="/login" style={{textDecoration:"none", color:"white"}} className="btn my-2 my-sm-0 get-started-button">Get Started</NavLink>
                 </li>
                 </ul>
             </div>
