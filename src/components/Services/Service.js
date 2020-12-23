@@ -43,10 +43,10 @@ class Service extends React.Component{
                         <div className="carousel-item">
                         <img className="d-block w-100" src={slide3} alt="First slide"/>
                         <div className="carousel-caption">
-                            <h2>ROI <span>Guruanteed</span></h2>
+                            <h2>ROI <span>Guaranteed</span></h2>
                             <p><i>Spend Cubes will only invoice you upon activated
                             savings and delivered refunds. We contractually also
-                            guarantee if our savings fall off due to changes in <br/>
+                            guarantee if our savings fall off due to changes in 
                             the middle of our term, we stop billing.</i></p>
                         </div>
                         </div>

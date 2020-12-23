@@ -72,10 +72,10 @@ class TelecomTaxAudit extends React.Component{
                         <ul className="fa-ul">
                             <li><i className="fa fa-check-circle"></i>Local, State Government</li>
                             <li><i className="fa fa-check-circle"></i>Federal Credit Unions</li>
-                            <li><i className="fa fa-check-circle"></i>non-Profit Organizations</li>
+                            <li><i className="fa fa-check-circle"></i>Non-Profit Organizations</li>
                             <li><i className="fa fa-check-circle"></i>Telecom spend over $500,000 annually</li>
                             <li><i className="fa fa-check-circle"></i>Call Centers</li>
-                            <li><i className="fa fa-check-circle"></i>Companies in opportunity/enterprize zones</li>
+                            <li><i className="fa fa-check-circle"></i>Companies in opportunity/enterprise zones</li>
                         </ul>
                         </div>
                     </div>

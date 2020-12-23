@@ -35,7 +35,7 @@ class MobileWirelessAudit extends React.Component{
                     <ul className="fa-ul ul-margin">
                         <div className="row" >
                             <div className="col-lg-6">
-                            <li><i className="fa fa-check-circle"></i>Incorrect discounts</li>
+                            <li><i className="fa fa-check-circle"></i>Incorrect and missing discounts</li>
                             <li><i className="fa fa-check-circle"></i>Line Usage analysis (data & voice)</li>
                             <li><i className="fa fa-check-circle"></i>Rate Plans Optimization RPO (Data Pooling or Voice Pooling)</li>
                             <li><i className="fa fa-check-circle"></i>Optimum International Plans for Data</li>
@@ -49,7 +49,7 @@ class MobileWirelessAudit extends React.Component{
                             <li><i className="fa fa-check-circle"></i>3rd party plans or usages like game purchases, music downloaded</li>
                             <li><i className="fa fa-check-circle"></i>Optimum Plans for Paging, MiFi Devices, Laptops, iPad etc.</li>
                             <li><i className="fa fa-check-circle"></i>Equipment purchases monitoring</li>
-                            <li><i className="fa fa-check-circle"></i>Updated plans</li>
+                            <li><i className="fa fa-check-circle"></i>Grandfathered / Outdated plans</li>
                             <li><i className="fa fa-check-circle"></i>Best rates</li>
                             <li><i className="fa fa-check-circle"></i>SAVINGS 10% – 25%</li>
                             <li><i className="fa fa-check-circle"></i>No Downtime</li>

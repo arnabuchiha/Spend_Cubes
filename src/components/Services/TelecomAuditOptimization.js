@@ -21,12 +21,12 @@ class TelecomAuditOptimization extends React.Component{
                         <img src="https://static9.depositphotos.com/1518767/1119/i/950/depositphotos_11195040-stock-photo-businessman-talking-on-the-phone.jpg" class="img-fluid" alt=""/>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0 content">
-                        <p style={{textAlign:"left"}}>Spend cubes’ Telecom audit and optimization process are tailor made and perfected over the years.
+                        <p style={{textAlign:"left"}}>Spend cubes’ Telecom audit and optimization process is tailor-made and perfected over the years.
                             Our methods are proven to identify over 95% of billing errors and leakages.
-                            We are detail oriented and create a robust USOC level inventory of all your locations and services
+                            We are detail-oriented and create a robust USOC level inventory of all your locations, services
                             and contracts. These services are analyzed with respect to contracts, industry standard
                             benchmarked tariffs and rates.
-                            Experience team of order and dispute resolution specialists ensures, recommendations are
+                            Experienced team of order and dispute resolution specialists ensure recommendations are
                             implemented correctly and on time.</p>
                         <button type="button" class="btn btn-primary">Get in Touch</button>
                     </div>
@@ -70,6 +70,12 @@ class TelecomAuditOptimization extends React.Component{
                                 <div class="icon-box">
                                 <i class="fas fa-undo"></i>
                                 <h3><a href="">Implementation of Recommendation</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-4">
+                                <div class="icon-box">
+                                <i class="fas fa-undo"></i>
+                                <h3><a href="">Detailed Inventory</a></h3>
                                 </div>
                             </div>
                             </div>
