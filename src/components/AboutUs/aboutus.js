@@ -55,21 +55,21 @@ class AboutUs extends React.Component{
                     name:"Seth Panman",
                     position:"VP Sales",
                     about:"Seth Panman, Currently co-founder and Chief Financial Officer of ThreeWay Product. He trained and managed sales reps for The New York Times.  Seth has produced and directed numerous shorts, commercials and music videos, including  “Hillary In The House” music video which was featured on CBS and Tosh.",
-                    /*linkedin:"https://www.linkedin.com/in/avinashsingh91/"*/
+                    linkedin:""
                 },
                 {
                     image:"https://www.spendcubes.com/wp-content/uploads/2020/04/roshan.png",
                     name:"Roshan Kumar",
                     position:"Sales Manager",
                     about:"Roshan has 5 years of sales experience in B2B sales. He has managed a team of 40 sales representatives and ranked his offices in the top 10% in the industry. He is currently training and managing 4 offices for a multi-billion dollar firm and building a generation z sales team.",
-                    /*linkedin:"https://www.linkedin.com/in/avinashsingh91/"*/
+                    linkedin:""
                 },
                 {
                     image:"https://www.spendcubes.com/wp-content/uploads/2020/04/garek-spendcubes.jpg",
                     name:"Garek Touchen",
                     position:"Account Growth Manager",
                     about:"Economics Graduate, Firefighter over 5 years in regional sales and helping sales reps to reach full potential.",
-                   /* linkedin:"https://www.linkedin.com/in/avinashsingh91/"*/
+                   linkedin:""
                 },
                 {
                     image:"https://www.spendcubes.com/wp-content/uploads/2020/04/naveen.png",
@@ -83,7 +83,7 @@ class AboutUs extends React.Component{
                     name:"Ketan Kumar",
                     position:"Board Member and Executive Advisor",
                     about:"Ketan Kumar is a Board Member and Executive Advisor for Spend Cubes with a focus on growth and expansion of Spend Cubes business globally. He has over 20 years experience as a global business leader and held senior positions in Sales, Business Development at Hitachi, CapGemini, HP and Infosys. Ketan is a Computer Engineer and a management graduate from prestigious IIM Lucknow. ",
-                   /* linkedin:"https://www.linkedin.com/in/navin-roy-476a0859/"*/
+                    linkedin:""
                 }
 
             ]
@@ -130,13 +130,6 @@ We bring our deep domain - industry and functional-knowledge combined with in-ho
                     <div className="container" style={{marginTop:"20px"}}>
                     <div class="row">
                         {
-                            this.state.team.map((ele,i)=>{
-                                return <Card key={i} image={ele.image} name={ele.name} position={ele.position} linkedin={ele.linkedin} about={ele.about}/> 
-                            })
-                        }
-                    </div>
-                    <div className="row">
-                    {
                             this.state.team.map((ele,i)=>{
                                 return <Card key={i} image={ele.image} name={ele.name} position={ele.position} linkedin={ele.linkedin} about={ele.about}/> 
                             })

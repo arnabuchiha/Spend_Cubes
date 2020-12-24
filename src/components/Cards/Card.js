@@ -6,7 +6,7 @@ const Card=({image,name,position,about,linkedin})=>{
         <div class="image-flip" >
                 <div class="mainflip flip-0">
                     <div class="frontside">
-                    <div class="card" style={{width: "18rem"}}>
+                    <div class="card" style = {{width: "18rem"}}>
                     <img class="card-img-top" src={image} alt="Card image cap"/>
                         <div class="card-body">
                         <h5 class="card-title">{name}</h5>
@@ -17,9 +17,11 @@ const Card=({image,name,position,about,linkedin})=>{
                 <div class="backside">
                 <div class="card" style={{width: "18rem"}}>
                         <p class="card-text">{about}</p>
-                        <a class="social-icon text-xs-center" target="_blank" href={linkedin}>
+                        {
+                            linkedin!==""?<a class="social-icon text-xs-center" target="_blank" href={linkedin}>
                             <i class="fa fa-linkedin"></i>
-                        </a>
+                        </a>:''
+                        }
                     </div>
                 </div>
             </div>

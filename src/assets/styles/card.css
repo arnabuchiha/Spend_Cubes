@@ -64,6 +64,7 @@ section .section-title {
 }
 
 .backside {
+    font-size: 0.9rem;
     position: absolute;
     top: 0;
     left: 0;
