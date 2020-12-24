@@ -58,3 +58,8 @@ nav,.dropdown-item{
     /* width: 40%; */
     
 }
+.dropdown-item.active {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+}
