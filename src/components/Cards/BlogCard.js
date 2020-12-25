@@ -11,7 +11,7 @@ const BlogCard=({image,title,author,date,topic})=>{
                     <h3> <a href="#">{title}</a> </h3>        
             </div>
             <div class="slider-date">
-                <p>14 septemvber 2016 | <a href="#">John Doe</a></p>
+                <p>14 September 2016 | <a href="#">John Doe</a></p>
             </div>
             <div class="tag-1"> <a href="#">{topic.toLocaleLowerCase()}</a> </div>
         </div>

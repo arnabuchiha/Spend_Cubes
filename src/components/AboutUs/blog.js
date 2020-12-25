@@ -1,6 +1,7 @@
 import React from "react";
 import "../../assets/styles/blog.css"
 import BlogCard from "../Cards/BlogCard";
+import Comment from "./Comment";
 class blog extends React.Component{
     constructor(){
         super();
@@ -116,6 +117,9 @@ class blog extends React.Component{
                             })
                         }
                     </div>
+                </div>
+                <div>
+                    <Comment/>
                 </div>
             </div>
         )
