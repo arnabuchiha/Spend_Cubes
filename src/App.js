@@ -17,6 +17,7 @@ import Contact from './components/contactus';
 import Footer from './components/Footer';
 import Login from "./components/GetStarted/Login";
 import Signup from "./components/GetStarted/Signup";
+import JobDesc from './components/JobDesc';
 
 class App extends Component {
   render(){
@@ -39,6 +40,7 @@ class App extends Component {
             <Route path="/contact" component={Contact}/>
             <Route path="/login" component={Login}/>
             <Route path="/signup" component={Signup}/>
+            <Route path="/analyst-hiring" component={JobDesc}/>
           </Switch>
           {/* <Footer/> */}
         </Router>
