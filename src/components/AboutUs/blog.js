@@ -109,7 +109,7 @@ class blog extends React.Component{
                     <span className="sr-only">Next</span>
                 </a>
                 </div>
-                <div className="container" style={{marginTop:"20px"}}>
+                <div className="container pt-5" style={{marginTop:"20px"}}>
                     <div class="row">
                         {
                             this.state.blogs.map((ele,i)=>{

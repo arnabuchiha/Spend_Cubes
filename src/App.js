@@ -18,6 +18,14 @@ import Footer from './components/Footer';
 import Login from "./components/GetStarted/Login";
 import Signup from "./components/GetStarted/Signup";
 import JobDesc from './components/JobDesc';
+import Blog1 from "./components/AboutUs/Blogs/blog1";
+import Blog2 from "./components/AboutUs/Blogs/blog2";
+import Blog3 from "./components/AboutUs/Blogs/blog3";
+import Blog4 from "./components/AboutUs/Blogs/blog4";
+import Blog5 from "./components/AboutUs/Blogs/blog5";
+import Blog6 from "./components/AboutUs/Blogs/blog6";
+import Blog7 from "./components/AboutUs/Blogs/blog7";
+import Blog8 from "./components/AboutUs/Blogs/blog8";
 
 class App extends Component {
   render(){
@@ -41,6 +49,14 @@ class App extends Component {
             <Route path="/login" component={Login}/>
             <Route path="/signup" component={Signup}/>
             <Route path="/analyst-hiring" component={JobDesc}/>
+            <Route path="/blog1" component={Blog1}/>
+            <Route path="/blog2" component={Blog2}/>
+            <Route path="/blog3" component={Blog3}/>
+            <Route path="/blog4" component={Blog4}/>
+            <Route path="/blog5" component={Blog5}/>
+            <Route path="/blog6" component={Blog6}/>
+            <Route path="/blog7" component={Blog7}/>
+            <Route path="/blog8" component={Blog8}/>
           </Switch>
           {/* <Footer/> */}
         </Router>
