@@ -82,10 +82,9 @@
 .blog-content h3 a{
     text-decoration: none;
     color: #000000;
-    font-size: 24px;
+    font-size: 22px;
     padding-top: 20px;
     display: block;
-    line-height: 1.5em;
 }
 .blog-wrapper .tag-1 a {
     bottom: 40%;
@@ -100,9 +99,11 @@
     position: absolute;
     bottom: 40%;
     left: 0;
-    font-size:x-small;
+    font-size:14px;
     text-transform: capitalize;
 }
 .slider-date a{
     text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
 }

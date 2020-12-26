@@ -13,32 +13,64 @@ class blog extends React.Component{
                     author:"ADARSH MAHESHWARI",
                     date:"JUL 18, 2020",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    about:"Frost & Sullivan's recent prediction in Post-Pandemic Global Healthcare Market Outlook, 2020 will be an unforgiving but transformational year for the healthcare industry. As the world grapples with a global emergency caused by the COVID-19 pandemic, the..."
+                    link:"/blog1"
                 },
                 {
-                    title:"Every Hospital should consider a Telecom Audit!",
+                    title:"Be very alarmed when you see this on your telecom contract!",
                     cover:"https://www.spendcubes.com/wp-content/uploads/2019/12/retail.png",
                     author:"ADARSH MAHESHWARI",
-                    date:"JUL 18, 2020",
+                    date:"FEB 29, 2020",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    about:"Frost & Sullivan's recent prediction in Post-Pandemic Global Healthcare Market Outlook, 2020 will be an unforgiving but transformational year for the healthcare industry. As the world grapples with a global emergency caused by the COVID-19 pandemic, the..."
+                    link:"/blog2"
                 },
                 {
-                    title:"Every Hospital should consider a Telecom Audit!",
+                    title:"Key Points to Consider While Selecting a Telecom Auditing Company",
                     cover:"https://shahreyar46.github.io/Blog/img/slider/slider-1.png",
-                    author:"ADARSH MAHESHWARI",
-                    date:"JUL 18, 2020",
+                    author:"PRIYADARSHI",
+                    date:"DEC 12, 2019",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    about:"Frost & Sullivan's recent prediction in Post-Pandemic Global Healthcare Market Outlook, 2020 will be an unforgiving but transformational year for the healthcare industry. As the world grapples with a global emergency caused by the COVID-19 pandemic, the..."
+                    link:"/blog3"
                 },
                 {
-                    title:"Every Hospital should consider a Telecom Audit!",
+                    title:"Case Study: Top 50 Bank in North America saved 500K on Telecommunication Invoices",
+                    cover:"https://shahreyar46.github.io/Blog/img/slider/slider-1.png",
+                    author:"KUNAL BHATIA",
+                    date:"DEC 12, 2019",
+                    topic:"CASE STUDY",
+                    link:"/blog4"
+                },
+                {
+                    title:"Case Study: How We Got $2.85 M in Savings and Refunds in Taxes for Largest Insurance Company in the US",
                     cover:"https://shahreyar46.github.io/Blog/img/slider/slider-1.png",
                     author:"ADARSH MAHESHWARI",
-                    date:"JUL 18, 2020",
+                    date:"DEC 12, 2019",
+                    topic:"CASE STUDY",
+                    link:"/blog5"
+                },
+                {
+                    title:"Case Study: How Big Box Retailer Secured $1.3 M in Savings on Telecommunication Taxes",
+                    cover:"https://shahreyar46.github.io/Blog/img/slider/slider-1.png",
+                    author:"KUNAL BHATIA",
+                    date:"DEC 11, 2019",
+                    topic:"CASE STUDY",
+                    link:"/blog6"
+                },
+                {
+                    title:"Think Before Terminating – Wireless Device",
+                    cover:"https://shahreyar46.github.io/Blog/img/slider/slider-1.png",
+                    author:"PRIYADARSHI",
+                    date:"DEC 3, 2019",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    about:"Frost & Sullivan's recent prediction in Post-Pandemic Global Healthcare Market Outlook, 2020 will be an unforgiving but transformational year for the healthcare industry. As the world grapples with a global emergency caused by the COVID-19 pandemic, the..."
-                }
+                    link:"/blog7"
+                },
+                {
+                    title:"From VOICE to DATA; Evolve to SAVE MONEY!!!",
+                    cover:"https://shahreyar46.github.io/Blog/img/slider/slider-1.png",
+                    author:"PRIYADARSHI",
+                    date:"OCT 9, 2019",
+                    topic:"TELECOM EXPENSE MANAGEMENT",
+                    link:"/blog8"
+                },
 
             ]
         }
@@ -113,13 +145,10 @@ class blog extends React.Component{
                     <div class="row">
                         {
                             this.state.blogs.map((ele,i)=>{
-                                return <BlogCard key={i} image={ele.cover} title={ele.title} author={ele.author} date={ele.date} topic={ele.topic}/> 
+                                return <BlogCard key={i} image={ele.cover} link={ele.link} title={ele.title} author={ele.author} date={ele.date} topic={ele.topic}/> 
                             })
                         }
                     </div>
-                </div>
-                <div>
-                    <Comment/>
                 </div>
             </div>
         )

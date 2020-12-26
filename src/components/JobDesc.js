@@ -6,7 +6,7 @@ class JobDesc extends React.Component{
     render(){
         return(
             <div className="jobdesc">
-                <div className="container p-4">
+                <div className="container pl-5 pb-3">
                     <div className="row">
                     <div className="col-md-6">
                         <div className="backlink"><Link  to="/career">Job Search</Link></div>
@@ -25,7 +25,7 @@ class JobDesc extends React.Component{
                     
                     
                 </div>
-                <div className="container desc p-3 mt-2">
+                <div className="container desc pl-5 pr-5 mt-2">
                         <h2>Job Description</h2>
                         <ul>
                             <li>
