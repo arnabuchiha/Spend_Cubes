@@ -3,7 +3,7 @@ import "../../assets/styles/card.css"
 const Card=({image,name,position,about,linkedin})=>{
     return(
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
-        <div class="image-flip" >
+        <div class="image-flip ml-auto mr-auto" >
                 <div class="mainflip flip-0">
                     <div class="frontside">
                     <div class="card" style = {{width: "18rem"}}>
