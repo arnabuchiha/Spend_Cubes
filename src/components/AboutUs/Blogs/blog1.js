@@ -6,7 +6,8 @@ class blog1 extends React.Component{
         return(
             <div className="blog1" style={{textAlign:"left"}}>
                 <div className="container pt-5">
-                    <h3 className="blogHeading">Every Hospital should consider a Telecom Audit!</h3>
+                    <h2 className="blogHeading">Every Hospital should consider a Telecom Audit!</h2>
+                    <span className="authorDetails">by Adarsh Maheshwari | Jul 18, 2020 | Telecom Expense Management | 0 Comments</span>
                 </div>
 
                 <div className="container pt-5" >
