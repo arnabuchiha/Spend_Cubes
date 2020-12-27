@@ -1,6 +1,6 @@
 import React from "react";
-
-const BlogCard=({image,title,author,date,topic})=>{
+import {Link} from "react-router-dom"
+const BlogCard=({image,title,link,author,date,topic})=>{
     return(
         <div class="col-xl-4">
         <div className="blog-wrapper">
@@ -8,10 +8,10 @@ const BlogCard=({image,title,author,date,topic})=>{
                 <img src={image} alt=""/>
             </div>
             <div class="blog-content">
-                    <h3> <a href="#">{title}</a> </h3>        
+                    <h3> <Link to={link}>{title}</Link> </h3>        
             </div>
             <div class="slider-date">
-                <p>14 September 2016 | <a href="#">John Doe</a></p>
+                <p>{date} | <a>{author.toLocaleLowerCase()}</a></p>
             </div>
             <div class="tag-1"> <a href="#">{topic.toLocaleLowerCase()}</a> </div>
         </div>

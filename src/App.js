@@ -17,6 +17,7 @@ import Contact from './components/contactus';
 import Footer from './components/Footer';
 import Login from "./components/GetStarted/Login";
 import Signup from "./components/GetStarted/Signup";
+import JobDesc from './components/JobDesc';
 import Blog1 from "./components/AboutUs/Blogs/blog1";
 import Blog2 from "./components/AboutUs/Blogs/blog2";
 import Blog3 from "./components/AboutUs/Blogs/blog3";
@@ -47,6 +48,7 @@ class App extends Component {
             <Route path="/contact" component={Contact}/>
             <Route path="/login" component={Login}/>
             <Route path="/signup" component={Signup}/>
+            <Route path="/analyst-hiring" component={JobDesc}/>
             <Route path="/blog1" component={Blog1}/>
             <Route path="/blog2" component={Blog2}/>
             <Route path="/blog3" component={Blog3}/>

@@ -9,36 +9,68 @@ class blog extends React.Component{
             blogs:[
                 {
                     title:"Every Hospital should consider a Telecom Audit!",
-                    cover:"https://shahreyar46.github.io/Blog/img/slider/slider-1.png",
+                    cover:"https://images.unsplash.com/photo-1485848395967-65dff62dc35b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80",
                     author:"ADARSH MAHESHWARI",
                     date:"JUL 18, 2020",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    about:"Frost & Sullivan's recent prediction in Post-Pandemic Global Healthcare Market Outlook, 2020 will be an unforgiving but transformational year for the healthcare industry. As the world grapples with a global emergency caused by the COVID-19 pandemic, the..."
+                    link:"/blog1"
                 },
                 {
-                    title:"Every Hospital should consider a Telecom Audit!",
-                    cover:"https://www.spendcubes.com/wp-content/uploads/2019/12/retail.png",
+                    title:"Be very alarmed when you see this on your telecom contract!",
+                    cover:"https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
                     author:"ADARSH MAHESHWARI",
-                    date:"JUL 18, 2020",
+                    date:"FEB 29, 2020",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    about:"Frost & Sullivan's recent prediction in Post-Pandemic Global Healthcare Market Outlook, 2020 will be an unforgiving but transformational year for the healthcare industry. As the world grapples with a global emergency caused by the COVID-19 pandemic, the..."
+                    link:"/blog2"
                 },
                 {
-                    title:"Every Hospital should consider a Telecom Audit!",
-                    cover:"https://shahreyar46.github.io/Blog/img/slider/slider-1.png",
-                    author:"ADARSH MAHESHWARI",
-                    date:"JUL 18, 2020",
+                    title:"Key Points to Consider While Selecting a Telecom Auditing Company",
+                    cover:"https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+                    author:"PRIYADARSHI",
+                    date:"DEC 12, 2019",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    about:"Frost & Sullivan's recent prediction in Post-Pandemic Global Healthcare Market Outlook, 2020 will be an unforgiving but transformational year for the healthcare industry. As the world grapples with a global emergency caused by the COVID-19 pandemic, the..."
+                    link:"/blog3"
                 },
                 {
-                    title:"Every Hospital should consider a Telecom Audit!",
-                    cover:"https://shahreyar46.github.io/Blog/img/slider/slider-1.png",
+                    title:"Top 50 Bank in North America saved 500K on Telecommunication Invoices",
+                    cover:"https://images.unsplash.com/photo-1501167786227-4cba60f6d58f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+                    author:"KUNAL BHATIA",
+                    date:"DEC 12, 2019",
+                    topic:"CASE STUDY",
+                    link:"/blog4"
+                },
+                {
+                    title:"How We Got $2.85 M in Savings and Refunds in Taxes for Largest Insurance Company in the US",
+                    cover:"https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80",
                     author:"ADARSH MAHESHWARI",
-                    date:"JUL 18, 2020",
+                    date:"DEC 12, 2019",
+                    topic:"CASE STUDY",
+                    link:"/blog5"
+                },
+                {
+                    title:"How Big Box Retailer Secured $1.3 M in Savings on Telecommunication Taxes",
+                    cover:"https://images.unsplash.com/photo-1500316124030-4cffa46f10f0?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+                    author:"KUNAL BHATIA",
+                    date:"DEC 11, 2019",
+                    topic:"CASE STUDY",
+                    link:"/blog6"
+                },
+                {
+                    title:"Think Before Terminating – Wireless Device",
+                    cover:"https://images.unsplash.com/photo-1477949331575-2763034b5fb5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+                    author:"PRIYADARSHI",
+                    date:"DEC 3, 2019",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    about:"Frost & Sullivan's recent prediction in Post-Pandemic Global Healthcare Market Outlook, 2020 will be an unforgiving but transformational year for the healthcare industry. As the world grapples with a global emergency caused by the COVID-19 pandemic, the..."
-                }
+                    link:"/blog7"
+                },
+                {
+                    title:"From Voice to Data; Evolve to Save Money!!!",
+                    cover:"https://images.unsplash.com/photo-1507246207829-732ed643ea0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+                    author:"PRIYADARSHI",
+                    date:"OCT 9, 2019",
+                    topic:"TELECOM EXPENSE MANAGEMENT",
+                    link:"/blog8"
+                },
 
             ]
         }
@@ -113,13 +145,10 @@ class blog extends React.Component{
                     <div class="row">
                         {
                             this.state.blogs.map((ele,i)=>{
-                                return <BlogCard key={i} image={ele.cover} title={ele.title} author={ele.author} date={ele.date} topic={ele.topic}/> 
+                                return <BlogCard key={i} image={ele.cover} link={ele.link} title={ele.title} author={ele.author} date={ele.date} topic={ele.topic}/> 
                             })
                         }
                     </div>
-                </div>
-                <div>
-                    <Comment/>
                 </div>
             </div>
         )
