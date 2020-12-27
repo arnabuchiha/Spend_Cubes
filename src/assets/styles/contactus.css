@@ -68,13 +68,33 @@
   .contactus-main .jumbotron{
       background-color: #f9f9fa;
   }
-  .contactus .email-ele::after{
-    content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background:var(--color-primary);
-  bottom:0;
-  left: calc(50% - 25px);
-  }
+
+.social-footer-icons{
+  color:var(--color-primary);
+  padding-right: 20%;
+  padding-left: 20%;
+  
+}
+.social-footer-icons li{
+  display: inline-block;
+  margin:5px;
+  color: white;
+  
+}
+.social-footer-icons i{
+  color:white;
+  font-size: large;
+}
+.social-footer{
+  /* background-color: #2b3152; */
+  border-top: 0.5px solid rgb(199, 199, 199);
+  /* width: 40%; */
+  
+}
+.contactus-main hr{
+  height:2px;
+  width: 40%;
+  border-width:0;
+  color:gray;
+  background-color:var(--color-secondary)
+}

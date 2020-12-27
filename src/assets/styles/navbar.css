@@ -43,21 +43,7 @@ nav,.dropdown-item{
 }
 .navbar .nav-item .dropdown-menu{ margin-top:0; }
 
-.social-footer-icons li{
-    display: inline-block;
-    margin:5px;
-    color: white;
-}
-.social-footer-icons i{
-    color:#2b3152;
-    font-size: x-large;
-}
-.social-footer{
-    /* background-color: #2b3152; */
-    border-top: 0.5px solid rgb(199, 199, 199);
-    /* width: 40%; */
-    
-}
+
 .dropdown-item.active {
     text-decoration: none;
     font-weight: bold;
