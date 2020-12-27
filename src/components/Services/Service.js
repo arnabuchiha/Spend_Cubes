@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import slide1 from "../../assets/images/slide-1.jpg";
 import slide2 from "../../assets/images/slide-2.jpg";
 import slide3 from "../../assets/images/slide-3.jpg";
@@ -95,7 +96,7 @@ class Service extends React.Component{
                         <p>Telecom bills with errors and inefficiencies can cost your company a staggering 12% – 25% per annum. 
                             Billing errors consist of errors ranging from contract non-compliances to simple misunderstood or incorrectly applied taxes.
                         Our telecommunication specializes in obtaining refunds and saving money going forward for our customers located in North America.</p>
-                        <button type="button" class="btn btn-primary">Get in Touch</button>
+                        <Link class="btn btn-primary" to="/contact">Get in Touch</Link>
                     </div>
                 </div>
                 </div>

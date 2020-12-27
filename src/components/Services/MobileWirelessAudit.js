@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../assets/styles/mwa.css";
 
 
@@ -23,7 +24,7 @@ class MobileWirelessAudit extends React.Component{
                         <p style={{textAlign:"left"}}>Dynamic nature of wireless services and personnel and role changes make it a complex service to manage every month. 
                             Spend Cubes wireless audit services provide analytically-driven wireless expense control, complete with a contractually
                              guaranteed ROI.</p>
-                             <button type="button" class="btn btn-primary">Get in Touch</button>
+                             <Link class="btn btn-primary" to="/contact">Get in Touch</Link>
                     </div>
                     </div>
                 </div>
