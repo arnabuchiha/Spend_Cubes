@@ -7,6 +7,7 @@ class blog7 extends React.Component{
             <div className="blog7" style={{textAlign:"left"}}>
                 <div className="container pt-5">
                     <h3 className="blogHeading">Think Before Terminating – Wireless Device</h3>
+                    <span className="authorDetails">by Priyadarshi | Dec 3, 2019 | Telecom Expense Management | 0 comments</span>
                 </div>
 
                 <div className="container pt-5 pb-5">

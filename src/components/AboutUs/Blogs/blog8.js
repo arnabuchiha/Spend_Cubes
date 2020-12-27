@@ -7,6 +7,7 @@ class blog8 extends React.Component{
             <div className="blog8" style={{textAlign:"left"}}>
                 <div className="container pt-5">
                     <h3 className="blogHeading">From VOICE to DATA; Evolve to SAVE MONEY!!!</h3>
+                    <span className="authorDetails">by Priyadarshi | Oct 9, 2019 | Telecom Expense Management | 0 comments</span>
                 </div>
 
                 <div className="container pt-5 pb-5">
