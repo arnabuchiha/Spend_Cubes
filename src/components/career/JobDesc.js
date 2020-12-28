@@ -15,7 +15,7 @@ class JobDesc extends React.Component{
                             Laxmi Nagar, Delhi | ANALYST20200901
                         </div>
                         <div className="mt-4">
-                        <button type="submit" class="btn btn-primary">Apply</button>
+                        <a href="mailto:careers@spendcubes.com?subject=ANALYST20200901" target="_blank" className="btn btn-primary">APPLY</a>
                         </div>
                     </div>
                     <div className="col-md-6 text-right mt-auto mb-auto">

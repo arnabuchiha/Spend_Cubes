@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "../../assets/styles/jobscard.css";
 
 class JobsCard extends React.Component{
@@ -23,7 +24,7 @@ class JobsCard extends React.Component{
                         </div>
                         <div className="col mt-auto mb-auto text-right">
                             <a href="mailto:careers@spendcubes.com?subject=ANALYST20200901" target="_blank" className="btn btn-primary apply">APPLY</a>
-                            <button className="btn btn-primary">MORE INFO</button>
+                            <Link className="btn btn-primary" to="/analyst-hiring">MORE INFO</Link>
                         </div>
                         
                     </div>

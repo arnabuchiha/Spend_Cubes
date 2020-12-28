@@ -31,6 +31,10 @@
   box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
 }
 
+.btn-primary:focus {
+  box-shadow: 0 8px 28px rgba(32, 107, 251, 0.45);
+}
+
 .col-sm-3 {
   padding: 10px;
 }
