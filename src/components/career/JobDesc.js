@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import "../../assets/styles/jobdesc.css";
 import logo from "../../assets/icons/web-logo.png";
 class JobDesc extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render(){
         return(
             <div className="jobdesc">

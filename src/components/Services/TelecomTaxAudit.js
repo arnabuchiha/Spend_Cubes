@@ -4,6 +4,9 @@ import organization from "../../assets/images/tta-image.png"
 
 
 class TelecomTaxAudit extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render(){
         return(
             <div>

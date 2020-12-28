@@ -1,6 +1,9 @@
 import React from "react";
 import "../assets/styles/contactus.css";
 class Contact extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render(){
         return(
             <div className="contactus-main">

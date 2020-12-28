@@ -3,6 +3,9 @@ import "../../assets/styles/blog.css"
 import BlogCard from "../Cards/BlogCard";
 import Comment from "./Comment";
 class blog extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     constructor(){
         super();
         this.state={

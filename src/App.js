@@ -14,7 +14,6 @@ import TelecomTaxAudit from "./components/Services/TelecomTaxAudit";
 import faq from './components/AboutUs/faq';
 import Career from "./components/career/Career";
 import Contact from './components/contactus';
-import Footer from './components/Footer';
 import Login from "./components/GetStarted/Login";
 import Signup from "./components/GetStarted/Signup";
 import JobDesc from './components/career/JobDesc';
@@ -58,7 +57,6 @@ class App extends Component {
             <Route path="/termination-wireless-devices" component={Blog7}/>
             <Route path="/voice-to-data" component={Blog8}/>
           </Switch>
-          {/* <Footer/> */}
         </Router>
       </div>
     )

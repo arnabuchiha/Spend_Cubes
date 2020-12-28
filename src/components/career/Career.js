@@ -4,6 +4,9 @@ import "../../assets/styles/career.css";
 import JobsCard from "./JobsCard";
 
 class Career extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render(){
         return(
             <div className="Career">

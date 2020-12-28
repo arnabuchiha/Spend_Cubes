@@ -81,3 +81,10 @@
     line-height: 2.25;
   }
 }
+.getting-started a{
+  font-weight: 500;
+}
+.getting-started a:hover {
+  border-bottom: .13rem solid;
+  text-decoration: none;
+}

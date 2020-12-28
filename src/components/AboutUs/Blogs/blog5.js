@@ -3,6 +3,9 @@ import Location from "../../../assets/images/location-blog5.png"
 import Blog5 from "../../../assets/images/blog5.png"
 
 class blog5 extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render(){
         return(
             <div className="blog5" style={{textAlign:"left"}}>

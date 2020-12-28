@@ -7,6 +7,9 @@ import home_rrr from '../assets/images/home-rrr.jpg';
 import $ from 'jquery';
 import { NavLink } from "react-router-dom";
 class Home extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render(){
         return(
             <div>

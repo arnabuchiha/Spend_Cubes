@@ -1,6 +1,9 @@
 import React from "react";
 import Bank from "../../../assets/images/bank-blog4.png"
 class blog4 extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render(){
         return(
             <div className="blog4" style={{textAlign:"left"}}>

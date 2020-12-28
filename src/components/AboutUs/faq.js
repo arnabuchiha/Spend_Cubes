@@ -1,6 +1,9 @@
 import React from 'react';
 import "../../assets/styles/faq.css";
 class faq extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     constructor(){
         super();
         this.state={

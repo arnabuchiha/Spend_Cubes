@@ -22,14 +22,14 @@ class Login extends React.Component{
                             </div>
                             
                             <div class="input-group form-group">
-                            <input type="password" class="input-field" placeholder="password" />
+                            <input type="password" class="input-field" placeholder="Password" />
                             <span class="bar"></span>
                             </div>
 
                             <div class="row align-items-center remember">
 						        <input type="checkbox" />Remember Me
 					        </div>
-
+                            <br></br>
                             
                             <div class="form-group">
 						        <button type="submit" value="Login" class="btn btn-primary">Login</button>
@@ -37,7 +37,7 @@ class Login extends React.Component{
 
                             <div className="form-footer">
                             <div class="d-flex justify-content-center links">
-                                Don't have an account?<a href="/signup" style={{color:"#16df7e"}}> Sign Up</a>
+                                Don't have an account?<a href="/signup" style={{color:"#16df7e",paddingLeft:"5px"}}>Sign Up</a>
                             </div>
 
                             <div class="d-flex justify-content-center">

@@ -2,6 +2,9 @@ import React from "react";
 import Comment from "../Comment";
 
 class blog8 extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render(){
         return(
             <div className="blog8" style={{textAlign:"left"}}>

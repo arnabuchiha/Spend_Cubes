@@ -7,6 +7,9 @@ import "../../assets/styles/service.css"
 import home_rrr from '../../assets/images/home-rrr.jpg';
 
 class Service extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     render(){
         return(
             <div>

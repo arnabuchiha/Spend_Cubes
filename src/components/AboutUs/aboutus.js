@@ -4,6 +4,9 @@ import Aboutusbg from "../../assets/icons/aboutus_bg.jpg"
 import Card from "../Cards/Card";
 
 class AboutUs extends React.Component{
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
     constructor(){
         super();
         this.state={
