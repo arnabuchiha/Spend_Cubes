@@ -49,14 +49,14 @@ class App extends Component {
             <Route path="/login" component={Login}/>
             <Route path="/signup" component={Signup}/>
             <Route path="/analyst-hiring" component={JobDesc}/>
-            <Route path="/blog1" component={Blog1}/>
-            <Route path="/blog2" component={Blog2}/>
-            <Route path="/blog3" component={Blog3}/>
-            <Route path="/blog4" component={Blog4}/>
-            <Route path="/blog5" component={Blog5}/>
-            <Route path="/blog6" component={Blog6}/>
-            <Route path="/blog7" component={Blog7}/>
-            <Route path="/blog8" component={Blog8}/>
+            <Route path="/hospital-telecom-audit" component={Blog1}/>
+            <Route path="/telecom-contract" component={Blog2}/>
+            <Route path="/key-points-telecom-auditing" component={Blog3}/>
+            <Route path="/bank-telecom-services" component={Blog4}/>
+            <Route path="/savings-refunds-taxes" component={Blog5}/>
+            <Route path="/savings-telecom-services" component={Blog6}/>
+            <Route path="/termination-wireless-devices" component={Blog7}/>
+            <Route path="/voice-to-data" component={Blog8}/>
           </Switch>
           {/* <Footer/> */}
         </Router>

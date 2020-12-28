@@ -19,10 +19,10 @@ class Contact extends React.Component{
                                 <input type="text" className="form-control" placeholder="Name"/>
                             </div>
                             <div className="form-group">
-                                <input type="Email" className="form-control" placeholder="Email Address"/>
+                                <input type="Email" className="form-control" placeholder="Email"/>
                             </div>
                             <div className="form-group">
-                                <input type="Tel" className="form-control" placeholder="Phone Number"/>
+                                <input type="Tel" className="form-control" placeholder="Phone"/>
                             </div>
                             <div className="form-group">
                                 <input type="text" className="form-control" placeholder="Organization"/>

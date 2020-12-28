@@ -1,100 +1,114 @@
 .form-box-contactus {
-    box-shadow: 0 5px 18px 3px rgba(0, 0, 0, 0.1);
-  }
-  .contactus{
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/contactus.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    z-index: 1;
-    /* padding: 30px 15px 0; */
-    color:white;
-    min-height: 50vh;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    /* font-size: x-small; */
-  }
-  .contactus a {
-    text-decoration: none;
-    margin-left: 5px;
-    color: var(--color-secondary);
-  }
-  .contactus a:hover {
-    text-decoration: none;
-  }
-  .contactus .fas {
-    font-size: unset;
-  }
-  .contactus-ele{
-    flex-flow: column nowrap;
-    text-align: left;
-    padding-left: 1rem;
-    /* line-height: rem; */
-  }
-  .contactus i{
-    padding-top: 6px;
-  }
-  @media (max-width:766px){
-    .contactus{
-      margin-left: 15px;
-      margin-right: 15px;
-      /* margin-top: 20px; */
-    }
-  }
-  .contactus-par-ele{
-    margin-bottom: 1rem;
-    margin-top: 0.5rem;
-  }
-.contactus-main .section-title h2{
-    font-size: 2.4rem;
-    font-weight: 500;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    color: black;
+  box-shadow: 0 5px 18px 3px rgba(0, 0, 0, 0.1);
 }
-.contactus-main .section-title h2::after{
-    content: '';
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 3px;
-    background:var(--color-primary);
-    bottom: 0;
-    left: calc(50% - 25px);
+.contactus {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../images/contactus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  /* padding: 30px 15px 0; */
+  color: white;
+  min-height: 50vh;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* font-size: x-small; */
+}
+.contactus a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: var(--color-secondary);
+}
+.contactus a:hover {
+  text-decoration: none;
+}
+.contactus .fas {
+  font-size: unset;
+}
+.contactus-ele {
+  flex-flow: column nowrap;
+  text-align: left;
+  padding-left: 1rem;
+  /* line-height: rem; */
+}
+.contactus i {
+  padding-top: 6px;
+}
+@media (max-width: 766px) {
+  .contactus {
+    margin-left: 15px;
+    margin-right: 15px;
+    /* margin-top: 20px; */
   }
+}
+.contactus-par-ele {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+.contactus-main .section-title h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: black;
+}
+.contactus-main .section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--color-primary);
+  bottom: 0;
+  left: calc(50% - 25px);
+}
 
-  .contactus-main .jumbotron{
-      background-color: #f9f9fa;
-  }
+.contactus-main .jumbotron {
+  background-color: #f9f9fa;
+}
 
-.social-footer-icons{
-  color:var(--color-primary);
+.social-footer-icons {
+  color: var(--color-primary);
   padding-right: 20%;
   padding-left: 20%;
-  
 }
-.social-footer-icons li{
+.social-footer-icons li {
   display: inline-block;
-  margin:5px;
+  margin: 5px;
   color: white;
-  
 }
-.social-footer-icons i{
-  color:white;
+.social-footer-icons i {
+  color: white;
   font-size: large;
 }
-.social-footer{
+.social-footer {
   /* background-color: #2b3152; */
   border-top: 0.5px solid rgb(199, 199, 199);
   /* width: 40%; */
-  
 }
-.contactus-main hr{
-  height:2px;
+.contactus-main hr {
+  height: 2px;
   width: 40%;
-  border-width:0;
-  color:gray;
-  background-color:var(--color-secondary)
+  border-width: 0;
+  color: gray;
+  background-color: var(--color-secondary);
+}
+
+.contactus-main,
+.form-control {
+  border-radius: 0rem;
+  font-weight: 300;
+}
+
+.contactus-main,
+.form-control:focus {
+  box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0);
+  border-color: #16df7e;
 }

@@ -13,7 +13,7 @@ class blog extends React.Component{
                     author:"ADARSH MAHESHWARI",
                     date:"JUL 18, 2020",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    link:"/blog1"
+                    link:"/hospital-telecom-audit"
                 },
                 {
                     title:"Be very alarmed when you see this on your telecom contract!",
@@ -21,7 +21,7 @@ class blog extends React.Component{
                     author:"ADARSH MAHESHWARI",
                     date:"FEB 29, 2020",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    link:"/blog2"
+                    link:"/telecom-contract"
                 },
                 {
                     title:"Key Points to Consider While Selecting a Telecom Auditing Company",
@@ -29,7 +29,7 @@ class blog extends React.Component{
                     author:"PRIYADARSHI",
                     date:"DEC 12, 2019",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    link:"/blog3"
+                    link:"/key-points-telecom-auditing"
                 },
                 {
                     title:"Top 50 Bank in North America saved 500K on Telecommunication Invoices",
@@ -37,7 +37,7 @@ class blog extends React.Component{
                     author:"KUNAL BHATIA",
                     date:"DEC 12, 2019",
                     topic:"CASE STUDY",
-                    link:"/blog4"
+                    link:"/bank-telecom-services"
                 },
                 {
                     title:"How We Got $2.85 M in Savings and Refunds in Taxes for Largest Insurance Company in the US",
@@ -45,7 +45,7 @@ class blog extends React.Component{
                     author:"ADARSH MAHESHWARI",
                     date:"DEC 12, 2019",
                     topic:"CASE STUDY",
-                    link:"/blog5"
+                    link:"/savings-refunds-taxes"
                 },
                 {
                     title:"How Big Box Retailer Secured $1.3 M in Savings on Telecommunication Taxes",
@@ -53,7 +53,7 @@ class blog extends React.Component{
                     author:"KUNAL BHATIA",
                     date:"DEC 11, 2019",
                     topic:"CASE STUDY",
-                    link:"/blog6"
+                    link:"/savings-telecom-services"
                 },
                 {
                     title:"Think Before Terminating – Wireless Device",
@@ -61,7 +61,7 @@ class blog extends React.Component{
                     author:"PRIYADARSHI",
                     date:"DEC 3, 2019",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    link:"/blog7"
+                    link:"/termination-wireless-devices"
                 },
                 {
                     title:"From Voice to Data; Evolve to Save Money!!!",
@@ -69,7 +69,7 @@ class blog extends React.Component{
                     author:"PRIYADARSHI",
                     date:"OCT 9, 2019",
                     topic:"TELECOM EXPENSE MANAGEMENT",
-                    link:"/blog8"
+                    link:"/voice-to-data"
                 },
 
             ]
