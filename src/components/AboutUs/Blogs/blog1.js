@@ -7,7 +7,8 @@ class blog1 extends React.Component{
             <div className="blog1" style={{textAlign:"left"}}>
                 <div className="container pt-5">
                     <h2 className="blogHeading">Every Hospital should consider a Telecom Audit!</h2>
-                    <span className="authorDetails">by Adarsh Maheshwari | Jul 18, 2020 | Telecom Expense Management | 0 Comments</span>
+                    <span className="authorDetails">by Adarsh Maheshwari | Jul 18, 2020 | Telecom Expense Management | 0 Comments</span><br/><br/>
+                    <img src="https://www.spendcubes.com/wp-content/uploads/2020/07/1.png" className="img-fluid" alt="/"/>
                 </div>
 
                 <div className="container pt-5" >
@@ -46,7 +47,7 @@ class blog1 extends React.Component{
                     <p>Spend Cubes provides our services on a contingency model which is truly risk-free. Our service requires
                         an investment of few hours in setting us up with the following:</p>
 
-                    <ul className="fa-ul">
+                    <ul className="fa-ul ul-padding">
                         <li><i className="fa fa-check-circle"></i>Telecom Invoices</li>
                         <li><i className="fa fa-check-circle"></i>Contracts</li>
                         <li><i className="fa fa-check-circle"></i>A letter of Agency</li>

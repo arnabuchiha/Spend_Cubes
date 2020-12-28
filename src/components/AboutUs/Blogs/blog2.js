@@ -7,6 +7,7 @@ class blog2 extends React.Component{
         <div className="blog2" style={{textAlign:"left"}}>
             <div className="container pt-5">
                 <h2 className="blogHeading">Be very alarmed when you see this on your telecom contract!</h2>
+                <span className="authorDetails">by Adarsh Maheshwari | Feb 29, 2020 | Telecom Expense Management | 0 Comments</span>
             </div>
 
             <div className="container pt-5 pb-5">

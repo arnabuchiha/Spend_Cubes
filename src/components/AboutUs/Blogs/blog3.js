@@ -7,6 +7,7 @@ class blog3 extends React.Component{
             <div className="blog3" style={{textAlign:"left"}}>
                 <div className="container pt-5">
                     <h2 className="blogHeading">Key Points to Consider While Selecting a Telecom Auditing Company</h2>
+                    <span className="authorDetails">by Priyadarshi | Dec 12, 2019 | Telecom Expense Management | 0 comments</span>
                 </div>
 
                 <div className="container pt-5 pb-5">

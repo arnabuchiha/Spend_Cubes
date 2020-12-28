@@ -1,5 +1,5 @@
 import React from "react";
-
+import Bank from "../../../assets/images/bank-blog4.png"
 class blog4 extends React.Component{
     render(){
         return(
@@ -7,6 +7,8 @@ class blog4 extends React.Component{
 
                 <div className="container pt-5">
                     <h2 className="blogHeading">Case Study: Top 50 Bank in North America saved 500K on Telecommunication Invoices</h2>
+                    <span className="authorDetails">by Kunal Bhatia | Dec 12, 2019 | Case Study</span><br/><br/>
+                    <img src={Bank} className="img-fluid" alt="/" />
                 </div>
 
                 <div className="container pt-5">

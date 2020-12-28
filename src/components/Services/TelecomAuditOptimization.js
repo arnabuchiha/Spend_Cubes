@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../assets/styles/tao.css";
 
 class TelecomAuditOptimization extends React.Component{
@@ -28,7 +29,7 @@ class TelecomAuditOptimization extends React.Component{
                             benchmarked tariffs and rates.
                             Experienced team of order and dispute resolution specialists ensure recommendations are
                             implemented correctly and on time.</p>
-                        <button type="button" class="btn btn-primary">Get in Touch</button>
+                            <Link class="btn btn-primary" to="/contact">Get in Touch</Link>
                     </div>
                     </div>
                 </div>
@@ -74,7 +75,7 @@ class TelecomAuditOptimization extends React.Component{
                             </div>
                             <div class="col-lg-4 mt-4">
                                 <div class="icon-box">
-                                <i class="fas fa-undo"></i>
+                                <i class="fas fa-box-open"></i>
                                 <h3><a href="">Detailed Inventory</a></h3>
                                 </div>
                             </div>

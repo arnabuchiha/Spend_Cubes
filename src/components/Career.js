@@ -5,7 +5,7 @@ import "../assets/styles/career.css";
 class Career extends React.Component{
     render(){
         return(
-            <div>
+            <div className="Career">
                 
                 <div className="container-fluid">
                     <div className="bg-color img-fluid">
@@ -28,7 +28,7 @@ class Career extends React.Component{
                             <p><strong>Functional Area:</strong> Telecom Billing</p>
                             <p><strong>Role Category:</strong> Analyst</p>
                             <p><strong>Location:</strong> Laxmi Nagar, Delhi</p>
-                            <p><strong>Shift Timing:</strong> 2:00 PM To 11:00 PM</p>
+                            <p><strong>Shift Timing:</strong> 2:00 PM To 11:00 PM</p><br/>
                             <Link className="btn btn-primary" to="/analyst-hiring">Know More</Link><br/>
                         </div>
                     </div>

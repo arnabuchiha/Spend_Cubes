@@ -22,6 +22,14 @@
   font-size: 3.5em;
 }
 
+.Career p {
+  letter-spacing: 0.09rem;
+}
+
+.Career h4 {
+  letter-spacing: 0.1rem;
+}
+
 @media only screen and (max-width: 768px) {
   .career-heading {
     font-size: 2.5em;

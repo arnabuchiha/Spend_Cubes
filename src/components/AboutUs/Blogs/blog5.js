@@ -1,5 +1,6 @@
 import React from "react";
 import Location from "../../../assets/images/location-blog5.png"
+import Blog5 from "../../../assets/images/blog5.png"
 
 class blog5 extends React.Component{
     render(){
@@ -8,6 +9,8 @@ class blog5 extends React.Component{
 
                 <div className="container pt-5">
                     <h2 className="blogHeading">Case Study: How We Got $2.85 M in Savings and Refunds in Taxes for Largest Insurance Company in the US</h2>
+                    <span className="authorDetails">by Adarsh Maheshwari | Dec 12, 2019 | Case Study | 0 comments</span><br/><br/>
+                    <img src={Blog5} className="img-fluid" alt="/" />
                 </div>
                 
                 <div className="container pt-5">
@@ -30,7 +33,7 @@ class blog5 extends React.Component{
                 <div className="container pt-3">
                     <img src={Location} className="img-fluid" alt="/"/>
                 </div>
-                
+
                 <div className="container pt-3">
                     <h5 className="blogSubHeading">The Solution</h5>
                     <p>Despite exemption certificate filing work completed by one of the largest audit company in the world. 

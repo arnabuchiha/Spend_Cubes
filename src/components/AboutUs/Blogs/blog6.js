@@ -1,4 +1,5 @@
 import React from "react";
+import Retail from "../../../assets/images/retail-blog6.png"
 
 class blog6 extends React.Component{
     render(){
@@ -6,6 +7,8 @@ class blog6 extends React.Component{
             <div className="blog6" style={{textAlign:"left"}}>
                 <div className="container">
                     <h2 className="blogHeading">Case Study: How Big Box Retailer Secured $1.3 M in Savings on Telecommunication Taxes</h2>
+                    <span className="authorDetails">by Kunal Bhatia | Dec 11, 2019 | Case Study</span><br/><br/>
+                    <img src={Retail} className="img-fluid" alt="/" />
                 </div>
 
                 <div className="container pt-5">
