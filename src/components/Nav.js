@@ -37,10 +37,10 @@ class Nav extends React.Component {
                     </div>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact" className="nav-link dropdown-item" activeClassName="active">Contact</NavLink>
+                    <NavLink to="/contact" className="nav-link" activeClassName="active">Contact</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/career" className="nav-link dropdown-item" activeClassName="active">Career</NavLink>
+                    <NavLink to="/career" className="nav-link" activeClassName="active">Career</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/login" style={{textDecoration:"none", color:"white"}} className="btn my-2 my-sm-0 get-started-button">Get Started</NavLink>

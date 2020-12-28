@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../assets/styles/jobdesc.css";
-import logo from "../assets/icons/web-logo.png";
+import "../../assets/styles/jobdesc.css";
+import logo from "../../assets/icons/web-logo.png";
 class JobDesc extends React.Component{
     render(){
         return(

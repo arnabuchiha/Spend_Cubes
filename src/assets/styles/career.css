@@ -1,10 +1,5 @@
 .bg-color {
-  background-image: linear-gradient(
-      180deg,
-      rgba(0, 58, 91, 0.65) 0%,
-      rgba(41, 196, 169, 0.7) 100%
-    ),
-    url("https://poetsandquants.com/wp-content/uploads/sites/5/2019/10/careers2.jpg");
+  background-image: url('../images/career_new_bg.jpg');
   color: white;
   /* width: 100%; */
   height: 30vh;
@@ -34,4 +29,7 @@
   .career-heading {
     font-size: 2.5em;
   }
+}
+.Career .quote{
+  font-size: 16px;
 }

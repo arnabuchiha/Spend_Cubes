@@ -1,0 +1,32 @@
+.jobscard h2 {
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 1px;
+    font-size: 26px;
+    color: #333;
+    margin: 10px 0 10px;
+}
+.jobscard .apply{
+    background-color: white;
+    color:var(--color-secondary);
+    margin-right: 10px;
+}
+.jobscard .apply:hover{
+    color: rgba(32, 107, 251, 0.45);
+}
+@media (max-width:767px){
+    .jobscard .apply{
+        display: none;
+    }
+}
+.jobscard .location,.depart{
+    color:#6d6e71;
+    font-size: 14px;
+    text-align: start;
+    margin-bottom: 0;
+}
+.jobscard .end-line{
+    width: 100%;
+    height: 1px;
+    background-color: #dadada;
+}
