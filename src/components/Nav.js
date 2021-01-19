@@ -16,34 +16,34 @@ class Nav extends React.Component {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
                 <li className="nav-item active">
-                    <NavLink exact to="/" className="nav-link" activeClassName="active">Home</NavLink>
+                    <NavLink exact to="/" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Home</NavLink>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">About</a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <NavLink to="/about" className="nav-link dropdown-item" activeClassName="active" >Team</NavLink>
-                        <NavLink to="/faq" className="nav-link dropdown-item" activeClassName="active">FAQ</NavLink>
-                        <NavLink to="/blog" className="nav-link dropdown-item" activeClassName="active">Blogs & Case Studies</NavLink>
+                        <NavLink to="/about" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link dropdown-item" activeClassName="active" >Team</NavLink>
+                        <NavLink to="/faq" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link dropdown-item" activeClassName="active">FAQ</NavLink>
+                        <NavLink to="/blog" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link dropdown-item" activeClassName="active">Blogs & Case Studies</NavLink>
                     </div>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Services</a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <NavLink to="/service" className="nav-link dropdown-item" activeClassName="active">Audit Solutions</NavLink>
-                    <NavLink to="/telecomAuditOptimization" className="nav-link dropdown-item" activeClassName="active">Telecom Audit and Optimization</NavLink>
-                    <NavLink to="/mobileWirelessAudit" className="nav-link dropdown-item" activeClassName="active">Mobile and Wireless Audit</NavLink>
-                    <NavLink to="/telecomRefundAudit" className="nav-link dropdown-item" activeClassName="active">Telecom Refund Audit</NavLink>
-                    <NavLink to="/telecomTaxAudit" className="nav-link dropdown-item" activeClassName="active">Telecom Tax Audit</NavLink>
+                    <NavLink to="/service" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link dropdown-item" activeClassName="active">Audit Solutions</NavLink>
+                    <NavLink to="/telecomAuditOptimization" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link dropdown-item" activeClassName="active">Telecom Audit and Optimization</NavLink>
+                    <NavLink to="/mobileWirelessAudit" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link dropdown-item" activeClassName="active">Mobile and Wireless Audit</NavLink>
+                    <NavLink to="/telecomRefundAudit" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link dropdown-item" activeClassName="active">Telecom Refund Audit</NavLink>
+                    <NavLink to="/telecomTaxAudit" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link dropdown-item" activeClassName="active">Telecom Tax Audit</NavLink>
                     </div>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact" className="nav-link" activeClassName="active">Contact</NavLink>
+                    <NavLink to="/contact" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Contact</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/career" className="nav-link" activeClassName="active">Career</NavLink>
+                    <NavLink to="/career" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Career</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/login" style={{textDecoration:"none", color:"white"}} className="btn my-2 my-sm-0 get-started-button">Get Started</NavLink>
+                    <NavLink to="/login" data-toggle="collapse" data-target=".navbar-collapse.show" style={{textDecoration:"none", color:"white"}} className="btn my-2 my-sm-0 get-started-button">Get Started</NavLink>
                 </li>
                 </ul>
             </div>
