@@ -15,7 +15,7 @@ class blog extends React.Component{
                     cover:"https://images.unsplash.com/photo-1485848395967-65dff62dc35b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1349&q=80",
                     author:"ADARSH MAHESHWARI",
                     date:"JUL 18, 2020",
-                    topic:"TELECOM EXPENSE MANAGEMENT",
+                    topic:"BLOG",
                     link:"/hospital-telecom-audit"
                 },
                 {
@@ -23,7 +23,7 @@ class blog extends React.Component{
                     cover:"https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
                     author:"ADARSH MAHESHWARI",
                     date:"FEB 29, 2020",
-                    topic:"TELECOM EXPENSE MANAGEMENT",
+                    topic:"BLOG",
                     link:"/telecom-contract"
                 },
                 {
@@ -31,7 +31,7 @@ class blog extends React.Component{
                     cover:"https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
                     author:"PRIYADARSHI",
                     date:"DEC 12, 2019",
-                    topic:"TELECOM EXPENSE MANAGEMENT",
+                    topic:"BLOG",
                     link:"/key-points-telecom-auditing"
                 },
                 {
@@ -63,7 +63,7 @@ class blog extends React.Component{
                     cover:"https://images.unsplash.com/photo-1477949331575-2763034b5fb5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
                     author:"PRIYADARSHI",
                     date:"DEC 3, 2019",
-                    topic:"TELECOM EXPENSE MANAGEMENT",
+                    topic:"BLOG",
                     link:"/termination-wireless-devices"
                 },
                 {
@@ -71,7 +71,7 @@ class blog extends React.Component{
                     cover:"https://images.unsplash.com/photo-1507246207829-732ed643ea0a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
                     author:"PRIYADARSHI",
                     date:"OCT 9, 2019",
-                    topic:"TELECOM EXPENSE MANAGEMENT",
+                    topic:"BLOG",
                     link:"/voice-to-data"
                 },
 
