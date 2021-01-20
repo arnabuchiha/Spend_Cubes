@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/styles/blog.css"
 import BlogCard from "../Cards/BlogCard";
 import Comment from "./Comment";
+import { NavLink } from "react-router-dom";
 class blog extends React.Component{
     componentDidMount() {
         window.scrollTo(0, 0)
@@ -80,6 +81,7 @@ class blog extends React.Component{
     }
     render(){
         return(
+            <div className="Blog">
             <div className="container-fluid">
                 <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                 <ol className="carousel-indicators">
@@ -91,10 +93,10 @@ class blog extends React.Component{
                     <div className="carousel-item active">
                     <img className="d-block w-100" src={this.state.blogs[0].cover} alt="First slide"/>
                     <div className="carousel-caption">
-                        <h2>{this.state.blogs[0].title}</h2>
+                        <h2><NavLink to="/hospital-telecom-audit">{this.state.blogs[0].title}</NavLink></h2>
                         <div className="caption-footer   justify-content-between">
                             <div class="people">
-                                <a href="#">{this.state.blogs[0].topic.toLocaleLowerCase()}</a>
+                                <NavLink to="/hospital-telecom-audit">{this.state.blogs[0].topic.toLocaleLowerCase()}</NavLink>
                             </div>
                             <div className="slider">
                                 <p>{this.state.blogs[0].date} | <a href="#">{this.state.blogs[0].author}</a></p>
@@ -105,10 +107,10 @@ class blog extends React.Component{
                     <div className="carousel-item">
                     <img className="d-block w-100" src={this.state.blogs[1].cover} alt="First slide"/>
                     <div className="carousel-caption">
-                        <h2>{this.state.blogs[1].title}</h2>
+                        <h2><NavLink to="/telecom-contract">{this.state.blogs[1].title}</NavLink></h2>
                         <div className="caption-footer   justify-content-between">
                             <div class="people">
-                                <a href="#">{this.state.blogs[1].topic.toLocaleLowerCase()}</a>
+                            <NavLink to="/telecom-contract">{this.state.blogs[1].topic.toLocaleLowerCase()}</NavLink>
                             </div>
                             <div className="slider">
                                 <p>{this.state.blogs[1].date} | <a href="#">{this.state.blogs[1].author}</a></p>
@@ -119,10 +121,10 @@ class blog extends React.Component{
                     <div className="carousel-item">
                     <img className="d-block w-100" src={this.state.blogs[2].cover} alt="First slide"/>
                     <div className="carousel-caption">
-                        <h2>{this.state.blogs[2].title}</h2>
+                        <h2><NavLink to="/key-points-telecom-auditing">{this.state.blogs[2].title}</NavLink></h2>
                         <div className="caption-footer    justify-content-between">
                             <div class="people">
-                                <a href="#">{this.state.blogs[2].topic.toLocaleLowerCase()}</a>
+                            <NavLink to="/key-points-telecom-auditing">{this.state.blogs[2].topic.toLocaleLowerCase()}</NavLink>
                             </div>
                             <div className="slider">
                                 <p>{this.state.blogs[2].date} | <a href="#">{this.state.blogs[2].author}</a></p>
@@ -153,6 +155,7 @@ class blog extends React.Component{
                         }
                     </div>
                 </div>
+            </div>
             </div>
         )
     }

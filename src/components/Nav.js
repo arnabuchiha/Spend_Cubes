@@ -15,8 +15,8 @@ class Nav extends React.Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                    <NavLink exact to="/" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Home</NavLink>
+                <li className="nav-item">
+                    <NavLink exact={true} to="/" data-toggle="collapse" data-target=".navbar-collapse.show" className={`nav-link`}  activeClassName="active">Home</NavLink>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" id="navbarDropdown"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">About</a>
@@ -37,13 +37,16 @@ class Nav extends React.Component {
                     </div>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Contact</NavLink>
+                    <NavLink to="/contact" data-toggle="collapse" data-target=".navbar-collapse.show" className={`nav-link`} activeClassName="active">Contact</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/career" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Career</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/login" data-toggle="collapse" data-target=".navbar-collapse.show" style={{textDecoration:"none", color:"white"}} className="btn my-2 my-sm-0 get-started-button">Get Started</NavLink>
+                    <NavLink to="/login" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Log In</NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink to="/signup" data-toggle="collapse" data-target=".navbar-collapse.show" style={{textDecoration:"none", color:"white"}} className="btn my-2 my-sm-0 get-started-button">Get Started</NavLink>
                 </li>
                 </ul>
             </div>

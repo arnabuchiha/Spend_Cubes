@@ -24,13 +24,26 @@ nav,
   border-top: none;
   border-left: none;
   border-right: none;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 10px;
+  margin-left: 8.5px;
 }
 .get-started-button:hover {
   background-color: #ef7c46;
+  border-bottom: 4px #ef7c46 solid;
   text-decoration: none;
   color: white;
+  font-size: 15px;
+  font-weight: 600;
 }
-@media screen and (min-width: 990px) {
+@media screen and (max-width: 768px) {
+  .get-started-button {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 990px) {
   .navbar .nav-item:hover .dropdown-menu {
     display: block;
     transition: ease-in-out 0.2s;

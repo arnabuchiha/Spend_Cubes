@@ -118,3 +118,12 @@
   letter-spacing: 0.01rem;
   font-weight: 300;
 }
+
+.Blog a {
+  color: white;
+}
+
+.Blog a:hover {
+  color: #03d694;
+  text-decoration: none;
+}
