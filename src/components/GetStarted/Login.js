@@ -1,12 +1,36 @@
 import React from "react";
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
-
+import firebase from "firebase/app";
+import "firebase/auth";
 import "../../assets/styles/getStarted.css";
 
 class Login extends React.Component{
+    loginFunc=(e)=>{
+        e.preventDefault();
+        const email=document.getElementById("email").value;
+        const password=document.getElementById("password").value;
+        firebase.auth().signInWithEmailAndPassword(email, password)
+        .then((user) => {
+            this.setState({
+                loggedIn:true
+            })
+        })
+        .catch((error) => {
+            var errorCode = error.code;
+            var errorMessage = error.message;
+        });
+    }
+    constructor(){
+        super();
+        this.state={
+            loggedIn:false
+        }
+    }
     render(){
+        
         return(
             <div className="getting-started">
+            {this.state.loggedIn?<div><h1>Welcome</h1></div>:
                 <div className="contain container-fluid">
                     <div className="row">
                         <div className="col-md-4"></div>
@@ -17,22 +41,22 @@ class Login extends React.Component{
                             <div className="welcome-msg">WELCOME BACK</div>
                             <h2>Log in to SpendCubes</h2>
                             <div class="input-group form-group">
-                            <input type="email" class="input-field" placeholder="Email" />
+                            <input type="email" id="email" class="input-field" placeholder="Email" />
                             <span class="bar"></span>
                             </div>
                             
                             <div class="input-group form-group">
-                            <input type="password" class="input-field" placeholder="Password" />
+                            <input type="password" id="password" class="input-field" placeholder="Password" />
                             <span class="bar"></span>
                             </div>
 
-                            <div class="row align-items-center remember">
+                            {/* <div class="row align-items-center remember">
 						        <input type="checkbox" />Remember Me
-					        </div>
+					        </div> */}
                             <br></br>
                             
                             <div class="form-group">
-						        <button type="submit" value="Login" class="btn btn-primary">Login</button>
+						        <button type="submit" value="Login" onClick={this.loginFunc} class="btn btn-primary">Login</button>
                             </div>
 
                             <div className="form-footer">
@@ -49,6 +73,7 @@ class Login extends React.Component{
                         <div className="col-md-4"></div>
                     </div>
                 </div>
+            }
             </div>
         )
     }
