@@ -12,7 +12,8 @@ class Nav extends React.Component {
             storageBucket: "spendcubes.appspot.com",
             messagingSenderId: "557602179422",
             appId: "1:557602179422:web:c2a069c95ccf7cb262a7cf",
-            measurementId: "G-E32PDTDXL1"
+            measurementId: "G-E32PDTDXL1",
+            databaseURL:"https://spendcubes-default-rtdb.firebaseio.com"
           };
           
         // Initialize Firebase
