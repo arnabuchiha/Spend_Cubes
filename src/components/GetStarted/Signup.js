@@ -21,9 +21,14 @@ class Signup extends React.Component{
                                     <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="password" className="input-field" placeholder="Create Password"/>
+                                    <input type="password" className="input-field" placeholder="Password"/>
                                     <span class="bar"></span>
                                 </div>
+                                <div className="form-group">
+                                    <input type="password" className="input-field" placeholder="Confirm Password"/>
+                                    <span class="bar"></span>
+                                </div> 
+                                
                                 <div className="form-group">
                                     <input type="tel" className="input-field" placeholder="Phone Number"/>
                                     <span class="bar"></span>
