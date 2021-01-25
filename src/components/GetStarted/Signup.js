@@ -15,7 +15,7 @@ class Signup extends React.Component{
                 if(!validator.isEmail(e.target.value)){
                     //dOM MANIPULATION
                     this.emailEle.style.display = "block";
-                    e.target.classList.add("invalid")
+                    e.target.classList.add("invalid");
                     
                     document.getElementById("signupBtn").disabled = true;
                 }
@@ -60,6 +60,7 @@ class Signup extends React.Component{
                     this.webEle.style.display = "none";
                 }
                 break;
+            
         }
     }
     signupFirebase=(e)=>{
