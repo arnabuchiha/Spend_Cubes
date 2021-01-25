@@ -25,10 +25,10 @@ class Signup extends React.Component{
             //dOM MANIPULATION
             return;
         }
-        else if(!validator.isURL(this.website)){
-            //dOM MANIPULATION
-            return;
-        }
+        // else if(!validator.isURL(this.website)){
+        //     //dOM MANIPULATION
+        //     return;
+        // }
         
         firebase.auth().createUserWithEmailAndPassword(this.email, this.password)
             .then((userCredential) => {
