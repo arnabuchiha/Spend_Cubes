@@ -4,7 +4,63 @@ import validator from 'validator';
 import "firebase/database";
 class Signup extends React.Component{
     componentDidMount(){
-        
+        this.emailEle = document.getElementById("emailHelp");
+        this.phoneEle = document.getElementById("phoneHelp");
+        this.webEle = document.getElementById("webHelp");
+    }
+    fieldChanges=(e)=>{
+        console.log(e.target.id)
+        switch(e.target.id){
+            case "email":
+                if(!validator.isEmail(e.target.value)){
+                    //dOM MANIPULATION
+                    this.emailEle.style.display = "block";
+                    e.target.classList.add("invalid")
+                    
+                    document.getElementById("signupBtn").disabled = true;
+                }
+                else{
+                    this.emailEle.style.display = "none";
+                    e.target.classList.remove("invalid")
+                    document.getElementById("signupBtn").disabled = false;
+                }
+                break;
+            case "password":
+                // if(!validator.isEmail(e.target.value)){
+                //     //dOM MANIPULATION
+                //     this.emailEle.style.display = "block";
+                //     document.getElementById("signupBtn").disabled = true;
+                // }
+                // else{
+                //     this.emailEle.style.display = "none";
+                //     document.getElementById("signupBtn").disabled = false;
+                // }
+            case "phoneNumber":
+                if(!e.target.value.match(/^\d{10}$/)){
+                    //dOM MANIPULATION
+                    this.phoneEle.style.display = "block";
+                    e.target.classList.add("invalid")
+                    document.getElementById("signupBtn").disabled = true;
+                }
+                else{
+                    this.phoneEle.style.display = "none";
+                    e.target.classList.remove("invalid")
+                    document.getElementById("signupBtn").disabled = false;
+                }
+                break;
+            case "website":
+                if(!validator.isURL(e.target.value)){
+                    //dOM MANIPULATION
+                    e.target.classList.add("invalid")
+                    this.webEle.style.display = "block";
+                    return;
+                }
+                else{
+                    e.target.classList.remove("invalid")
+                    this.webEle.style.display = "none";
+                }
+                break;
+        }
     }
     signupFirebase=(e)=>{
 
@@ -17,18 +73,6 @@ class Signup extends React.Component{
         this.organization=document.getElementById('organization').value;
         this.jobTitle=document.getElementById('jobTitle').value;
         this.website=document.getElementById('website').value;
-        if(!validator.isEmail(this.email)){
-            //dOM MANIPULATION
-            return;
-        }
-        else if(!this.phone.match(/^\d{10}$/)){
-            //dOM MANIPULATION
-            return;
-        }
-        // else if(!validator.isURL(this.website)){
-        //     //dOM MANIPULATION
-        //     return;
-        // }
         
         firebase.auth().createUserWithEmailAndPassword(this.email, this.password)
             .then((userCredential) => {
@@ -81,12 +125,12 @@ class Signup extends React.Component{
                                     <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="Email" id="email" className="input-field invalid" placeholder="Email Address"/>
+                                    <input type="Email" id="email" className="input-field" placeholder="Email Address" onChange={this.fieldChanges}/>
                                     
                                     <span class="bar"></span>
                                     <div class="row">
-                                        <small id="passwordHelp" class="text-danger">
-                                        Must be 8-20 characters long.
+                                        <small id="emailHelp" className="text-danger" style={{display:"none"}}>
+                                            Please provide a valid email id.
                                         </small>      
                                     </div>
                                 </div>
@@ -95,8 +139,14 @@ class Signup extends React.Component{
                                     <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="tel" id="phoneNumber" className="input-field" placeholder="Phone Number"/>
+                                    <input type="tel" id="phoneNumber" className="input-field" placeholder="Phone Number" onChange={this.fieldChanges}/>
+
                                     <span class="bar"></span>
+                                    <div class="row">
+                                        <small id="phoneHelp" className="text-danger" style={{display:"none"}}>
+                                            Please provide a valid phone number.
+                                        </small>      
+                                    </div>
                                 </div>
                                 <div className="form-group">
                                     <input type="text" id="organization" className="input-field" placeholder="Organization"/>
@@ -107,11 +157,16 @@ class Signup extends React.Component{
                                     <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="text" id="website" className="input-field" placeholder="Company Website"/>
+                                    <input type="text" id="website" className="input-field" placeholder="Company Website" onChange={this.fieldChanges}/>
                                     <span class="bar"></span>   
+                                    <div class="row">
+                                        <small id="webHelp" className="text-danger" style={{display:"none"}}>
+                                            Please provide a valid website.
+                                        </small>      
+                                    </div>
                                 </div>
                                 <div>
-                                    <button type="submit" class="btn btn-primary" onClick={this.signupFirebase}>Submit</button>
+                                    <button type="submit" id="signupBtn" class="btn btn-primary" onClick={this.signupFirebase}>Submit</button>
                                 </div>
                             </form><br/><br/>
                         </div>
