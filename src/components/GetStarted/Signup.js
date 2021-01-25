@@ -17,16 +17,22 @@ class Signup extends React.Component{
         this.organization=document.getElementById('organization').value;
         this.jobTitle=document.getElementById('jobTitle').value;
         this.website=document.getElementById('website').value;
+        var emailEle = document.getElementById("emailHelp");
+        var phoneEle = document.getElementById("phoneHelp");
+        var webEle = document.getElementById("webHelp");
+
+        
         if(!validator.isEmail(this.email)){
             //dOM MANIPULATION
-            return;
+            emailEle.style.display = "block";
         }
-        else if(!this.phone.match(/^\d{10}$/)){
+        if(!this.phone.match(/^\d{10}$/)){
             //dOM MANIPULATION
-            return;
+            phoneEle.style.display = "block";
         }
-        else if(!validator.isURL(this.website)){
+        if(!validator.isURL(this.website)){
             //dOM MANIPULATION
+            webEle.style.display = "block";
             return;
         }
         
@@ -81,12 +87,12 @@ class Signup extends React.Component{
                                     <span class="bar"></span>
                                 </div>
                                 <div className="form-group">
-                                    <input type="Email" id="email" className="input-field invalid" placeholder="Email Address"/>
+                                    <input type="Email" id="email" className="input-field" placeholder="Email Address"/>
                                     
                                     <span class="bar"></span>
                                     <div class="row">
-                                        <small id="passwordHelp" class="text-danger">
-                                        Must be 8-20 characters long.
+                                        <small id="emailHelp" className="text-danger" style={{display:"none"}}>
+                                            Please provide a valid email id.
                                         </small>      
                                     </div>
                                 </div>
@@ -96,7 +102,13 @@ class Signup extends React.Component{
                                 </div>
                                 <div className="form-group">
                                     <input type="tel" id="phoneNumber" className="input-field" placeholder="Phone Number"/>
+
                                     <span class="bar"></span>
+                                    <div class="row">
+                                        <small id="phoneHelp" className="text-danger" style={{display:"none"}}>
+                                            Please provide a valid phone number.
+                                        </small>      
+                                    </div>
                                 </div>
                                 <div className="form-group">
                                     <input type="text" id="organization" className="input-field" placeholder="Organization"/>
@@ -109,6 +121,11 @@ class Signup extends React.Component{
                                 <div className="form-group">
                                     <input type="text" id="website" className="input-field" placeholder="Company Website"/>
                                     <span class="bar"></span>   
+                                    <div class="row">
+                                        <small id="webHelp" className="text-danger" style={{display:"none"}}>
+                                            Please provide a valid website.
+                                        </small>      
+                                    </div>
                                 </div>
                                 <div>
                                     <button type="submit" class="btn btn-primary" onClick={this.signupFirebase}>Submit</button>
