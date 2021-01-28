@@ -7,7 +7,11 @@ class Signup extends React.Component{
         this.emailEle = document.getElementById("emailHelp");
         this.phoneEle = document.getElementById("phoneHelp");
         this.webEle = document.getElementById("webHelp");
+        this.passEle = document.getElementById("passhelp");
     }
+
+    
+    
     fieldChanges=(e)=>{
         console.log(e.target.id)
         switch(e.target.id){
@@ -26,15 +30,18 @@ class Signup extends React.Component{
                 }
                 break;
             case "password":
-                // if(!validator.isEmail(e.target.value)){
-                //     //dOM MANIPULATION
-                //     this.emailEle.style.display = "block";
-                //     document.getElementById("signupBtn").disabled = true;
-                // }
-                // else{
-                //     this.emailEle.style.display = "none";
-                //     document.getElementById("signupBtn").disabled = false;
-                // }
+                var re = /[0-9]/;
+		        var re1 = /[a-z]/;
+                var re2 = /[A-Z]/;
+                 if(!re.test(e.target.value)||!re1.test(e.target.value)||!re2.test(e.target.value)){
+                     //dOM MANIPULATION
+                     this.passEle.style.display = "block";
+                     document.getElementById("signupBtn").disabled = true;
+                 }
+                 else{
+                     this.passEle.style.display = "none";
+                     document.getElementById("signupBtn").disabled = false;
+                 }
             case "phoneNumber":
                 if(!e.target.value.match(/^\d{10}$/)){
                     //dOM MANIPULATION
@@ -63,6 +70,7 @@ class Signup extends React.Component{
             
         }
     }
+    
     signupFirebase=(e)=>{
 
         e.preventDefault();
@@ -136,8 +144,12 @@ class Signup extends React.Component{
                                     </div>
                                 </div>
                                 <div className="form-group">
-                                    <input type="password" id="password" className="input-field" placeholder="Password"/>
+                                    <input type="password" id="password" className="input-field" placeholder="Password" onChange={this.fieldChanges}/>
                                     <span class="bar"></span>
+
+                                    <small id="passHelp" className="text-danger" style={{display:"none"}}>
+                                            Please provide a strong password .
+                                    </small>    
                                 </div>
                                 <div className="form-group">
                                     <input type="tel" id="phoneNumber" className="input-field" placeholder="Phone Number" onChange={this.fieldChanges}/>
