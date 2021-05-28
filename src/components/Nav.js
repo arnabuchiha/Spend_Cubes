@@ -2,22 +2,26 @@ import React from 'react';
 import {BrowserRouter as Router,Link,NavLink} from 'react-router-dom';
 import "../assets/styles/navbar.css"
 import logo from "../assets/icons/web-logo.png"
-import firebase from "firebase/app"
+import firebase from "firebase/app";
+import "firebase/analytics";
+
 class Nav extends React.Component {
     componentWillMount(){
         const firebaseConfig = {
-            apiKey: "AIzaSyCAGHfle900IWQ1CIO_j6H0FXCBStldJm0",
-            authDomain: "spendcubes.firebaseapp.com",
-            projectId: "spendcubes",
-            storageBucket: "spendcubes.appspot.com",
-            messagingSenderId: "557602179422",
-            appId: "1:557602179422:web:c2a069c95ccf7cb262a7cf",
-            measurementId: "G-E32PDTDXL1",
-            databaseURL:"https://spendcubes-default-rtdb.firebaseio.com "
+            apiKey: "AIzaSyDtADVPXlfSTY0nYjPmk_3rgA_1fLLn8jM",
+            authDomain: "spendcubes-de222.firebaseapp.com",
+            databaseURL: "https://spendcubes-de222-default-rtdb.firebaseio.com",
+            projectId: "spendcubes-de222",
+            storageBucket: "spendcubes-de222.appspot.com",
+            messagingSenderId: "408384910607",
+            appId: "1:408384910607:web:7022c0f750fe30965aba7a",
+            measurementId: "G-HRDBVXS3J6"
           };
           
         // Initialize Firebase
           firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+
           firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
               document.getElementById("loginButton").style.display="none";
