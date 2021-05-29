@@ -15,67 +15,6 @@ class Signup extends React.Component{
         this.webEle = document.getElementById("webHelp");
         this.passEle = document.getElementById("passHelp");
     }
-
-    
-    
-    // fieldChanges=(e)=>{
-    //     console.log(e.target.id)
-    //     switch(e.target.id){
-    //         case "email":
-    //             if(!validator.isEmail(e.target.value)){
-    //                 //dOM MANIPULATION
-    //                 this.emailEle.style.display = "block";
-    //                 e.target.classList.add("invalid");
-                    
-    //                 document.getElementById("signupBtn").disabled = true;
-    //             }
-    //             else{
-    //                 this.emailEle.style.display = "none";
-    //                 e.target.classList.remove("invalid")
-    //                 document.getElementById("signupBtn").disabled = false;
-    //             }
-    //             break;
-    //         case "password":
-    //             var passw = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
-    //             if(!e.target.value.match(passw)){
-    //                 this.passEle.style.display = "block";
-    //                 document.getElementById("signupBtn").disabled = true;
-    //             }
-    //             else{
-    //                 this.passEle.style.display = "none";
-    //                 document.getElementById("signupBtn").disabled = false;
-    //             }
-    //              break;
-    //         case "phoneNumber":
-    //             if(!e.target.value.match(/^\d{10}$/)){
-    //                 //dOM MANIPULATION
-    //                 this.phoneEle.style.display = "block";
-    //                 e.target.classList.add("invalid")
-    //                 document.getElementById("signupBtn").disabled = true;
-    //             }
-    //             else{
-    //                 this.phoneEle.style.display = "none";
-    //                 e.target.classList.remove("invalid")
-    //                 document.getElementById("signupBtn").disabled = false;
-    //             }
-    //             break;
-    //         case "website":
-    //             if(!validator.isURL(e.target.value)){
-    //                 //dOM MANIPULATION
-    //                 e.target.classList.add("invalid")
-    //                 this.webEle.style.display = "block";
-    //                 return;
-    //             }
-    //             else{
-    //                 e.target.classList.remove("invalid")
-    //                 this.webEle.style.display = "none";
-    //             }
-    //             break;
-    //         default:
-    //             console.log("Noting");
-    //             break;
-    //     }
-    // }
     
     signupFirebase=(e)=>{
 
@@ -84,13 +23,15 @@ class Signup extends React.Component{
         //     "captcha"
         // )
         this.email=document.getElementById('email').value;
-        this.password=document.getElementById('password').value;
+        // this.password=document.getElementById('password').value;
         this.name=document.getElementById('name').value;
         this.phone=document.getElementById('phoneNumber').value;
         this.organization=document.getElementById('organization').value;
         this.jobTitle=document.getElementById('jobTitle').value;
         this.website=document.getElementById('website').value;
         
+        // Implement Firebase signup later
+        /*
         firebase.auth().createUserWithEmailAndPassword(this.email, this.password)
             .then((userCredential) => {
                 // Signed in 
@@ -105,7 +46,7 @@ class Signup extends React.Component{
                 document.getElementById("signUpError").style.display="block";
                 document.getElementById("signUpError").innerHTML=errorMessage
                 // ..
-            });
+            });*/
     }
     sendEmailVerification=()=> {
         // [START auth_send_email_verification]
@@ -157,7 +98,7 @@ class Signup extends React.Component{
                                         </small>      
                                     </div>
                                 </div>
-                                <div className="form-group">
+                                {/* <div className="form-group">
                                     <input type="password" id="password" className="input-field" placeholder="Password" 
                                         pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$"
                                         title="Password must be between 6 to 20 characters which contain at least one numeric digit, one uppercase and one lowercase letter"
@@ -165,7 +106,7 @@ class Signup extends React.Component{
                                         required
                                     />
                                     <span class="bar"></span> 
-                                </div>
+                                </div> */}
                                 <div className="form-group">
                                     <input type="tel" id="phoneNumber" className="input-field" placeholder="Phone Number" 
                                         pattern="^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$"

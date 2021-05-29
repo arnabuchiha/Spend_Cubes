@@ -79,13 +79,13 @@ class Nav extends React.Component {
                 <li className="nav-item">
                     <NavLink to="/career" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Career</NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <NavLink to="/login" id="loginButton" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Log In</NavLink>
                     
-                </li>
-                <li className="nav-item">
+                </li> */}
+                {/* <li className="nav-item">
                     <NavLink to="/" onClick={this.logout} id="logoutButton" data-toggle="collapse" data-target=".navbar-collapse.show" className="nav-link" activeClassName="active">Log Out</NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <NavLink to="/signup" data-toggle="collapse" data-target=".navbar-collapse.show" style={{textDecoration:"none", color:"white"}} className="btn my-2 my-sm-0 get-started-button">Get Started</NavLink>
                 </li>

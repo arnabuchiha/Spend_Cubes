@@ -1,6 +1,18 @@
 import React from "react"
 import "../../assets/styles/aboutus.css"
 import Aboutusbg from "../../assets/icons/aboutus_bg.jpg"
+import adarsh from "../../assets/images/team/adarsh.png";
+import ashok from "../../assets/images/team/ashok.png";
+import avinash from "../../assets/images/team/avinash.png";
+import garek from "../../assets/images/team/garek-spendcubes.jpg";
+import ketan from "../../assets/images/team/ketan.jpg";
+import kunal from "../../assets/images/team/Kunal-Bhatia.jpg";
+import naveen from "../../assets/images/team/naveen.png";
+import Priyadarshi from "../../assets/images/team/Priyadarshi.jpg";
+import priyanshu from "../../assets/images/team/priyanshu.png";
+import roshan from "../../assets/images/team/roshan.png";
+import seth from "../../assets/images/team/seth.png";
+
 import Card from "../Cards/Card";
 
 class AboutUs extends React.Component{
@@ -12,77 +24,77 @@ class AboutUs extends React.Component{
         this.state={
             team:[
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2019/12/adarsh.png",
-                    name:"Adarsh Maheshwari",
-                    position:"Chief Savings Orchestrator",
-                    about:"Founder and Chief Savings Orchestrator in Spend Cubes, Adarsh comes with over 16 years of experience and has worked in TEM space for over 13 years. Over the last 13 years, Adarsh has worked for several Fortune 1000 companies, US local, State & Federal governments, enabled savings & refunds of $60 Mil+",
-                    linkedin:"https://www.linkedin.com/in/adarsh-maheshwari-5434a1124/"
+                    image: adarsh,
+                    name: "Adarsh Maheshwari",
+                    position: "Chief Savings Orchestrator",
+                    about: "Founder and Chief Savings Orchestrator in Spend Cubes, Adarsh comes with over 16 years of experience and has worked in TEM space for over 13 years. Over the last 13 years, Adarsh has worked for several Fortune 1000 companies, US local, State & Federal governments, enabled savings & refunds of $60 Mil+",
+                    linkedin: "https://www.linkedin.com/in/adarsh-maheshwari-5434a1124/"
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2019/12/ashok.png",
+                    image: ashok,
                     name:"Ashok Pillai",
                     position:"Savings Evangelist",
                     about:"Ashok Pillai is Co-Founder & Director TEM in Spend Cubes. He comes with over 20 years of experience and has worked in TEM space for over 12 years. Ashok comes with a rich experience TEM operations, dispute management, revenue assurance, CABS & SECABS.",
                     linkedin:"https://www.linkedin.com/in/ashokpillai75/"
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2020/01/Kunal-Bhatia.jpg",
+                    image:kunal,
                     name:"Kunal Bhatia",
                     position:"Creator of Opportunities",
                     about:"12 years of experience in core areas of Operations, Project Management & Solution consulting & selling functions across MNC’s & Start-ups. Kunal has worked with companies like Huawei, Autoplant, Infosys & AlefEdge.",
                     linkedin:"https://www.linkedin.com/in/kunal-bhatia-a4268215/"
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2020/01/Priyadarshi.jpg",
+                    image:Priyadarshi,
                     name:"Priyadarshi",
                     position:"Ambassador of Buzz",
                     about:"Marketing aficionado skilled in building brand from scratch and digital campaigns. MBA graduate and has over 5 years of entrepreneurial experience in almost every niche from the fashion industry to cryptocurrency. Along with this, he runs a successful digital agency, Creative Guns and founder at Swathena Edutech.  He has also been a speaker at various conferences and top B-schools.",
                     linkedin:"https://www.linkedin.com/in/priyadarshey/"
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2019/12/priyanshu.png",
+                    image:priyanshu,
                     name:"Pranshu Sharma",
                     position:"Lead Number Cruncher",
                     about:"Over 8 years of experience in Telecom Expense Management (TEM). Pranshu has strong accounting professional skills and deep telecommunication billing domain knowledge",
                     linkedin:"https://www.linkedin.com/in/pranshusharma1/"
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2019/12/avinash.png",
+                    image:avinash,
                     name:"Avinash K Singh",
                     position:"Number Cruncher",
                     about:"5 years of experience in accounting, finance & telecommunications. Core focus on telecom auditing, forensic analytics & contract management",
                     linkedin:"https://www.linkedin.com/in/avinashsingh91/"
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2020/04/seth.png",
+                    image:seth,
                     name:"Seth Panman",
                     position:"VP Sales",
                     about:"Seth Panman, Currently co-founder and Chief Financial Officer of ThreeWay Product. He trained and managed sales reps for The New York Times.  Seth has produced and directed numerous shorts, commercials and music videos, including  “Hillary In The House” music video which was featured on CBS and Tosh.",
                     linkedin:""
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2020/04/roshan.png",
+                    image:roshan,
                     name:"Roshan Kumar",
                     position:"Sales Manager",
                     about:"Roshan has 5 years of sales experience in B2B sales. He has managed a team of 40 sales representatives and ranked his offices in the top 10% in the industry. He is currently training and managing 4 offices for a multi-billion dollar firm and building a generation z sales team.",
                     linkedin:""
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2020/04/garek-spendcubes.jpg",
+                    image:garek,
                     name:"Garek Touchen",
                     position:"Account Growth Manager",
                     about:"Economics Graduate, Firefighter over 5 years in regional sales and helping sales reps to reach full potential.",
                    linkedin:""
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2020/04/naveen.png",
+                    image:naveen,
                     name:"Navin Chandra Roy",
                     position:"Reckoner",
                     about:"With 15+ Years of industry experience and has worked in TEM space for over 8 years. Navin is specialized in Analytics & Reporting. He is also a certified expert from Microsoft.",
                     linkedin:"https://www.linkedin.com/in/navin-roy-476a0859/"
                 },
                 {
-                    image:"https://www.spendcubes.com/wp-content/uploads/2020/06/ketan.jpg",
+                    image:ketan,
                     name:"Ketan Kumar",
                     position:"Board Member and Executive Advisor",
                     about:"Ketan Kumar is a Board Member and Executive Advisor for Spend Cubes with a focus on growth and expansion of Spend Cubes business globally. He has over 20 years experience as a global business leader and held senior positions in Sales, Business Development at Hitachi, CapGemini, HP and Infosys. Ketan is a Computer Engineer and a management graduate from prestigious IIM Lucknow. ",
