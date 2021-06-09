@@ -30,6 +30,25 @@ class Signup extends React.Component{
         this.jobTitle=document.getElementById('jobTitle').value;
         this.website=document.getElementById('website').value;
         
+        var url = "https://script.google.com/macros/s/AKfycbzkP5yiTCRRcrmJhLqGDiOtOEOooANoPbevqIovEp_pGx9NY4CA5xY8_48tZMCgKOD7/exec";
+        var xhr = new XMLHttpRequest();
+        var data = {
+            email:this.email,
+            name:this.name
+        }
+        
+        xhr.open('POST', url);
+        // xhr.withCredentials = true;
+        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+            console.log(data)
+            }
+        };
+        var encoded = Object.keys(data).map(function(k) {
+            return encodeURIComponent(k) + "=" + encodeURIComponent(data[k]);
+        }).join('&');
+        xhr.send(encoded);
         // Implement Firebase signup later
         /*
         firebase.auth().createUserWithEmailAndPassword(this.email, this.password)
@@ -77,7 +96,7 @@ class Signup extends React.Component{
                     <div className="row">
                         <div className="col-md-1"></div>
                         <div className="col-md-5">
-                            <form className="container form-box get-started" onSubmit={this.signupFirebase}>
+                            <form className="container form-box get-started">
                             <div class="Bar" style={{backgroundColor: "#16df7e4d", height: "10px"}}><div class="Progress" style={{backgroundColor: "rgb(42, 223, 175)", width: "0%"}}></div></div>
                             <div className="welcome-msg">CREATE AN ACCOUNT</div>
                             <h2>Sign up to lower your bills and never wait on hold again.</h2>
@@ -143,7 +162,7 @@ class Signup extends React.Component{
                                 </div>
                                 <div>
                                     {/* <div class="g-recaptcha" id="captcha" data-sitekey="6Lf3Zz8aAAAAABDpUJpP1hXbPfGzs6rqjKTyFvsG"></div> */}
-                                    <input disabled type="submit" id="signupBtn" class="btn btn-primary"/>
+                                    <input disabled type="submit" id="signupBtn" class="btn btn-primary" onSubmit={()=>this.signupFirebase()}/>
                                 </div>
                             </form><br/><br/>
                         </div>

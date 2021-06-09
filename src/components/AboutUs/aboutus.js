@@ -38,13 +38,6 @@ class AboutUs extends React.Component{
                     linkedin:"https://www.linkedin.com/in/ashokpillai75/"
                 },
                 {
-                    image:kunal,
-                    name:"Kunal Bhatia",
-                    position:"Creator of Opportunities",
-                    about:"12 years of experience in core areas of Operations, Project Management & Solution consulting & selling functions across MNC’s & Start-ups. Kunal has worked with companies like Huawei, Autoplant, Infosys & AlefEdge.",
-                    linkedin:"https://www.linkedin.com/in/kunal-bhatia-a4268215/"
-                },
-                {
                     image:Priyadarshi,
                     name:"Priyadarshi",
                     position:"Ambassador of Buzz",
